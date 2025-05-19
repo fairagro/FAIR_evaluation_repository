@@ -15,4 +15,4 @@ This repository contains data and scripts designed for the automated scraping an
 
 ## License
 
-TBD
+MIT
