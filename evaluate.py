@@ -140,11 +140,29 @@ def csv_list_to_dqv():
     root = tk.Tk()
     root.withdraw()  # Hide the root window
 
-    # File selection dialog
-    filepath_2 = filedialog.askopenfilename(title="Select a CSV file", initialdir=os.path.join(cwd, "input"))
+    # Prompt user to select input CSV file
+    input_file_path = filedialog.askopenfilename(
+        title="Select Input CSV File",
+        filetypes=[("CSV files", "*.csv")],
+        initialdir=os.path.join(cwd, "input")
+    )
+
+    if not input_file_path:
+        print("No input file selected.")
+        return
+
+    # Prompt user to select output directory
+    output_dir = filedialog.askdirectory(
+        title="Select Output Directory",
+        initialdir=os.path.join(cwd, "output")
+    )
+
+    if not output_dir:
+        print("No output directory selected.")
+        return
 
     # Open the CSV file
-    with open(filepath_2, "r", encoding="utf-8", newline="") as file:
+    with open(input_file_path, "r", encoding="utf-8", newline="") as file:
         reader = csv.reader(file, delimiter=",")
         len_file = sum(1 for _ in file)  # Count lines in the file
         print(f"len_file: {len_file}")
@@ -193,8 +211,8 @@ def csv_list_to_dqv():
                     )
 
                     # Prepare output directory
-                    output_dir = os.path.join(cwd, "output")
-                    os.makedirs(output_dir, exist_ok=True)
+                    # output_dir = os.path.join(cwd, "output")
+                    # os.makedirs(output_dir, exist_ok=True)
 
                     # Define Turtle file path
                     turtle_file_path = os.path.join(output_dir, f"{sanitized_identifier}_dqv.ttl")

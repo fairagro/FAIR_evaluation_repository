@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 # File path of the local HTML file
-file_path = "BonaRes DOIs.htm"
+file_path = "RDI_metafiles/BonaRes/BonaRes DOIs.htm"
 
 # Open the file with 'utf-8' encoding and parse the HTML content with BeautifulSoup
 with open(file_path, 'r', encoding='utf-8') as f:
@@ -37,6 +37,6 @@ if table is not None:
     df = pd.DataFrame({'Title': titles, 'DOI': dois})
 
     # Write the DataFrame to a CSV file
-    df.to_csv('dois.csv', index=False)
+    df.to_csv('RDI_metafiles/BonaRes/bonares_dois.csv', index=False)
 else:
     print("No table with class 'table' found")

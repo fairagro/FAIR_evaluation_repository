@@ -13,7 +13,14 @@ USERNAME = os.getenv("fuji_username")
 PASSWORD = os.getenv("fuji_password")
 fuji_auth = (USERNAME, PASSWORD)
 
-FUJI_URL = os.getenv("fuji_url")
+
+local_testing = False
+# local_testing = True
+
+if local_testing:
+    FUJI_URL = os.getenv("FUJI_LOCAL")
+else:
+    FUJI_URL = os.getenv("fuji_url")
 if not FUJI_URL:
     raise RuntimeError("FUJI_URL is not set in .env file")
 headers = {
