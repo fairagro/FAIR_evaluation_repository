@@ -1,6 +1,7 @@
 .idea/
 .env
 .venv/
+fuseki-data/
 static/
 geckodriver.exe
 __pycache__/
