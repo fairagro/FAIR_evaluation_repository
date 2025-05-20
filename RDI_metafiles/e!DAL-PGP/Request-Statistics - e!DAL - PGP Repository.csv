@@ -1,304 +1,316 @@
-"DOI","Title","Distinct IPs","Download volume"
-"10.5447/ipk/2017/2","A. Oertel (2017-03-15): Metabolite profiling of red and blue potatoes revealed cultivar and tissue specific patterns for anthocyanins and other polyphenols (supplemental data files).","11951","26,1 TB"
-"10.5447/ipk/2018/7","A. Bräutigam (2017-11-15): Results of genie3 analyis for wheat.","9199","754,1 GB"
-"10.5447/ipk/2016/9","A. Junker (2016-02-17): Image analysis results from quantitative monitoring of 484 Arabidopsis thaliana plants using high-throughput plant phenotyping.","6697","2,1 TB"
-"10.5447/ipk/2016/7","A. Junker (2016-05-26): Raw images files from quantitative monitoring of 484 Arabidopsis thaliana plants using high-throughput plant phenotyping.","6391","27,2 TB"
-"10.5447/ipk/2012/16","P. Verboeven (2012-11-20): Micro CT raw data as used for the imaging of the void network in Brassica napus.","6355","84,6 GB"
-"10.5447/ipk/2016/0","C. Klukas (2016-04-11): IAP example data set 1107BA_Corn_JPEG.","6060","1,4 TB"
-"10.5447/ipk/2017/25","K. Neumann (2017-11-08): Raw image files from an investigation of vegetative biomass growth in well-watered and drought stress conditions in a Hordeum vulgare set (2011-07-22 to 2011-09-18).","5417","21,9 TB"
-"10.5447/ipk/2021/3","M. Mascher (2020-10-13): Pseudomolecules and annotation of the third version of the reference genome sequence assembly of barley cv. Morex [Morex V3].","5158","34,9 TB"
-"10.5447/ipk/2017/26","K. Neumann (2017-11-06): Raw image files from an investigation of vegetative biomass growth in well-watered and drought stress conditions in a Hordeum vulgare set (2011-09-16 to 2011-11-13).","5092","8,4 TB"
-"10.5447/ipk/2019/8","M. Mascher (2019-05-09): Pseudomolecules and annotation of the second version of the reference genome sequence assembly of barley cv. Morex [Morex V2].","5004","75,5 TB"
-"10.5447/ipk/2017/24","K. Neumann (2017-11-08): Raw image files from an investigation of vegetative biomass growth in well-watered and drought stress conditions in a Hordeum vulgare set (2011-05-27 to 2011-07-24).","4876","48,1 TB"
-"10.5447/ipk/2020/24","M. Mascher (2020-06-22): Assembly, annotation and analysis of the barley (Hordeum vulgare L.) pan-genome.","4866","369,4 TB"
-"10.5447/ipk/2015/3","N. Wendler (2015-04-23): Bulbosum to go_ a toolbox to utilize Hordeum vulgare _ bulbosum introgressions for breeding and beyond.","4744","184,1 GB"
-"10.5447/ipk/2019/18","N. Bernhardt et al. (2019-11-13): Genomic and phylogenetic data for the identification of ancient and recurrent hybridizations in wheat taxa.","4443","742,1 GB"
-"10.5447/ipk/2017/10","D. Pflugfelder (2017-07-10): 3D Magnetic resonance images of three weeks old barley roots grown in different soils.","3641","1,1 TB"
-"10.5447/ipk/2020/4","A. Junker et al. (2019-11-18): Phenotypic assessment of growth and coloration dynamics as well as photosynthetic efficiency parameters in barley HvASL mutants and wild type plants.","3632","1,2 TB"
-"10.5447/ipk/2017/17","U. Scholz (2017-10-01): GCBN de.NBI User Training - PLANT 2030 Summer School - Basis Bioinformatics Training for Biologists.","3547","1,8 TB"
-"10.5447/ipk/2016/34","IBSC (2016-07-14): Pseudomolecules of the map-based reference genome assembly of barley cv. Morex.","3431","98,4 TB"
-"10.5447/ipk/2020/14","A. Kuczyńska (2020-05-26): Phenotypic image data of spring barley (Hordeum vulgare L.) RIL population under drought.","3416","810,8 GB"
-"10.5447/ipk/2016/59","A. Bräutigam (2016-12-01): Big Data Analysis Training  Course hosted  at the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK).","3413","18,4 TB"
-"10.5447/ipk/2016/8","A. Junker (2016-06-07): Technical validation experiment for reproducibility of high throughput plant phenotyping using LemnaTec automated image acquisition and IAP image analysis workflow.","3365","96,0 GB"
-"10.5447/ipk/2016/55","R. Nawrot (2016-10-13): Protein analysis data of the quantitative comparison of milky sap proteins from Chelidonium majus L. of the growth stage III versus stage IV.","3280","66,3 MB"
-"10.5447/ipk/2016/60","R. Fritsch (2016-12-06): A Preliminary Review of Allium subg. Melanocrommyum in Central Asia.","3210","17,4 GB"
-"10.5447/ipk/2021/18","A. Junker et al. (2019-08-19): Phenotypic assessment of growth and coloration dynamics as well as photosynthetic efficiency parameters in barley HvASL mutants and wildtype plants.","3122","1,5 TB"
-"10.5447/ipk/2017/9","S. Lueck (2017-08-16): siFi_ Software for long double-stranded RNAi-target design and off-target prediction.","2794","251,4 GB"
-"10.5447/ipk/2018/9","M. Mascher (2018-09-06): Variant matrices for a global barley diversity panel.","2781","4,1 TB"
-"10.5447/ipk/2021/11","A. Garibay-Hernández et al. (2021-05-18): Untargeted phenylpropanoid metabotypes of crop plants.","2770","979,3 MB"
-"10.5447/ipk/2015/9","T. Schmutzer (2015-09-15): Functional annotation of SNPs and INDELs from 52 highly diverse accessions of the model allopolyploid plant Brassica napus.","2684","452,9 GB"
-"10.5447/ipk/2014/4","A. Junker (2014-07-29): Optimizing experimental procedures for quantitative evaluation of crop plant performance in high throughput phenotyping systems.","2562","560,6 GB"
-"10.5447/ipk/2016/56","T. Schmutzer (2016-06-22): Scaffolds of rye (Secale cereale L.) inbred line Lo7– version 2.","2376","16,2 TB"
-"10.5447/ipk/2020/22","J. Szymanski et al. (2020-07-28): Analysis of Wild Tomato Introgression Lines Elucidates the Genetic Basis of Metabolome Variation in a Ripening Tomato Fruit.","2251","141,5 TB"
-"10.5447/ipk/2016/1","N. Bernhardt (2016-04-28): Analysis of phylogenetic relationships among diploid Triticeae grasses .","2163","784,3 MB"
-"10.5447/ipk/2017/22","A. Jozefowicz (2017-08-24): Nitrogen deficiency induced alterations in the root proteome of a pair of potato (Solanum tuberosum L.) varieties contrasting for their response to low N.","2143","723,2 GB"
-"10.5447/ipk/2016/13","T. Schmutzer (2016-06-22): Diversity resource for Secale cereale L. including VCF files and functional annotation of SNPs and INDELs from 11 re-sequenced rye genotypes.","2121","1,6 TB"
-"10.5447/ipk/2019/4","B. Pucker (2019-03-06): Chromosome-level Assembly Reveals the Niederzenz (Nd-1) Genome Structure and Gene Set.","2027","86,9 GB"
-"10.5447/ipk/2020/33","The International Rye Genome Sequencing Consortium (IRGSC) (2020-12-09): The 2019-2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly.","1986","120,6 TB"
-"10.5447/ipk/2017/4","Q. Muqaddasi (2017-04-20): 15k SNP chip data for spring and winter wheat.","1953","4,6 GB"
-"10.5447/ipk/2015/6","S. Beier (2015-05-08): Multiplex sequencing of bacterial artificial chromosomes for assembling complex plant genomes.","1934","755,7 MB"
-"10.5447/ipk/2016/58","M. Martis (2016-08-03): Updated version (v2) of the Rye Genome Zipper.","1872","4,6 GB"
-"10.5447/ipk/2011/0","C. Colmsee et al. (2014-07-25): A case study for efficient management of high throughput primary lab data.","1822","118,4 MB"
-"10.5447/ipk/2017/7","L. Otto (2017-08-07): Supplemental Material BMC Genomics DOI10.1186_s12864-017-3991-0_ Use of genotyping-by-sequencing to determine the genetic structure in the medicinal plant chamomile, and to identify flowering time and alpha-bisabolol associated SNP-loci by genome-wide association mapping.","1802","295,8 GB"
-"10.5447/ipk/2016/19","IBSC (2016-08-22): Data and procedures for the construction of the pseudomolecules of barley cv. Morex.","1793","292,5 GB"
-"10.5447/ipk/2018/4","R. Hettwer Giehl et al. (2018-03-13): Gene expression signatures in Arabidopsis thaliana roots under sufficient or deficient phosphate conditions.","1768","7,9 GB"
-"10.5447/ipk/2019/17","T. Schmutzer (2019-10-22): Tutorial with three data sets providing assistance and guidance of data processing using Kmasker plants.","1735","995,3 MB"
-"10.5447/ipk/2015/8","T. Schmutzer (2015-09-15): Repeat investigation of 4.3 million variant positions using 52 highly diverse accessions of the model allopolyploid plant Brassica napus.","1671","23,3 GB"
-"10.5447/ipk/2015/10","T. Schmutzer (2015-11-05): Genomic resource for two Genlisea species (G. nigrocaulis and G. hispidula) including the individual WGS genome assembly and the gene annotation for each species.","1621","69,5 GB"
-"10.5447/ipk/2021/13","K. Gaurav (2020-10-14): K-mer matrix of OWWC Aegilops tauschii diversity panel.","1599","61,7 TB"
-"10.5447/ipk/2016/57","T. Schmutzer (2016-08-03): Large data tables for gene prediction, gene annotation and the genetic map of rye (Lo7).","1572","2,5 GB"
-"10.5447/ipk/2014/14","M. Mascher (2014-09-12): w7984_meraculous_scaffolds.","1555","73,1 TB"
-"10.5447/ipk/2019/5","WHEALBI Consortium (2019-04-30): Single-nucleotide polymorphism matrices for 403 barley genotypes (WHEALBI diversity panel).","1538","486,1 GB"
-"10.5447/ipk/2022/2","T. Lux (2022-03-10): Structural annotation, pseudomolecules, and analyses of Avena sativa (cv. Sang), Avena insularis (BYU209) and Avena longiglumis (CN58138).","1524","216,4 TB"
-"10.5447/ipk/2016/27","IBSC (2016-07-15): Boundaries of the split pseudomolecules of barley cv. Morex.","1521","43,8 kB"
-"10.5447/ipk/2020/29","T. Lux (2019-12-05): Strutural gene prediction and annotation for Secale cereale Lo7.","1504","241,4 GB"
-"10.5447/DPPN/2014/0","J. Schnitzler (2014-07-25): Supplemental material : 'Isoprene emission-free poplars - a chance to reduce the impact from poplar plantations on the atmosphere'.","1449","5,3 MB"
-"10.5447/ipk/2020/2","P. Hoseinzadeh et al. (2019-12-05): Genotyping-by-sequencing  data of two double introgression-line mapping populations developped to map the Hordeum bulbosum A42 powdery mildew locus.","1422","120,8 GB"
-"10.5447/ipk/2015/7","T. Schmutzer (2015-08-25): PreBreed Yield data processing scripts.","1407","3,3 MB"
-"10.5447/ipk/2019/0","S. Twardziok (2018-08-28): Coding sequences and GFF3 of high confidence wild emmer genes.","1374","136,8 GB"
-"10.5447/ipk/2018/15","Y. Guo (2018-09-25): Variation data for a global diversity panel of barley with a focus on Tibetan barley (Qingke).","1360","71,7 TB"
-"10.5447/ipk/2018/5","International Wheat Genome Sequencing Consortium (2018-03-29): Gene family expansion and contraction in the genome of bread wheat cv. Chinese Spring.","1357","47,6 GB"
-"10.5447/ipk/2017/0","C. Ulpinnis (2017-02-07): Pre-release of scripts for an automated processing of genomic sequence data to predict gene models.","1356","701,6 kB"
-"10.5447/ipk/2015/5","T. Schmutzer (2015-05-22): Single nucleotide polymorphism datasets from 52 highly diverse accessions of the model allopolyploid plant Brassica napus.","1345","28,2 GB"
-"10.5447/ipk/2017/3","H. Himmelbauer et al. (2016-07-18): Beta vulgaris spp. maritima draft genome sequence assembly and structural prediction of protein coding genes.","1343","249,5 GB"
-"10.5447/ipk/2012/10","K. Witzel (2011-06-26): Processed raw data as used for the quantitative analysis of the response of the barley root plasma membrane to salinity stress.","1275","4,9 GB"
-"10.5447/ipk/2020/18","K. Köhl (2018-12-11): Selection and validation experiment comparing phenotypic and marker-assisted selection for drought tolerance in Solanum tuberosum ssp. tuberosum.","1262","129,9 MB"
-"10.5447/ipk/2021/0","A. Jozefowicz (2020-11-04): Identification of interaction partners of type II peroxiredoxin E (updated version).","1255","789,3 GB"
-"10.5447/ipk/2020/1","M. Haas (2018-12-12): Linear modeling reveals a predominance of cis- over trans-regulatory effects in wild and domesticated barley.","1255","6,0 GB"
-"10.5447/ipk/2021/14","T. Lux (2020-12-10): Genome sequence assembly, structural gene prediction and functional annotation for Ae. tauschii accessions TOWWC0112 and TOWWC0106.","1233","1,9 TB"
-"10.5447/ipk/2022/0","T. Lux (2021-07-01): Genome sequence assembly, structural gene prediction and functional annotation for Ae. sharonensis, Ae. longissima and Ae. speltoides.","1209","49,8 TB"
-"10.5447/ipk/2012/4","M. Lange et al. (2014-07-25): IDPredictor: predict database links in biomedical database.","1209","164,1 MB"
-"10.5447/ipk/2016/36","IBSC (2016-07-14): Split pseudomolecules of the map-based reference genome assembly of barley cv. Morex.","1192","251,7 GB"
-"10.5447/ipk/2014/0","D. Arend et al. (2014-02-14): DPPN Techno: manage, analyse, share and publish phenotype data.","1183","208,0 MB"
-"10.5447/ipk/2020/20","T. Schmutzer (2020-04-29): SNP matrix and read alignment from 1420 lines of the barley HEB-25 population for candidate gene rec8.","1168","362,6 MB"
-"10.5447/ipk/2018/10","M. Gonzalez et al. (2018-08-30): Original and processed historical data gathered during the seed regeneration of the barley collection hosted at the IPK Gatersleben.","1165","6,0 GB"
-"10.5447/ipk/2019/21","B. Siegmann (2019-11-08): The high-performance airborne imaging spectrometer HyPlant – From raw images to top-of-canopy reflectance and fluorescence products_ An example dataset from the agricultural research station Campus Klein-Altendorf.","1165","51,1 TB"
-"10.5447/ipk/2014/6","D. Arend (2014-09-08): Data Management Experiences and Best Practices from the Perspective of a Plant Research Institute.","1164","241,8 MB"
-"10.5447/ipk/2019/20","A. Maurer et al. (2019-11-21): 50k Illumina Infinium iSelect SNP Array data for the wild barley NAM population HEB-25.","1132","29,2 GB"
-"10.5447/ipk/2012/11","D. Arend (2014-07-25): The e!DAL JAVA-API - Store, Share and Cite Primary Data in Life Sciences - Presentation.","1107","240,7 MB"
-"10.5447/ipk/2016/29","IBSC (2016-07-12): High-resolution GBS map of the Morex x Barke RIL population.","1095","11,3 MB"
-"10.5447/ipk/2018/2","D. Douchkov (2018-02-20): Validation sequences set to the article ""siFi_ Software for long double-stranded RNAi-target design and off-target prediction"".","1088","903,7 kB"
-"10.5447/ipk/2016/4","M. Mascher (2016-01-25): SNP genotype matrix of of a diversity panel of 267 barley accession.","1084","5,2 TB"
-"10.5447/ipk/2016/16","IBSC (2016-08-22): Positions and classifications of repetitive elements in the genome of barley cv. Morex.","1047","69,9 GB"
-"10.5447/ipk/2016/11","G. Liu (2016-06-23): Phenotypic data of seven quality traits for a population of Central European wheat hybrids and their parental inbred lines.","1009","15,4 MB"
-"10.5447/ipk/2016/2","J. Chen (2016-05-03): RESTful API and trained model to implement a neuro-linguistic algorithms for semantic query suggestion.","1006","381,2 GB"
-"10.5447/ipk/2016/5","M. Mascher (2016-01-25): Indel genotype matrix of of a diversity panel of 267 barley accessions.","1004","9,9 GB"
-"10.5447/ipk/2016/41","IBSC (2016-07-21): Protein sequences of high-confidence genes of barley cv. Morex.","1002","6,5 GB"
-"10.5447/ipk/2014/7","D. Arend (2014-09-08): The e!DAL JAVA API: Sharing & Citing Research Data in Life Sciences.","991","441,5 MB"
-"10.5447/ipk/2012/12","D. Arend (2014-07-25): The e!DAL JAVA-API - Store, Share and Cite Primary Data in Life Sciences - Poster.","987","83,2 MB"
-"10.5447/ipk/2019/19","M. Mascher (2019-09-16): Source code of the TRITEX assembly pipeline.","971","35,0 MB"
-"10.5447/ipk/2016/30","IBSC (2016-07-12): Non-redundant sequence constructed from individual assemblies of BACs of barley cv. Morex.","970","98,4 GB"
-"10.5447/ipk/2012/13","D. Arend (2014-07-25): The e!DAL JAVA-API - Store, Share and Cite Primary Data in Life Sciences - Proccedings Paper.","960","26,8 MB"
-"10.5447/ipk/2017/20","D. Arend (2017-10-30): The PGP infrastructure A GCBN – de.NBI service of the IPK Gatersleben (Poster).","954","57,7 MB"
-"10.5447/ipk/2022/4","S. Kale (2021-10-26): Annotated resistance gene enrichment sequencing (RenSeq) assemblies of a winter wheat diversity panel.","932","16,7 TB"
-"10.5447/ipk/2012/14","P. Verboeven (2014-07-25): Three-dimensional model of airspaces in the developing Brassica napus seed.","931","10,9 GB"
-"10.5447/ipk/2014/18","C. Colmsee (2014-11-24): Hadoop pipeline source code for a semantic based recommendation system in life science.","924","1,7 MB"
-"10.5447/ipk/2019/11","N. Philipp et al. (2019-03-19): Historical phenotypic data from seven decades of seed regeneration in a wheat ex situ collection hosted at the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK).","922","4,0 GB"
-"10.5447/ipk/2014/3","D. Arend (2014-06-24): The e!DAL JAVA API: Sharing and Citing Research Data in Life Sciences.","914","174,1 MB"
-"10.5447/ipk/2013/1","M. Mascher (2014-07-25): Supporting material for the article 'A sequence-ready physical map of barley anchored genetically by two million SNPs'.","912","461,1 MB"
-"10.5447/ipk/2016/45","IBSC (2016-07-21): Functional information of high confidence genes of barley cv. Morex.","903","1,2 GB"
-"10.5447/ipk/2017/6","P. Herzig et al. (2017-07-10): Phenotype data of eight evaluated traits in a wild barley nested association mapping population at two locations in Dundee, Scotland and Halle, Germany.","901","44,4 MB"
-"10.5447/ipk/2016/20","IBSC (2016-07-11): Composition of the pseudomolecules of barley cv. Morex.","899","7,8 GB"
-"10.5447/ipk/2016/46","IBSC (2016-07-21): Structural information of low-confidence genes of barley cv. Morex.","883","15,6 GB"
-"10.5447/ipk/2019/10","D. Knoch (2019-05-21): High-throughput phenotyping reveals strong temporal dynamics of QTL action on plant growth in canola.","882","11,5 GB"
-"10.5447/ipk/2012/15","P. Verboeven (2012-11-20): Animated movie of the high-resolution CT images of the developing Brassica napus seed.","878","29,9 GB"
-"10.5447/ipk/2016/14","S. Beier (2016-08-09): ReadTrimmChecker.","876","83,3 kB"
-"10.5447/ipk/2016/54","H. Youssef (2016-09-28): SNP matrix for 214 barley accessions.","874","310,1 MB"
-"10.5447/ipk/2016/35","IBSC (2016-07-14): Redundancy-masked pseudomolecules of the map-based reference genome assembly of barley cv. Morex.","866","141,9 GB"
-"10.5447/ipk/2012/8","M. Lange et al. (2014-07-25): Distribution of ASCII characters in Database IDs.","863","462,5 kB"
-"10.5447/ipk/2019/2","S. Bachmann-Pfabe (2019-01-23): Screening of wild potato genetic resources for resistance to the white potato cyst nematode.","853","9,5 MB"
-"10.5447/ipk/2016/38","IBSC (2016-07-21): Structural information of high-confidence genes of barley cv. Morex.","853","2,0 TB"
-"10.5447/ipk/2015/2","M. Mascher (2015-02-19): Information about 243 barley accessions subjected to genotyping-by-sequencing.","846","4,0 MB"
-"10.5447/ipk/2019/6","M. Mascher (2019-04-26): BAC-based sequence scaffolds of barley cv. Morex improved by Dovetail in-vitro proximity ligation data.","843","805,5 GB"
-"10.5447/ipk/2012/9","M. Lange et al. (2014-07-25): Prediction performance for UniProt entry CP20C ARATH.","842","258,6 kB"
-"10.5447/ipk/2016/33","IBSC (2016-07-14): Positions of Morex WGS contigs in the updated POPSEQ map.","832","2,2 GB"
-"10.5447/ipk/2019/7","M. Mascher (2019-04-26): Whole-genome shotgun sequence assemblies of bread wheat cv. Chinese Spring and wild emmer accession Zavitan.","811","509,3 GB"
-"10.5447/ipk/2020/3","A. Junker (2019-11-18): Raw images files from quantitative monitoring of 484 Arabidopsis thaliana plants using high-throughput plant phenotyping (MIAPPE 1.1 update).","790","1,6 GB"
-"10.5447/ipk/2016/31","IBSC (2016-07-12): Optical map of barley cv. Morex.","789","1,1 GB"
-"10.5447/ipk/2018/1","M. Schreiber (2018-02-16): Single-nucleotide polymorphism (SNP) matrix for 101 genebank accessions of Secale taxa.","784","262,9 MB"
-"10.5447/ipk/2017/5","M. Kuhlmann (2017-03-01): DNA methylation of the CKX2.1 promotor by terminal drought stress in barley .","779","598,0 MB"
-"10.5447/ipk/2014/5","D. Arend (2014-09-08): Sharing, Versioning and Annotating SBML Models using the e!DAL Data Repository API.","775","171,0 MB"
-"10.5447/ipk/2016/17","IBSC (2016-08-22): POPSEQ map on the pseudomolecules of barley cv. Morex .","774","22,2 GB"
-"10.5447/ipk/2016/6","M. Mascher (2016-05-03): Genotype matrix of a diversity panel of extant barleys and five barley aDNA samples.","759","236,6 GB"
-"10.5447/ipk/2016/25","IBSC (2016-07-15): Redundant regions in the pseudomolecules of barley cv. Morex.","748","4,8 MB"
-"10.5447/ipk/2014/1","J. Chen (2014-07-25): Spelling correction of TAIR queries using query user refinement which has been recorded in query logs.","739","340,2 MB"
-"10.5447/ipk/2016/44","IBSC (2016-07-21): Representative protein sequences of high-confidence genes of barley cv. Morex.","738","8,6 GB"
-"10.5447/ipk/2016/3","M. Mascher (2015-12-04): Passport data of 228 barley genebank accessions subjected to exome sequencing.","737","1,5 MB"
-"10.5447/ipk/2017/23","H. Mock (2017-08-08): Accumulation of the coumarin scopolin under abiotic stress conditions is mediated by the Arabidopsis thaliana THO_TREX complex .","733","181,7 MB"
-"10.5447/ipk/2016/28","IBSC (2016-07-11): Potential contaminants in barley BAC sequence assemblies.","731","4,7 GB"
-"10.5447/ipk/2014/10","M. Mascher (2014-09-08): W7984_WGS_assembly_SNP-based_genetic_positions_and_consensus_genotypes_of_scaffolds.","730","18,2 GB"
-"10.5447/ipk/2014/15","J. Chen (2014-09-16): Search QTL Candidate Genes using the LAILAPS Information Retrieval System.","729","26,4 MB"
-"10.5447/ipk/2023/3","V. Hinterberger (2023-01-30): High throughput phenotyping of seedling quantitative resistance against powdery mildew of the Winter Wheat collection of the German Federal ex situ Genebank for Agricultural and Horticultural Crops at IPK Gatersleben.","728","555,8 GB"
-"10.5447/ipk/2020/19","S. Bachmann-Pfabe (2020-06-26): Evaluation of wild potato germplasm for tuber starch content and nitrogen utilization efficiency.","724","6,3 MB"
-"10.5447/ipk/2012/2","R. Lippmann (2014-07-25): Physiologische und bioanalytische Untersuchungen während der Pollenembryogenese von Hordeum vulgare. Average Normalised Abundances. Replikat 2.","718","39,7 MB"
-"10.5447/ipk/2016/12","IBSC (2016-06-24): Assemblies of individual barley BACs after contamination removal and renaming.","706","1023,0 GB"
-"10.5447/ipk/2022/29","M. Nagel (2022-11-15): GLOBAL STRATEGY FOR THE CONSERVATION OF POTATO.","702","15,2 GB"
-"10.5447/ipk/2014/19","D. Arend et al. (2015-01-20): LAILAPS and e!DAL_ Explore Genome Annotations and Publish Research Data.","687","67,5 MB"
-"10.5447/ipk/2012/0","M. Lange et al. (2012-02-01): IDPredictor: predict database links in biomedical database. Supplementary material A.3 for the paper.","677","3,9 MB"
-"10.5447/ipk/2017/19","D. Arend (2017-10-30): The PGP infrastructure A GCBN – de.NBI service of the IPK Gatersleben.","673","161,0 MB"
-"10.5447/ipk/2016/24","IBSC (2016-07-15): Correspondence between non-redundant BAC sequence and split pseudomolecules of barley cv. Morex.","668","1,4 GB"
-"10.5447/ipk/2016/22","IBSC (2016-07-11): Positional information of single BAC assemblies of barley cv. Morex.","666","406,1 MB"
-"10.5447/ipk/2014/9","M. Mascher (2014-09-08): W7984_WGS_assembly_Genetic_positions_and_genotype_score_of_SNPs.","666","14,4 MB"
-"10.5447/ipk/2018/13","M. Mascher (2017-08-15): Normalized Hi-C link counts for barley cultivars Morex and Barke.","658","3,3 GB"
-"10.5447/ipk/2018/3","D. Arend et al. (2018-06-18): GCBN de.NBI user training - FAIR data management for plant genomics and phenomics.","653","114,2 MB"
-"10.5447/ipk/2016/10","M. Kuhlmann (2016-06-16): Six-rowed domestication allele vrs1 positively regulates leaf width and vein number in barley.","647","401,3 MB"
-"10.5447/ipk/2014/11","M. Mascher (2014-09-08): W7984_WGS_assembly_Genotypes_for_kmer-based_markers.","645","42,2 GB"
-"10.5447/ipk/2016/40","IBSC (2016-07-21): Coding sequences of high-confidence genes of barley cv. Morex.","644","12,4 GB"
-"10.5447/ipk/2022/5","A. Schulthess (2022-04-20): Genome-wide association mapping for yellow rust resistance in a population of 454 whole-genome sequenced diverse wheat genotypes.","640","134,7 GB"
-"10.5447/ipk/2017/18","M. Lange (2017-10-30): An Open Source Software to Store, Share and Publish Research Data.","634","51,2 MB"
-"10.5447/ipk/2018/0","M. Mascher (2018-01-24): Pseudoscaffolds with barley WGS contigs used for exome capture analysis.","631","71,9 GB"
-"10.5447/ipk/2012/7","J. Chen (2014-07-25): Poster_The LAILAPS Search Engine: New Features.","629","15,1 MB"
-"10.5447/ipk/2020/21","T. Lux (2020-04-14): Strutural gene prediction and annotation of a 33Mb region in the wheat variety ""Jagger"".","627","2,6 GB"
-"10.5447/ipk/2015/1","M. Mascher (2015-02-19): Genotyping-by-sequencing SNP matrix of 243 diverse barley accessions.","626","722,9 MB"
-"10.5447/ipk/2016/18","IBSC (2016-08-22): Long non-coding RNAs (lncRNAs) in the genome of barley cv. Morex.","623","2,5 GB"
-"10.5447/ipk/2014/16","M. Mascher (2014-11-06): IWGSC_Chinese_Spring_sorted_chromosome_assemblies_POPSEQ_v2.","623","9,2 GB"
-"10.5447/ipk/2016/26","IBSC (2016-07-15): Redundant regions in the split pseudomolecules of barley cv. Morex.","622","1,8 MB"
-"10.5447/ipk/2016/48","IBSC (2016-07-21): Coding sequences of low-confidence genes of barley cv. Morex.","620","1,4 GB"
-"10.5447/ipk/2012/1","R. Lippmann (2014-07-25): Physiologische und bioanalytische Untersuchungen während der Pollenembryogenese von Hordeum vulgare. Average Normalised Abundances. Replikat 1.","617","10,8 MB"
-"10.5447/ipk/2016/37","IBSC (2016-07-14): Redundancy-masked split pseudomolecules of the map-based reference genome assembly of barley cv. Morex.","616","119,0 GB"
-"10.5447/ipk/2020/9","T. Schmutzer (2019-08-02): WGS assembly, gene prediction and functional annotation of Aegilops speltoides including B chromosomes.","616","89,5 GB"
-"10.5447/ipk/2016/43","IBSC (2016-07-21): Representative coding sequences of high-confidence genes of barley cv. Morex.","615","3,2 GB"
-"10.5447/ipk/2020/15","A. Jozefowicz (2020-05-29): Identification of interaction partners of type II peroxiredoxin E (PRXIIE).","614","1,9 TB"
-"10.5447/ipk/2014/8","M. Mascher (2014-09-08): W7984_WGS_assembly_SNP_positions_on_the_assembly.","613","13,0 TB"
-"10.5447/ipk/2017/21","R. Sharma et al. (2017-11-03): Yield-related grain trait phenotypic data of barley nested association mapping population from two trial locations, two years and two nitrogen fertilisation treatments.","609","17,2 MB"
-"10.5447/ipk/2020/17","Y. Zhao (2020-06-17): Integrated genomic and phenotypic data for predicting grain yield of hybrids in wheat.","606","1,0 GB"
-"10.5447/ipk/2016/42","IBSC (2016-07-21): Representative transcript sequences of high-confidence genes of barley cv. Morex.","604","4,1 GB"
-"10.5447/ipk/2013/0","K. Witzel (2014-07-25): Acquired raw data as used for the protein identification of differential spots from the quantitative analysis of the response of the barley root proteome to salinity stress.","600","254,3 GB"
-"10.5447/ipk/2017/14","N. Wendler (2017-06-01): Genotyping-by-sequencing indices of Hordeum bulbosum mapping population.","596","350,9 kB"
-"10.5447/ipk/2014/17","M. Mascher (2014-11-07): Deleted_regions_on_the_W7984_assembly.","596","2,6 GB"
-"10.5447/ipk/2015/0","M. Mascher (2015-01-23): Barley gene annotation file of near-complete high-confidence genes with open reading frame information.","593","1,0 GB"
-"10.5447/ipk/2012/3","R. Lippmann (2014-07-25): Physiologische und bioanalytische Untersuchungen während der Pollenembryogenese von Hordeum vulgare. Average Normalised Abundances. Replikat 3.","593","14,5 MB"
-"10.5447/ipk/2017/8","D. Douchkov (2017-08-09): Synthetic DNA constructs sequences of the siFi software calibration set.","588","30,4 kB"
-"10.5447/ipk/2016/21","IBSC (2016-06-28): Assemblies of individual barley BACs before contamination removal.","583","74,2 GB"
-"10.5447/ipk/2016/49","IBSC (2016-07-21): Protein sequences of low-confidence genes of barley cv. Morex.","582","432,0 MB"
-"10.5447/ipk/2014/12","M. Mascher (2014-09-08): W7984_WGS_assembly_Map_locations_for_kmer-based_markers.","580","9,1 GB"
-"10.5447/ipk/2011/1","T. Schmutzer et al. (2014-07-25): Visualising comparative genomics with Hilbert curves.","579","93,2 MB"
-"10.5447/ipk/2018/11","M. Mascher (2017-08-10): Optical map of barley cv. Barke.","579","176,4 MB"
-"10.5447/ipk/2018/14","M. Schreiber (2018-07-27): Illustrations of 10 important model and crop plant species.","567","227,1 MB"
-"10.5447/ipk/2016/23","IBSC (2016-07-11): Correspondence between non-redundant BAC sequence and pseudomolecules of barley cv. Morex.","567","1,1 GB"
-"10.5447/ipk/2017/11","N. Wendler (2017-06-01): Blast alignments of barley gene sequences (IBSC, 2012) against H. bulbosum assembly.","566","71,3 MB"
-"10.5447/ipk/2012/6","S. Friedel (2014-07-25): Poster_DI_IPK-Evaluation_2012.","564","4,6 MB"
-"10.5447/ipk/2012/5","U. Scholz (2014-07-25): Poster_BIT_IPK-Evaluation_2012.","563","88,2 MB"
-"10.5447/ipk/2015/4","S. Beier (2015-05-08): Multiplex sequencing of bacterial artificial chromosomes for assembling complex plant genomes.","557","215,5 MB"
-"10.5447/ipk/2014/2","E. Grafahrend-Belau (2014-07-25): Reference set of relevance ranked plant traits.","555","2,0 MB"
-"10.5447/ipk/2020/23","D. Douchkov et al. (2019-12-09): Image dataset for a validation experiment of the Macrobot system.","549","4,1 GB"
-"10.5447/ipk/2016/39","IBSC (2016-07-21): Transcript sequences of high-confidence genes of barley cv. Morex.","549","13,5 GB"
-"10.5447/ipk/2017/16","N. Wendler (2017-08-03): High-density genetic maps of H. bulbosum and anchoring information to barley.","549","53,5 MB"
-"10.5447/ipk/2017/12","N. Wendler (2017-06-01): Gmap alignments of barley gene secqences (IBSC, 2012) against H. bulbosum assembly.","547","108,8 MB"
-"10.5447/ipk/2020/34","H. Gundlach (2020-12-10): Repeat annotation for the genome assembly of  Secale cereale Lo7 (Rye).","540","37,2 GB"
-"10.5447/ipk/2019/9","M. Oppermann (2019-05-16): IPK genebank accessions passport data snapshot 2019-05-15.","537","839,6 MB"
-"10.5447/ipk/2021/17","C. Grehl (2021-02-18): Severe cases of COVID-19 are associated with changes in circulating small RNA abundance.","535","1,4 TB"
-"10.5447/ipk/2018/8","M. Haas (2018-09-05): RNA-seq characterization of a spot blotch susceptibility mutant derived from the durably resistant barley cultivar Morex through gamma radiation.","533","8,8 GB"
-"10.5447/ipk/2016/50","IBSC (2016-07-21): Representative transcript sequences of low-confidence genes of barley cv. Morex.","526","1,6 GB"
-"10.5447/ipk/2016/53","IBSC (2016-07-21): Functional information of low-confidence genes of barley cv. Morex.","521","202,8 MB"
-"10.5447/ipk/2021/8","G. Cochrane et al. (2021-04-12): Quantitative monitoring of nucleotide information from genetic resources in context of their citation in the scientific literature.","519","111,0 GB"
-"10.5447/ipk/2019/3","S. Dreissig (2019-03-08): Variant matrix for 1,140 wild barley (Hordeum vulgare ssp. spontaneum) accessions.","518","6,4 GB"
-"10.5447/ipk/2016/52","IBSC (2016-07-21): Representative protein sequences of low-confidence genes of barley cv. Morex.","516","241,8 MB"
-"10.5447/ipk/2022/6","A. Schulthess (2022-04-20): Genomic prediction of yield breeding values for 10,353 winter wheat genebank samples.","508","3,0 GB"
-"10.5447/ipk/2021/7","K. Köhl (2021-03-12): Tuber yield and starch content of 34 potato genotypes in 14 pot and field trials with optimal and reduced irrigation conducted in Northern Germany 2011 - 2013.","497","4,2 MB"
-"10.5447/ipk/2020/8","A. Boudichevskaia (2019-08-02): GO term enrichment analysis based on 229 candidate genes from the Aegilops speltoides B chromosomes.","493","452,7 kB"
-"10.5447/ipk/2020/32","The International Rye Genome Sequencing Consortium (IRGSC) (2020-12-09): A suite of visual representations of the 2019-2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly release.","492","440,8 MB"
-"10.5447/ipk/2016/32","IBSC (2016-07-14): Raw data of the optical map of barley cv. Morex.","488","13,3 GB"
-"10.5447/ipk/2019/1","S. Bachmann-Pfabe (2019-01-23): Screening of wild potato genetic resources for resistance against late blight on tubers.","488","10,8 MB"
-"10.5447/ipk/2019/12","D. Heuermann et al. (2019-07-09): Interspecific competition among catch crop root biomass distribution and its influence on nitrogen and phosphorus scavenging in soils.","487","55,3 MB"
-"10.5447/ipk/2020/31","The International Rye Genome Sequencing Consortium (IRGSC) (2020-12-07): SNP matrix produced for the phylogenetic analysis of Secale genetic diversity presented in the 2019--2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly release.","482","16,9 TB"
-"10.5447/ipk/2022/9","M. Kuhlmann (2019-04-29): Initial description of the Aeluropus littoralis genome.","477","21,0 GB"
-"10.5447/ipk/2017/15","N. Wendler (2017-08-03): Integration of de novo assembled Hordeum bulbosum contigs into genetic framework maps.","477","3,5 MB"
-"10.5447/ipk/2016/15","IBSC (2016-08-19): MicroRNA precursor loci in the genome of barley cv. Morex.","472","4,8 MB"
-"10.5447/ipk/2020/35","J. Thiel (2020-12-22): Expression data of floral meristems in barley.","470","19,6 GB"
-"10.5447/ipk/2017/13","N. Wendler (2017-06-01): De novo assembly contigs of Hordeum bulbosum accession FB2012-011-2  (doubled haploid plant FBB_170).","466","21,7 GB"
-"10.5447/ipk/2018/6","N. Stein (2018-04-17): High-throughput development of SSR marker candidates and their chromosomal assignment in rye (Secale cereale L.).","465","157,2 MB"
-"10.5447/ipk/2020/25","M. Mascher (2020-09-02): Genomic analysis of wheat cytogenetic stocks for chromosome 1D.","451","34,8 MB"
-"10.5447/ipk/2020/30","The International Rye Genome Sequencing Consortium (IRGSC) (2020-12-09): Bionano optical map contig and alignment files used to generate the 2019-2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly release.","449","1,6 GB"
-"10.5447/ipk/2020/7","S. Lueck et al. (2020-04-30): Image test set for Macrobot software validation.","445","13,2 GB"
-"10.5447/ipk/2014/13","M. Mascher (2014-09-08): W7984_WGS_assembly_Placement_of_kmer_markers-based_on_scaffolds.","444","11,5 GB"
-"10.5447/ipk/2016/51","IBSC (2016-07-21): Representative coding sequences of low-confidence genes of barley cv. Morex.","440","347,1 MB"
-"10.5447/ipk/2022/26","H. Gundlach (2022-10-19): Long read genome assembly, gene and tRNA annotation of the tropical legume Lablab purpureus.","435","984,9 GB"
-"10.5447/ipk/2018/12","M. Mascher (2017-08-10): Raw data of the optical map of barley cv. Barke.","433","1,8 GB"
-"10.5447/ipk/2019/15","Z. Liu (2018-07-18): Age dependent transcriptome analysis of barley seminal root.","432","36,6 MB"
-"10.5072/ipk/TEST/2013/0","T. Schmutzer (2014-07-25): SampleData.","423","9,7 MB"
-"10.5447/ipk/2019/16","H. Mock (2019-10-11): Integrated peak areas of anthocyanins and other polyphenols measured by LC-UV_MS and LC-MS_MRM in a set of coloured potato tubers (Solanum tuberosum L.).","417","296,2 kB"
-"10.5447/ipk/2020/11","T. Schmutzer (2019-08-02): Metainformation data for the genome assembly of Aegilops speltoides including contig assignments to B chromosome.","403","4,6 GB"
-"10.5447/ipk/2017/1","M. Schreiber (2017-03-09): Roggensauerteigbrot (German recipe for rye bread).","398","304,5 MB"
-"10.5447/ipk/2020/12","J. Reif (2019-02-19): Genotyping information for diverse european bread wheat genotypes based on the ZUCHTWERT project.","397","88,9 MB"
-"10.5447/ipk/2021/1","E. Sorge et al. (2021-01-20): Western blot analysis of nuclei extract proteins of wilde type and transgenic Arabidopsis thaliana plants possessing  degradation of specific nuclear proteins via the 26S proteasome pathway.","390","9,0 MB"
-"10.5447/ipk/2022/1","S. Lueck (2022-02-22): Classified microscopy image data set of powdery mildew-infected barley leaves at 48hai, containing positive images with fungal microcolonies and negative examples.","389","11,2 GB"
-"10.5447/ipk/2019/14","K. Neumann (2019-09-11): Marker matrix of 9k iSelect SNPs used in genome-wide association scans (GWAS) to study biomass formation in spring barley.","389","25,7 MB"
-"10.5447/ipk/2016/47","IBSC (2016-07-21): Transcript sequences of low-confidence genes of barley cv. Morex.","384","3,2 GB"
-"10.5447/ipk/2020/13","J. Reif (2019-02-19): Bread Wheat Exome Capture Sequencing SNP matrix of 77 diverse european genotypes from the ZUCHTWERT project.","376","135,2 MB"
-"10.5447/ipk/2021/15","H. Gundlach (2021-07-08): Transposon Annotation for Triticum aestivum Cultivar Fielder.","365","69,6 GB"
-"10.5447/ipk/2022/15","M. Mascher (2022-08-17): Filtration script for genetic variant matrices in Variant Call Format (VCF).","365","170,9 kB"
-"10.5447/ipk/2020/6","J. Stock (2017-10-11): Adaptation to osmotic stress induced during Arabidopsis thaliana cryopreservation is regulated by WRKY22, a defense-related transcription factor.","362","284,2 MB"
-"10.5447/ipk/2022/27","S. Zheng (2022-11-03): Metabolic diversity in a collection of wild and cultivated Brassica rapa subspecies.","358","28,9 GB"
-"10.5447/ipk/2020/10","T. Schmutzer (2019-08-02): Investigation of changes in repeat abundance between genome and B chromosome of Aegilops speltoides.","353","2,7 GB"
-"10.5447/ipk/2021/2","Z. Tulpová (2020-10-14): Bionano optical map of the genome of barley (Hordeum vulgare) cv. Morex - second version.","352","945,8 MB"
-"10.5447/ipk/2019/13","M. Oppermann (2019-08-15): IPK genebank accessions passport data snapshot 2019-08-15.","351","179,4 MB"
-"10.5447/ipk/2019/23","S. Lueck (2019-12-09): “Blaster” – graphical sequence data workbench.","346","2,3 GB"
-"10.5447/ipk/2022/13","A. Gippert et al. (2021-12-15): Unravel metabolic patterns and molecular mechanisms underlying storability in sugar beet.","337","108,1 GB"
-"10.5447/ipk/2021/23","M. Kuhlmann (2021-06-08): INTERMEDIUM-C mediates the shade-induced bud growth arrest in barley.","328","237,9 MB"
-"10.5447/ipk/2022/18","A. Gogna (2022-08-29): The phenotypic data of elite European cultivar panel comprising 358 winter and 14 summer wheat varieties released from 1975 to 2007.","313","363,8 MB"
-"10.5447/ipk/2021/5","A. Câmara (2021-02-24): Simulation of chromosome condensation with loop extruders and centromeric nucleosomes.","303","620,2 MB"
-"10.5447/ipk/2022/20","M. Püpke Marone (2022-09-09): Example files generated in the TRITEX long-read assembly pipeline.","287","26,4 GB"
-"10.5447/ipk/2022/17","S. Lueck (2022-07-28): Training course material for the course ""de.NBI Biology meets Programming - Introduction to Bioinformatics using Python"".","267","70,2 MB"
-"10.5447/ipk/2021/10","K. Köhl et al. (2021-02-19): Supplemental material for publication 'Counfounding factors in container-based assessment of drought tolerance in Solanum tuberosum'.","263","19,8 MB"
-"10.5447/ipk/2022/11","M. Berkner (2022-06-16): Comparison of ten genomic prediction approaches in a diverse collection of plant genetic resources in wheat.","261","12,0 GB"
-"10.5447/ipk/2022/23","A. Schulthess (2022-09-26): Evaluating the yellow rust resistance of 600 winter wheat IPK genebank accession samples and 199 modern European cultivars based on natural and artificial inoculations in multiple-environments.","259","90,7 MB"
-"10.5447/ipk/2021/4","K. Neumann (2021-02-16): Chromosomal regions with co-localisation of QTL for growth under well-watered and drought conditions in barley.","254","59,1 kB"
-"10.5447/ipk/2022/28","M. Mascher (2022-11-01): TRITEX pipeline source code and documentation.","247","20,6 MB"
-"10.5447/ipk/2020/26","M. Oppermann (2020-08-31): IPK genebank accessions passport data snapshot 2020-08-31.","246","206,3 MB"
-"10.5447/ipk/2022/25","Y. Zhao (2022-09-28): Estimating the breeding values of 707 winter wheat IPK genebank accessions using yields of 'Elite×PGR' F1 hybrids tested across multiple-environment experiments.","238","97,7 MB"
-"10.5447/ipk/2021/6","D. Heuermann (2021-03-10): Nitrogen and phosphorus accumulation by catch crops grown in pure and mixed stands.","231","9,3 MB"
-"10.5447/ipk/2020/16","M. Oppermann (2020-06-04): IPK genebank accessions passport data snapshot 2020-05-15.","225","293,1 MB"
-"10.5447/ipk/2022/22","A. Schulthess (2022-09-26): Evaluating the yellow rust resistance of 7,682 winter wheat IPK genebank accessions and 80 modern European cultivars based on natural infections in multiple-environments.","224","344,0 MB"
-"10.5447/ipk/2020/0","K. Słomińska-Durdasiak (2020-01-15): Association mapping of wheat Fusarium head blight resistance-related regions using a candidate-gene approach and their verification in a biparental population.","211","2,3 MB"
-"10.5447/ipk/2022/31","A. Schulthess (2022-12-05): Passport information for 8,838 genotyped wheat samples.","210","51,9 MB"
-"10.5447/ipk/2022/10","Y. Guo (2022-06-07): Variant matrices for six-rowed wild-growing barleys (Hordeum agriocrithon).","208","906,8 TB"
-"10.5447/ipk/2021/21","G. Yu (2021-09-07): Transcriptome (cDNA) assembly of Aegilops sharonensis accession 1644.","204","499,0 MB"
-"10.5447/ipk/2021/16","A. Câmara (2021-06-23): Simulation of chromosome condensation with loop extruders and centromeric nucleosomes (high resolution version).","196","4,5 GB"
-"10.5447/ipk/2021/20","V. Thirulogachandar (2021-07-20): Expression data of spike and spikelet meristems from barley.","190","56,3 MB"
-"10.5447/ipk/2022/24","A. Schulthess (2022-09-26): Multiple-environment yield evaluation of 173 advanced wheat pre-breeding lines from crosses involving IPK genebank accessions with high yield breeding values.","187","15,8 MB"
-"10.5447/ipk/2022/12","K. Köhl et al. (2022-02-07): LIDAR-based phenotyping of potato shoot development under drought stress.","169","137,2 MB"
-"10.5447/ipk/2023/15","M. Schreiber et al. (2023-02-24): Data record for the genomic resources of cultivated European two-rowed spring barley genotypes.","166","16,7 GB"
-"10.5447/ipk/2019/22","M. Oppermann (2019-11-15): IPK genebank accessions passport data snapshot 2019-11-15.","159","59,7 MB"
-"10.5447/ipk/2020/28","M. Mascher (2020-11-13): Example of a guide map file for use in the TRITEX genome assembly pipeline.","154","482,7 MB"
-"10.5447/ipk/2022/21","A. Schulthess (2022-09-23): Genomic-phenotypic data interoperability between 8,838 genotyped wheat samples, grain yield breeding value estimates and yellow rust infection scores from multiple-environment field trials.","153","22,7 GB"
-"10.5447/ipk/2023/8","S. El Hanafi et al. (2023-05-16): Genome-wide prediction of thousand kernel weight for 234 winter barley accessions from the ICARDA genebank using 1,910 IPK genebank accessions as training set.","145","13,4 GB"
-"10.5447/ipk/2023/19","D. Knoch (2023-10-16): Phenotyping dataset of the PREDICT canola population.","143","10,8 TB"
-"10.5447/ipk/2021/12","M. Oppermann (2021-06-01): IPK genebank accessions passport data snapshot 2021-06-01.","138","364,0 kB"
-"10.5447/ipk/2023/4","A. Jozefowicz (2022-07-11): Identification of proteins taking part in N and water deficiency response in potato.","136","1,4 TB"
-"10.5447/ipk/2021/9","M. Oppermann (2021-04-01): IPK genebank accessions passport data snapshot 2021-04-01.","135","138,4 MB"
-"10.5447/ipk/2020/5","M. Oppermann (2020-02-17): IPK genebank accessions passport data snapshot 2020-02-17.","133","68,5 MB"
-"10.5447/ipk/2023/7","J. Keilwagen (2023-05-12): Introgression prediction for wheat genebank collections.","132","2,6 kB"
-"10.5447/ipk/2020/27","M. Oppermann (2020-11-17): IPK genebank accessions passport data snapshot 2020-11-17.","118","137,5 MB"
-"10.5447/ipk/2023/5","D. Harpke (2023-02-10): De-novo assembled genotyping-by-sequencing (GBS) datasets for Crocus series Verni species.","111","1,9 GB"
-"10.5447/ipk/2023/11","W. Eckhoff (2023-06-22): Pseudonymized phenotypic and genotypic data from two stages of rye (Secale cereale) hybrid breeding program as implemented during 2018 to 2021 at KWS SAAT SE & Co. KGaA.","108","1,0 GB"
-"10.5447/ipk/2022/7","M. Oppermann (2022-04-27): IPK genebank accessions passport data snapshot 2022-04-27.","104","310,5 MB"
-"10.5447/ipk/2022/19","D. Heuermann (2022-08-31): Metabolite profile in root exudates of catch crops under different cultivation conditions.","88","441,0 MB"
-"10.5447/ipk/2023/13","N. Narisetti et al. (2023-06-05): AWN phenotyping tool- v0.1.","78","689,8 MB"
-"10.5447/ipk/2021/22","M. Oppermann (2021-11-19): IPK genebank accessions passport data snapshot 2021-11-19.","64","60,2 MB"
-"10.5447/ipk/2023/18","U. Wegner (2023-07-14): DNA-Sequence amendment to dataset ""Enhancing a Sphaerobacter thermophilus ω-transaminase for kinetic resolution of β- and γ-amino acids"".","51","2,1 kB"
-"10.5447/ipk/2021/19","M. Oppermann (2021-09-17): IPK genebank accessions passport data snapshot 2021-09-17.","49","0 B"
-"10.5447/ipk/2022/3","G. Haberer (2021-11-22): Projection-based gene annotation of barley genotype Hatiexi.","45","89,2 MB"
-"10.5447/ipk/2023/6","M. Oppermann (2023-02-17): IPK genebank accessions passport data snapshot 2023-02-17.","44","412,5 MB"
-"10.5447/ipk/2022/14","A. Gippert et al. (2022-08-12): Unraveling metabolic patterns and molecular mechanisms underlying storability in sugar beet.","43","192,2 GB"
-"10.5447/ipk/2023/0","V. Hinterberger (2023-01-12): Powdery mildew resistance phenotyping of the winter wheat collection of the German Federal ex situ Genebank for Agricultural and Horticultural Crops at IPK Gatersleben.","39","123,6 GB"
-"10.5447/ipk/2023/10","M. Oppermann (2023-05-22): IPK genebank accessions passport data snapshot 2023-05-15.","38","0 B"
-"10.5447/ipk/2023/1","V. Hinterberger (2023-01-17): Powdery mildew resistance phenotyping of the Winter Wheat collection of the German Federal ex situ Genebank for Agricultural and Horticultural Crops at IPK Gatersleben.","36","123,6 GB"
-"10.5447/ipk/2022/8","M. Oppermann (2022-05-20): IPK genebank accessions passport data snapshot 2022-05-22.","35","103,5 MB"
-"10.5447/ipk/2023/20","M. Berkner (2023-11-12): Leveraging the diversity in grain protein and lysine content across the winter wheat genebank collection hosted at the Leibniz Institute of Plant Genetics and Crop Plant Research.","33","23,0 GB"
-"10.5447/ipk/2023/12","U. Wegner (2023-07-10): Enhancing a Sphaerobacter thermophilus ω-transaminase for kinetic resolution of β- and γ-amino acids.","33","281,8 kB"
-"10.5447/ipk/2023/23","L. Laber et al. (2023-12-05): Effects of moxidectin treatment on seedlings emerging from sheep faeces.","32","0 B"
-"10.5447/ipk/2023/17","R. Abbai et al. (2023-07-11): Genotypic and phenotypic datasets of a tetraploid wheat RIL population.","30","38,1 MB"
-"10.5447/ipk/2023/2","A. Câmara et al. (2022-04-05): Helical organization of barley metaphase chromatids.","28","1,8 GB"
-"10.5447/ipk/2022/16","M. Oppermann (2022-08-17): IPK genebank accessions passport data snapshot 2022-08-17.","27","51,6 MB"
-"10.5447/ipk/2023/9","K. Köhl et al. (2023-03-09): Phenotyping shoot growth in potato under short-term and long-term drought stress.","26","145,5 MB"
-"10.5447/ipk/2022/30","M. Oppermann (2022-11-16): IPK genebank accessions passport data snapshot 2022-11-16.","24","103,3 MB"
-"10.5447/ipk/2023/14","J. Schneider (2023-06-20): Genomic SNP profiles for 100 winter wheat lines.","24","30,4 MB"
-"10.5447/ipk/2023/22","L. Laber et al. (2023-12-05): Influences of macrocyclic lactones on germination of temperate grassland species.","20","1,8 kB"
-"10.5447/ipk/2023/16","M. Oppermann (2023-08-22): IPK genebank accessions passport data snapshot 2023-08-22.","17","0 B"
-"10.5447/ipk/2024/1","M. Heuermann (2023-08-17): High-throughput phenotyping of an Arabidopsis thaliana accession panel exposed to fluctuating light treatment EXP1.","15","321,1 GB"
-"10.5447/ipk/2023/21","M. Oppermann (2023-11-20): IPK genebank accessions passport data snapshot 2023-11-20.","15","155,5 MB"
-"10.5447/ipk/2023/24","H. Gundlach (2021-08-10): Transposon annotation for Cuscuta campestris.","14","145,8 MB"
-"10.5447/ipk/2024/2","M. Heuermann (2023-08-17): High-throughput phenotyping of an Arabidopsis thaliana accession panel exposed to fluctuating light treatment EXP2.","11","495,0 GB"
-"10.5447/ipk/2024/3","M. Heuermann (2023-08-18): High-throughput phenotyping of an Arabidopsis thaliana accession panel exposed to fluctuating light treatment EXP3.","7","0 B"
-"10.5447/ipk/2024/0","M. Oppermann (2024-02-15): IPK genebank accessions passport data snapshot 2024-02-15.","5","0 B"
+A. Br+//3//Q-utigam (2017+AC0-11+AC0-15): Results of genie3 analyis for wheat.,10.5447/ipk/2018/7
+A. Oertel (2017+AC0-03+AC0-15): Metabolite profiling of red and blue potatoes revealed cultivar and tissue specific patterns for anthocyanins and other polyphenols (supplemental data files).,10.5447/ipk/2017/2
+A. Junker (2016+AC0-05+AC0-27): Raw images files from quantitative monitoring of 484 Arabidopsis thaliana plants using high+AC0-throughput plant phenotyping.,10.5447/ipk/2016/7
++ACI-M. Mascher (2020+AC0-06+AC0-22): Assembly, annotation and analysis of the barley (Hordeum vulgare L.) pan+AC0-genome.+ACI-,10.5447/ipk/2020/24
+A. Junker et al. (2019+AC0-08+AC0-19): Phenotypic assessment of growth and coloration dynamics as well as photosynthetic efficiency parameters in barley HvASL mutants and wildtype plants.,10.5447/ipk/2021/18
+A. Kuczy+//3//Q-ska (2020+AC0-05+AC0-27): Phenotypic image data of spring barley (Hordeum vulgare L.) RIL population under drought.,10.5447/ipk/2020/14
+K. Neumann (2017+AC0-11+AC0-08): Raw image files from an investigation of vegetative biomass growth in well+AC0-watered and drought stress conditions in a Hordeum vulgare set (2011+AC0-05+AC0-27 to 2011+AC0-07+AC0-24).,10.5447/ipk/2017/24
+C. Klukas (2016+AC0-04+AC0-11): IAP example data set 1107BA+AF8-Corn+AF8-JPEG.,10.5447/ipk/2016/0
+K. Neumann (2017+AC0-11+AC0-06): Raw image files from an investigation of vegetative biomass growth in well+AC0-watered and drought stress conditions in a Hordeum vulgare set (2011+AC0-09+AC0-16 to 2011+AC0-11+AC0-13).,10.5447/ipk/2017/26
+M. Mascher (2020+AC0-10+AC0-13): Pseudomolecules and annotation of the third version of the reference genome sequence assembly of barley cv. Morex +AFs-Morex V3+AF0-.,10.5447/ipk/2021/3
+A. Junker (2016+AC0-02+AC0-17): Image analysis results from quantitative monitoring of 484 Arabidopsis thaliana plants using high+AC0-throughput plant phenotyping.,10.5447/ipk/2016/9
+P. Verboeven (2012+AC0-11+AC0-20): Micro CT raw data as used for the imaging of the void network in Brassica napus.,10.5447/ipk/2012/16
+K. Neumann (2017+AC0-11+AC0-09): Raw image files from an investigation of vegetative biomass growth in well+AC0-watered and drought stress conditions in a Hordeum vulgare set (2011+AC0-07+AC0-22 to 2011+AC0-09+AC0-18).,10.5447/ipk/2017/25
+N. Bernhardt et al. (2019+AC0-11+AC0-13): Genomic and phylogenetic data for the identification of ancient and recurrent hybridizations in wheat taxa.,10.5447/ipk/2019/18
+M. Mascher (2019+AC0-05+AC0-09): Pseudomolecules and annotation of the second version of the reference genome sequence assembly of barley cv. Morex +AFs-Morex V2+AF0-.,10.5447/ipk/2019/8
+D. Pflugfelder (2017+AC0-07+AC0-10): 3D Magnetic resonance images of three weeks old barley roots grown in different soils.,10.5447/ipk/2017/10
+A. Br+//3//Q-utigam (2016+AC0-12+AC0-01): Big Data Analysis Training  Course hosted  at the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK).,10.5447/ipk/2016/59
+S. Kale (2021+AC0-10+AC0-26): Annotated resistance gene enrichment sequencing (RenSeq) assemblies of a winter wheat diversity panel.,10.5447/ipk/2022/4
+J. Szymanski et al. (2020+AC0-07+AC0-28): Analysis of Wild Tomato Introgression Lines Elucidates the Genetic Basis of Metabolome Variation in a Ripening Tomato Fruit.,10.5447/ipk/2020/22
+N. Wendler (2015+AC0-04+AC0-23): Bulbosum to go+AF8- a toolbox to utilize Hordeum vulgare +AF8- bulbosum introgressions for breeding and beyond.,10.5447/ipk/2015/3
+U. Scholz (2017+AC0-10+AC0-01): GCBN de.NBI User Training +AC0- PLANT 2030 Summer School +AC0- Basis Bioinformatics Training for Biologists.,10.5447/ipk/2017/17
+A. Junker et al. (2019+AC0-11+AC0-18): Phenotypic assessment of growth and coloration dynamics as well as photosynthetic efficiency parameters in barley HvASL mutants and wild type plants.,10.5447/ipk/2020/4
+K. Gaurav (2020+AC0-10+AC0-14): K+AC0-mer matrix of OWWC Aegilops tauschii diversity panel.,10.5447/ipk/2021/13
+IBSC (2016+AC0-07+AC0-14): Pseudomolecules of the map+AC0-based reference genome assembly of barley cv. Morex.,10.5447/ipk/2016/34
+A. Junker (2016+AC0-06+AC0-07): Technical validation experiment for reproducibility of high throughput plant phenotyping using LemnaTec automated image acquisition and IAP image analysis workflow.,10.5447/ipk/2016/8
+R. Fritsch (2016+AC0-12+AC0-06): A Preliminary Review of Allium subg. Melanocrommyum in Central Asia.,10.5447/ipk/2016/60
+R. Nawrot (2016+AC0-10+AC0-13): Protein analysis data of the quantitative comparison of milky sap proteins from Chelidonium majus L. of the growth stage III versus stage IV.,10.5447/ipk/2016/55
+M. Mascher (2018+AC0-09+AC0-06): Variant matrices for a global barley diversity panel.,10.5447/ipk/2018/9
+A. Junker (2014+AC0-07+AC0-29): Optimizing experimental procedures for quantitative evaluation of crop plant performance in high throughput phenotyping systems.,10.5447/ipk/2014/4
+A. Garibay+AC0-Hern+//3//Q-ndez et al. (2021+AC0-05+AC0-18): Untargeted phenylpropanoid metabotypes of crop plants.,10.5447/ipk/2021/11
+T. Schmutzer (2015+AC0-09+AC0-15): Functional annotation of SNPs and INDELs from 52 highly diverse accessions of the model allopolyploid plant Brassica napus.,10.5447/ipk/2015/9
++ACI-T. Lux (2022+AC0-03+AC0-10): Structural annotation, pseudomolecules, and analyses of Avena sativa (cv. Sang), Avena insularis (BYU209) and Avena longiglumis (CN58138).+ACI-,10.5447/ipk/2022/2
+T. Schmutzer (2019+AC0-10+AC0-22): Tutorial with three data sets providing assistance and guidance of data processing using Kmasker plants.,10.5447/ipk/2019/17
+S. Lueck (2017+AC0-08+AC0-16): siFi+AF8- Software for long double+AC0-stranded RNAi+AC0-target design and off+AC0-target prediction.,10.5447/ipk/2017/9
+IBSC (2016+AC0-08+AC0-22): Data and procedures for the construction of the pseudomolecules of barley cv. Morex.,10.5447/ipk/2016/19
+N. Bernhardt (2016+AC0-04+AC0-28): Analysis of phylogenetic relationships among diploid Triticeae grasses .,10.5447/ipk/2016/1
+T. Schmutzer (2016+AC0-06+AC0-22): Scaffolds of rye (Secale cereale L.) inbred line Lo7+//3//f/9- version 2.,10.5447/ipk/2016/56
+The International Rye Genome Sequencing Consortium (IRGSC) (2020+AC0-12+AC0-09): The 2019+AC0-2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly.,10.5447/ipk/2020/33
++ACI-T. Lux (2020+AC0-12+AC0-10): Genome sequence assembly, structural gene prediction and functional annotation for Ae. tauschii accessions TOWWC0112 and TOWWC0106.+ACI-,10.5447/ipk/2021/14
++ACI-T. Lux (2021+AC0-07+AC0-01): Genome sequence assembly, structural gene prediction and functional annotation for Ae. sharonensis, Ae. longissima and Ae. speltoides.+ACI-,10.5447/ipk/2022/0
+S. Beier (2015+AC0-05+AC0-08): Multiplex sequencing of bacterial artificial chromosomes for assembling complex plant genomes.,10.5447/ipk/2015/6
+Q. Muqaddasi (2017+AC0-04+AC0-20): 15k SNP chip data for spring and winter wheat.,10.5447/ipk/2017/4
+B. Pucker (2019+AC0-03+AC0-06): Chromosome+AC0-level Assembly Reveals the Niederzenz (Nd+AC0-1) Genome Structure and Gene Set.,10.5447/ipk/2019/4
+K. K+//3//Q-hl (2018+AC0-12+AC0-11): Selection and validation experiment comparing phenotypic and marker+AC0-assisted selection for drought tolerance in Solanum tuberosum ssp. tuberosum.,10.5447/ipk/2020/18
+T. Lux (2019+AC0-12+AC0-05): Strutural gene prediction and annotation for Secale cereale Lo7.,10.5447/ipk/2020/29
+T. Schmutzer (2016+AC0-06+AC0-22): Diversity resource for Secale cereale L. including VCF files and functional annotation of SNPs and INDELs from 11 re+AC0-sequenced rye genotypes.,10.5447/ipk/2016/13
+A. Jozefowicz (2017+AC0-08+AC0-24): Nitrogen deficiency induced alterations in the root proteome of a pair of potato (Solanum tuberosum L.) varieties contrasting for their response to low N.,10.5447/ipk/2017/22
+C. Ulpinnis (2017+AC0-02+AC0-07): Pre+AC0-release of scripts for an automated processing of genomic sequence data to predict gene models.,10.5447/ipk/2017/0
+S. Twardziok (2018+AC0-08+AC0-28): Coding sequences and GFF3 of high confidence wild emmer genes.,10.5447/ipk/2019/0
+M. Martis (2016+AC0-08+AC0-03): Updated version (v2) of the Rye Genome Zipper.,10.5447/ipk/2016/58
+C. Colmsee et al. (2014+AC0-07+AC0-25): A case study for efficient management of high throughput primary lab data.,10.5447/ipk/2011/0
++ACI-L. Otto (2017+AC0-08+AC0-07): Supplemental Material BMC Genomics DOI10.1186+AF8-s12864+AC0-017+AC0-3991+AC0-0+AF8- Use of genotyping+AC0-by+AC0-sequencing to determine the genetic structure in the medicinal plant chamomile, and to identify flowering time and alpha+AC0-bisabolol associated SNP+AC0-loci by genome+AC0-wide association mapping.+ACI-,10.5447/ipk/2017/7
+M. Haas (2018+AC0-12+AC0-12): Linear modeling reveals a predominance of cis+AC0- over trans+AC0-regulatory effects in wild and domesticated barley.,10.5447/ipk/2020/1
+R. Hettwer Giehl et al. (2018+AC0-03+AC0-13): Gene expression signatures in Arabidopsis thaliana roots under sufficient or deficient phosphate conditions.,10.5447/ipk/2018/4
+T. Schmutzer (2015+AC0-09+AC0-15): Repeat investigation of 4.3 million variant positions using 52 highly diverse accessions of the model allopolyploid plant Brassica napus.,10.5447/ipk/2015/8
+T. Schmutzer (2020+AC0-04+AC0-29): SNP matrix and read alignment from 1420 lines of the barley HEB+AC0-25 population for candidate gene rec8.,10.5447/ipk/2020/20
+T. Schmutzer (2015+AC0-11+AC0-05): Genomic resource for two Genlisea species (G. nigrocaulis and G. hispidula) including the individual WGS genome assembly and the gene annotation for each species.,10.5447/ipk/2015/10
+M. Mascher (2014+AC0-09+AC0-12): w7984+AF8-meraculous+AF8-scaffolds.,10.5447/ipk/2014/14
+H. Himmelbauer et al. (2016+AC0-07+AC0-18): Beta vulgaris spp. maritima draft genome sequence assembly and structural prediction of protein coding genes.,10.5447/ipk/2017/3
++ACI-T. Schmutzer (2016+AC0-08+AC0-03): Large data tables for gene prediction, gene annotation and the genetic map of rye (Lo7).+ACI-,10.5447/ipk/2016/57
+A. Jozefowicz (2020+AC0-11+AC0-04): Identification of interaction partners of type II peroxiredoxin E (updated version).,10.5447/ipk/2021/0
+WHEALBI Consortium (2019+AC0-04+AC0-30): Single+AC0-nucleotide polymorphism matrices for 403 barley genotypes (WHEALBI diversity panel).,10.5447/ipk/2019/5
+B. Siegmann (2019+AC0-11+AC0-08): The high+AC0-performance airborne imaging spectrometer HyPlant +//3//f/9- From raw images to top+AC0-of+AC0-canopy reflectance and fluorescence products+AF8- An example dataset from the agricultural research station Campus Klein+AC0-Altendorf.,10.5447/ipk/2019/21
+J. Schnitzler (2014+AC0-07+AC0-25): Supplemental material : 'Isoprene emission+AC0-free poplars +AC0- a chance to reduce the impact from poplar plantations on the atmosphere'.,10.5447/DPPN/2014/0
+T. Schmutzer (2015+AC0-08+AC0-25): PreBreed Yield data processing scripts.,10.5447/ipk/2015/7
+Y. Guo (2018+AC0-09+AC0-25): Variation data for a global diversity panel of barley with a focus on Tibetan barley (Qingke).,10.5447/ipk/2018/15
+IBSC (2016+AC0-07+AC0-15): Boundaries of the split pseudomolecules of barley cv. Morex.,10.5447/ipk/2016/27
+T. Schmutzer (2015+AC0-05+AC0-22): Single nucleotide polymorphism datasets from 52 highly diverse accessions of the model allopolyploid plant Brassica napus.,10.5447/ipk/2015/5
+A. Maurer et al. (2019+AC0-11+AC0-21): 50k Illumina Infinium iSelect SNP Array data for the wild barley NAM population HEB+AC0-25.,10.5447/ipk/2019/20
+P. Hoseinzadeh et al. (2019+AC0-12+AC0-05): Genotyping+AC0-by+AC0-sequencing  data of two double introgression+AC0-line mapping populations developped to map the Hordeum bulbosum A42 powdery mildew locus.,10.5447/ipk/2020/2
+International Wheat Genome Sequencing Consortium (2018+AC0-03+AC0-29): Gene family expansion and contraction in the genome of bread wheat cv. Chinese Spring.,10.5447/ipk/2018/5
+M. Gonzalez et al. (2018+AC0-08+AC0-30): Original and processed historical data gathered during the seed regeneration of the barley collection hosted at the IPK Gatersleben.,10.5447/ipk/2018/10
++ACI-U. Wegner (2023+AC0-07+AC0-14): DNA+AC0-Sequence amendment to dataset +ACIAIg-Enhancing a Sphaerobacter thermophilus +//3//QAt-transaminase for kinetic resolution of +//3//QAt- and +//3//QAt-amino acids+ACIAIg-.+ACI-,10.5447/ipk/2023/18
+M. Lange et al. (2014+AC0-07+AC0-25): IDPredictor: predict database links in biomedical database.,10.5447/ipk/2012/4
+M. Mascher (2019+AC0-09+AC0-16): Source code of the TRITEX assembly pipeline.,10.5447/ipk/2019/19
++ACI-D. Douchkov (2018+AC0-02+AC0-20): Validation sequences set to the article +ACIAIg-siFi+AF8- Software for long double+AC0-stranded RNAi+AC0-target design and off+AC0-target prediction+ACIAIg-.+ACI-,10.5447/ipk/2018/2
+M. Nagel (2022+AC0-11+AC0-15): GLOBAL STRATEGY FOR THE CONSERVATION OF POTATO.,10.5447/ipk/2022/29
+K. Witzel (2014+AC0-07+AC0-25): Processed raw data as used for the quantitative analysis of the response of the barley root plasma membrane to salinity stress.,10.5447/ipk/2012/10
+IBSC (2016+AC0-07+AC0-14): Split pseudomolecules of the map+AC0-based reference genome assembly of barley cv. Morex.,10.5447/ipk/2016/36
+D. Arend (2014+AC0-09+AC0-08): Data Management Experiences and Best Practices from the Perspective of a Plant Research Institute.,10.5447/ipk/2014/6
++ACI-D. Arend et al. (2014+AC0-02+AC0-14): DPPN Techno: manage, analyse, share and publish phenotype data.+ACI-,10.5447/ipk/2014/0
++ACI-D. Arend (2014+AC0-07+AC0-25): The e+ACE-DAL JAVA+AC0-API +AC0- Store, Share and Cite Primary Data in Life Sciences +AC0- Presentation.+ACI-,10.5447/ipk/2012/11
+A. Gippert et al. (2021+AC0-12+AC0-15): Unravel metabolic patterns and molecular mechanisms underlying storability in sugar beet.,10.5447/ipk/2022/13
+IBSC (2016+AC0-07+AC0-12): High+AC0-resolution GBS map of the Morex x Barke RIL population.,10.5447/ipk/2016/29
+J. Chen (2016+AC0-05+AC0-03): RESTful API and trained model to implement a neuro+AC0-linguistic algorithms for semantic query suggestion.,10.5447/ipk/2016/2
+IBSC (2016+AC0-08+AC0-22): Positions and classifications of repetitive elements in the genome of barley cv. Morex.,10.5447/ipk/2016/16
+C. Grehl (2021+AC0-02+AC0-18): Severe cases of COVID+AC0-19 are associated with changes in circulating small RNA abundance.,10.5447/ipk/2021/17
+S. Bachmann+AC0-Pfabe (2020+AC0-06+AC0-26): Evaluation of wild potato germplasm for tuber starch content and nitrogen utilization efficiency.,10.5447/ipk/2020/19
+IBSC (2016+AC0-07+AC0-12): Non+AC0-redundant sequence constructed from individual assemblies of BACs of barley cv. Morex.,10.5447/ipk/2016/30
+V. Hinterberger (2023+AC0-01+AC0-30): High throughput phenotyping of seedling quantitative resistance against powdery mildew of the Winter Wheat collection of the German Federal ex situ Genebank for Agricultural and Horticultural Crops at IPK Gatersleben.,10.5447/ipk/2023/3
+D. Arend (2014+AC0-09+AC0-08): The e+ACE-DAL JAVA API: Sharing +ACY- Citing Research Data in Life Sciences.,10.5447/ipk/2014/7
++ACI-D. Arend (2014+AC0-07+AC0-25): The e+ACE-DAL JAVA+AC0-API +AC0- Store, Share and Cite Primary Data in Life Sciences +AC0- Poster.+ACI-,10.5447/ipk/2012/12
++ACI-D. Arend (2014+AC0-07+AC0-25): The e+ACE-DAL JAVA+AC0-API +AC0- Store, Share and Cite Primary Data in Life Sciences +AC0- Proccedings Paper.+ACI-,10.5447/ipk/2012/13
+G. Liu (2016+AC0-06+AC0-23): Phenotypic data of seven quality traits for a population of Central European wheat hybrids and their parental inbred lines.,10.5447/ipk/2016/11
+M. Mascher (2016+AC0-01+AC0-25): SNP genotype matrix of of a diversity panel of 267 barley accession.,10.5447/ipk/2016/4
+D. Arend (2014+AC0-07+AC0-25): The e+ACE-DAL JAVA API: Sharing and Citing Research Data in Life Sciences.,10.5447/ipk/2014/3
+N. Philipp et al. (2019+AC0-03+AC0-19): Historical phenotypic data from seven decades of seed regeneration in a wheat ex situ collection hosted at the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK).,10.5447/ipk/2019/11
+A. Junker (2019+AC0-11+AC0-18): Raw images files from quantitative monitoring of 484 Arabidopsis thaliana plants using high+AC0-throughput plant phenotyping (MIAPPE 1.1 update).,10.5447/ipk/2020/3
+D. Arend (2017+AC0-10+AC0-30): The PGP infrastructure A GCBN +//3//f/9- de.NBI service of the IPK Gatersleben (Poster).,10.5447/ipk/2017/20
+IBSC (2016+AC0-07+AC0-21): Protein sequences of high+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/41
+M. Mascher (2016+AC0-01+AC0-25): Indel genotype matrix of of a diversity panel of 267 barley accessions.,10.5447/ipk/2016/5
+IBSC (2016+AC0-07+AC0-11): Composition of the pseudomolecules of barley cv. Morex.,10.5447/ipk/2016/20
+D. Knoch (2019+AC0-05+AC0-21): High+AC0-throughput phenotyping reveals strong temporal dynamics of QTL action on plant growth in canola.,10.5447/ipk/2019/10
+M. Kuhlmann (2019+AC0-04+AC0-29): Initial description of the Aeluropus littoralis genome.,10.5447/ipk/2022/9
+M. Mascher (2014+AC0-07+AC0-25): Supporting material for the article 'A sequence+AC0-ready physical map of barley anchored genetically by two million SNPs'.,10.5447/ipk/2013/1
+S. Beier (2016+AC0-08+AC0-09): ReadTrimmChecker.,10.5447/ipk/2016/14
+C. Colmsee (2014+AC0-11+AC0-24): Hadoop pipeline source code for a semantic based recommendation system in life science.,10.5447/ipk/2014/18
+IBSC (2016+AC0-07+AC0-21): Functional information of high confidence genes of barley cv. Morex.,10.5447/ipk/2016/45
+S. Bachmann+AC0-Pfabe (2019+AC0-01+AC0-23): Screening of wild potato genetic resources for resistance to the white potato cyst nematode.,10.5447/ipk/2019/2
+IBSC (2016+AC0-07+AC0-14): Redundancy+AC0-masked pseudomolecules of the map+AC0-based reference genome assembly of barley cv. Morex.,10.5447/ipk/2016/35
++ACI-P. Herzig et al. (2017+AC0-07+AC0-10): Phenotype data of eight evaluated traits in a wild barley nested association mapping population at two locations in Dundee, Scotland and Halle, Germany.+ACI-,10.5447/ipk/2017/6
+IBSC (2016+AC0-07+AC0-21): Structural information of high+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/38
+A. Schulthess (2022+AC0-04+AC0-20): Genome+AC0-wide association mapping for yellow rust resistance in a population of 454 whole+AC0-genome sequenced diverse wheat genotypes.,10.5447/ipk/2022/5
+IBSC (2016+AC0-07+AC0-21): Structural information of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/46
+D. Knoch (2023+AC0-10+AC0-16): Phenotyping dataset of the PREDICT canola population.,10.5447/ipk/2023/19
+M. Mascher (2019+AC0-04+AC0-26): BAC+AC0-based sequence scaffolds of barley cv. Morex improved by Dovetail in+AC0-vitro proximity ligation data.,10.5447/ipk/2019/6
+M. Lange et al. (2014+AC0-07+AC0-25): Distribution of ASCII characters in Database IDs.,10.5447/ipk/2012/8
+M. Mascher (2019+AC0-04+AC0-26): Whole+AC0-genome shotgun sequence assemblies of bread wheat cv. Chinese Spring and wild emmer accession Zavitan.,10.5447/ipk/2019/7
+P. Verboeven (2012+AC0-11+AC0-20): Three+AC0-dimensional model of airspaces in the developing Brassica napus seed.,10.5447/ipk/2012/14
+K. K+//3//Q-hl (2021+AC0-03+AC0-12): Tuber yield and starch content of 34 potato genotypes in 14 pot and field trials with optimal and reduced irrigation conducted in Northern Germany 2011 +AC0- 2013.,10.5447/ipk/2021/7
++ACI-D. Arend (2014+AC0-09+AC0-08): Sharing, Versioning and Annotating SBML Models using the e+ACE-DAL Data Repository API.+ACI-,10.5447/ipk/2014/5
+M. Lange et al. (2014+AC0-07+AC0-25): Prediction performance for UniProt entry CP20C ARATH.,10.5447/ipk/2012/9
+P. Verboeven (2012+AC0-11+AC0-20): Animated movie of the high+AC0-resolution CT images of the developing Brassica napus seed.,10.5447/ipk/2012/15
+H. Youssef (2016+AC0-09+AC0-28): SNP matrix for 214 barley accessions.,10.5447/ipk/2016/54
+IBSC (2016+AC0-07+AC0-14): Positions of Morex WGS contigs in the updated POPSEQ map.,10.5447/ipk/2016/33
+M. Schreiber (2018+AC0-02+AC0-16): Single+AC0-nucleotide polymorphism (SNP) matrix for 101 genebank accessions of Secale taxa.,10.5447/ipk/2018/1
+M. Mascher (2015+AC0-02+AC0-19): Information about 243 barley accessions subjected to genotyping+AC0-by+AC0-sequencing.,10.5447/ipk/2015/2
+S. Lueck et al. (2020+AC0-04+AC0-30): Image test set for Macrobot software validation.,10.5447/ipk/2020/7
+IBSC (2016+AC0-07+AC0-12): Optical map of barley cv. Morex.,10.5447/ipk/2016/31
+M. Kuhlmann (2017+AC0-03+AC0-01): DNA methylation of the CKX2.1 promotor by terminal drought stress in barley .,10.5447/ipk/2017/5
+H. Mock (2017+AC0-08+AC0-08): Accumulation of the coumarin scopolin under abiotic stress conditions is mediated by the Arabidopsis thaliana THO+AF8-TREX complex .,10.5447/ipk/2017/23
+IBSC (2016+AC0-07+AC0-15): Redundant regions in the pseudomolecules of barley cv. Morex.,10.5447/ipk/2016/25
+IBSC (2016+AC0-07+AC0-11): Potential contaminants in barley BAC sequence assemblies.,10.5447/ipk/2016/28
+IBSC (2016+AC0-08+AC0-22): POPSEQ map on the pseudomolecules of barley cv. Morex .,10.5447/ipk/2016/17
+J. Chen (2014+AC0-02+AC0-17): Spelling correction of TAIR queries using query user refinement which has been recorded in query logs.,10.5447/ipk/2014/1
+M. Mascher (2017+AC0-08+AC0-15): Normalized Hi+AC0-C link counts for barley cultivars Morex and Barke.,10.5447/ipk/2018/13
+M. Mascher (2016+AC0-05+AC0-03): Genotype matrix of a diversity panel of extant barleys and five barley aDNA samples.,10.5447/ipk/2016/6
+IBSC (2016+AC0-07+AC0-15): Correspondence between non+AC0-redundant BAC sequence and split pseudomolecules of barley cv. Morex.,10.5447/ipk/2016/24
+J. Chen (2014+AC0-09+AC0-16): Search QTL Candidate Genes using the LAILAPS Information Retrieval System.,10.5447/ipk/2014/15
++ACI-H. Gundlach (2022+AC0-10+AC0-19): Long read genome assembly, gene and tRNA annotation of the tropical legume Lablab purpureus.+ACI-,10.5447/ipk/2022/26
+M. Kuhlmann (2021+AC0-06+AC0-08): INTERMEDIUM+AC0-C mediates the shade+AC0-induced bud growth arrest in barley.,10.5447/ipk/2021/23
+M. Mascher (2014+AC0-09+AC0-08): W7984+AF8-WGS+AF8-assembly+AF8-SNP+AC0-based+AF8-genetic+AF8-positions+AF8-and+AF8-consensus+AF8-genotypes+AF8-of+AF8-scaffolds.,10.5447/ipk/2014/10
+IBSC (2016+AC0-07+AC0-11): Positional information of single BAC assemblies of barley cv. Morex.,10.5447/ipk/2016/22
+IBSC (2016+AC0-06+AC0-24): Assemblies of individual barley BACs after contamination removal and renaming.,10.5447/ipk/2016/12
+G. Cochrane et al. (2021+AC0-04+AC0-12): Quantitative monitoring of nucleotide information from genetic resources in context of their citation in the scientific literature.,10.5447/ipk/2021/8
+M. P+//3//Q-pke Marone (2022+AC0-09+AC0-09): Example files generated in the TRITEX long+AC0-read assembly pipeline.,10.5447/ipk/2022/20
+A. Gogna (2022+AC0-08+AC0-29): The phenotypic data of elite European cultivar panel comprising 358 winter and 14 summer wheat varieties released from 1975 to 2007.,10.5447/ipk/2022/18
+M. Haas (2018+AC0-09+AC0-05): RNA+AC0-seq characterization of a spot blotch susceptibility mutant derived from the durably resistant barley cultivar Morex through gamma radiation.,10.5447/ipk/2018/8
+IBSC (2016+AC0-07+AC0-21): Representative protein sequences of high+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/44
+D. Arend (2017+AC0-10+AC0-30): The PGP infrastructure A GCBN +//3//f/9- de.NBI service of the IPK Gatersleben.,10.5447/ipk/2017/19
+M. Mascher (2022+AC0-11+AC0-01): TRITEX pipeline source code and documentation.,10.5447/ipk/2022/28
+M. Mascher (2015+AC0-12+AC0-04): Passport data of 228 barley genebank accessions subjected to exome sequencing.,10.5447/ipk/2016/3
+IBSC (2016+AC0-06+AC0-28): Assemblies of individual barley BACs before contamination removal.,10.5447/ipk/2016/21
+R. Lippmann (2014+AC0-07+AC0-25): Physiologische und bioanalytische Untersuchungen w+//3//Q-hrend der Pollenembryogenese von Hordeum vulgare. Average Normalised Abundances. Replikat 2.,10.5447/ipk/2012/2
++ACI-M. Lange (2017+AC0-10+AC0-30): An Open Source Software to Store, Share and Publish Research Data.+ACI-,10.5447/ipk/2017/18
+M. Heuermann (2023+AC0-08+AC0-17): High+AC0-throughput phenotyping of an Arabidopsis thaliana accession panel exposed to fluctuating light treatment EXP2.,10.5447/ipk/2024/2
+IBSC (2016+AC0-07+AC0-15): Redundant regions in the split pseudomolecules of barley cv. Morex.,10.5447/ipk/2016/26
+D. Douchkov et al. (2019+AC0-12+AC0-09): Image dataset for a validation experiment of the Macrobot system.,10.5447/ipk/2020/23
++ACI-S. Lueck (2022+AC0-07+AC0-28): Training course material for the course +ACIAIg-de.NBI Biology meets Programming +AC0- Introduction to Bioinformatics using Python+ACIAIg-.+ACI-,10.5447/ipk/2022/17
+M. Lange et al. (2012+AC0-02+AC0-01): IDPredictor: predict database links in biomedical database. Supplementary material A.3 for the paper.,10.5447/ipk/2012/0
++ACI-T. Lux (2020+AC0-04+AC0-14): Strutural gene prediction and annotation of a 33Mb region in the wheat variety +ACIAIg-Jagger+ACIAIg-.+ACI-,10.5447/ipk/2020/21
+M. Mascher (2014+AC0-09+AC0-08): W7984+AF8-WGS+AF8-assembly+AF8-Genotypes+AF8-for+AF8-kmer+AC0-based+AF8-markers.,10.5447/ipk/2014/11
+D. Arend et al. (2018+AC0-06+AC0-18): GCBN de.NBI user training +AC0- FAIR data management for plant genomics and phenomics.,10.5447/ipk/2018/3
+D. Arend et al. (2015+AC0-01+AC0-20): LAILAPS and e+ACE-DAL+AF8- Explore Genome Annotations and Publish Research Data.,10.5447/ipk/2014/19
+Y. Zhao (2020+AC0-06+AC0-17): Integrated genomic and phenotypic data for predicting grain yield of hybrids in wheat.,10.5447/ipk/2020/17
+IBSC (2016+AC0-08+AC0-22): Long non+AC0-coding RNAs (lncRNAs) in the genome of barley cv. Morex.,10.5447/ipk/2016/18
+M. Mascher (2015+AC0-02+AC0-19): Genotyping+AC0-by+AC0-sequencing SNP matrix of 243 diverse barley accessions.,10.5447/ipk/2015/1
+M. Mascher (2014+AC0-11+AC0-06): IWGSC+AF8-Chinese+AF8-Spring+AF8-sorted+AF8-chromosome+AF8-assemblies+AF8-POPSEQ+AF8-v2.,10.5447/ipk/2014/16
++ACI-T. Schmutzer (2019+AC0-08+AC0-02): WGS assembly, gene prediction and functional annotation of Aegilops speltoides including B chromosomes.+ACI-,10.5447/ipk/2020/9
+D. Douchkov (2017+AC0-08+AC0-09): Synthetic DNA constructs sequences of the siFi software calibration set.,10.5447/ipk/2017/8
+IBSC (2016+AC0-07+AC0-14): Redundancy+AC0-masked split pseudomolecules of the map+AC0-based reference genome assembly of barley cv. Morex.,10.5447/ipk/2016/37
+IBSC (2016+AC0-07+AC0-21): Coding sequences of high+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/40
+M. Mascher (2014+AC0-11+AC0-07): Deleted+AF8-regions+AF8-on+AF8-the+AF8-W7984+AF8-assembly.,10.5447/ipk/2014/17
+IBSC (2016+AC0-07+AC0-21): Coding sequences of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/48
+M. Mascher (2018+AC0-01+AC0-24): Pseudoscaffolds with barley WGS contigs used for exome capture analysis.,10.5447/ipk/2018/0
++ACI-A. Schulthess (2022+AC0-04+AC0-20): Genomic prediction of yield breeding values for 10,353 winter wheat genebank samples.+ACI-,10.5447/ipk/2022/6
+IBSC (2016+AC0-07+AC0-21): Representative transcript sequences of high+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/42
+S. Friedel (2014+AC0-07+AC0-25): Poster+AF8-DI+AF8-IPK+AC0-Evaluation+AF8-2012.,10.5447/ipk/2012/6
+M. Mascher (2014+AC0-09+AC0-08): W7984+AF8-WGS+AF8-assembly+AF8-Genetic+AF8-positions+AF8-and+AF8-genotype+AF8-score+AF8-of+AF8-SNPs.,10.5447/ipk/2014/9
++ACI-R. Sharma et al. (2017+AC0-11+AC0-03): Yield+AC0-related grain trait phenotypic data of barley nested association mapping population from two trial locations, two years and two nitrogen fertilisation treatments.+ACI-,10.5447/ipk/2017/21
+M. Kuhlmann (2016+AC0-06+AC0-16): Six+AC0-rowed domestication allele vrs1 positively regulates leaf width and vein number in barley.,10.5447/ipk/2016/10
+A. Jozefowicz (2020+AC0-05+AC0-29): Identification of interaction partners of type II peroxiredoxin E (PRXIIE).,10.5447/ipk/2020/15
+IBSC (2016+AC0-07+AC0-21): Representative coding sequences of high+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/43
+U. Scholz (2014+AC0-07+AC0-25): Poster+AF8-BIT+AF8-IPK+AC0-Evaluation+AF8-2012.,10.5447/ipk/2012/5
+H. Gundlach (2020+AC0-12+AC0-10): Repeat annotation for the genome assembly of  Secale cereale Lo7 (Rye).,10.5447/ipk/2020/34
+J. Chen (2014+AC0-07+AC0-25): Poster+AF8-The LAILAPS Search Engine: New Features.,10.5447/ipk/2012/7
+M. Mascher (2014+AC0-09+AC0-08): W7984+AF8-WGS+AF8-assembly+AF8-SNP+AF8-positions+AF8-on+AF8-the+AF8-assembly.,10.5447/ipk/2014/8
+IBSC (2016+AC0-07+AC0-21): Protein sequences of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/49
+The International Rye Genome Sequencing Consortium (IRGSC) (2020+AC0-12+AC0-09): A suite of visual representations of the 2019+AC0-2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly release.,10.5447/ipk/2020/32
+T. Schmutzer et al. (2014+AC0-07+AC0-25): Visualising comparative genomics with Hilbert curves.,10.5447/ipk/2011/1
+N. Wendler (2017+AC0-06+AC0-01): Genotyping+AC0-by+AC0-sequencing indices of Hordeum bulbosum mapping population.,10.5447/ipk/2017/14
+M. Mascher (2015+AC0-01+AC0-23): Barley gene annotation file of near+AC0-complete high+AC0-confidence genes with open reading frame information.,10.5447/ipk/2015/0
+R. Lippmann (2014+AC0-07+AC0-25): Physiologische und bioanalytische Untersuchungen w+//3//Q-hrend der Pollenembryogenese von Hordeum vulgare. Average Normalised Abundances. Replikat 1.,10.5447/ipk/2012/1
+M. Mascher (2017+AC0-08+AC0-10): Optical map of barley cv. Barke.,10.5447/ipk/2018/11
+E. Grafahrend+AC0-Belau (2014+AC0-06+AC0-11): Reference set of relevance ranked plant traits.,10.5447/ipk/2014/2
+M. Schreiber et al. (2023+AC0-02+AC0-24): Data record for the genomic resources of cultivated European two+AC0-rowed spring barley genotypes.,10.5447/ipk/2023/15
+K. Witzel (2011+AC0-03+AC0-01): Acquired raw data as used for the protein identification of differential spots from the quantitative analysis of the response of the barley root proteome to salinity stress.,10.5447/ipk/2013/0
+M. Heuermann (2025+AC0-01+AC0-10): A phenotypic dataset of natural variation in image+AC0-related traits by high+AC0-throughput phenotyping of 347 MAGIC maize lines and their 9 founder lines in the CAPITALISE project.,10.5447/ipk/2025/0
++ACI-N. Wendler (2017+AC0-06+AC0-01): Blast alignments of barley gene sequences (IBSC, 2012) against H. bulbosum assembly.+ACI-,10.5447/ipk/2017/11
+IBSC (2016+AC0-07+AC0-11): Correspondence between non+AC0-redundant BAC sequence and pseudomolecules of barley cv. Morex.,10.5447/ipk/2016/23
+M. Schreiber (2018+AC0-07+AC0-27): Illustrations of 10 important model and crop plant species.,10.5447/ipk/2018/14
+S. Beier (2015+AC0-05+AC0-08): Multiplex sequencing of bacterial artificial chromosomes for assembling complex plant genomes.,10.5447/ipk/2015/4
+R. Lippmann (2011+AC0-04+AC0-30): Physiologische und bioanalytische Untersuchungen w+//3//Q-hrend der Pollenembryogenese von Hordeum vulgare. Average Normalised Abundances. Replikat 3.,10.5447/ipk/2012/3
++ACI-N. Wendler (2017+AC0-06+AC0-01): Gmap alignments of barley gene secqences (IBSC, 2012) against H. bulbosum assembly.+ACI-,10.5447/ipk/2017/12
+M. Mascher (2014+AC0-09+AC0-08): W7984+AF8-WGS+AF8-assembly+AF8-Map+AF8-locations+AF8-for+AF8-kmer+AC0-based+AF8-markers.,10.5447/ipk/2014/12
+The International Rye Genome Sequencing Consortium (IRGSC) (2020+AC0-12+AC0-09): Bionano optical map contig and alignment files used to generate the 2019+AC0-2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly release.,10.5447/ipk/2020/30
+M. Oppermann (2019+AC0-05+AC0-16): IPK genebank accessions passport data snapshot 2019+AC0-05+AC0-15.,10.5447/ipk/2019/9
+IBSC (2016+AC0-07+AC0-21): Transcript sequences of high+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/39
+N. Wendler (2017+AC0-08+AC0-02): High+AC0-density genetic maps of H. bulbosum and anchoring information to barley.,10.5447/ipk/2017/16
+Z. Tulpov+//3//Q- (2020+AC0-10+AC0-14): Bionano optical map of the genome of barley (Hordeum vulgare) cv. Morex +AC0- second version.,10.5447/ipk/2021/2
++ACI-S. Dreissig (2019+AC0-03+AC0-08): Variant matrix for 1,140 wild barley (Hordeum vulgare ssp. spontaneum) accessions.+ACI-,10.5447/ipk/2019/3
+IBSC (2016+AC0-07+AC0-21): Representative protein sequences of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/52
+A. Boudichevskaia (2019+AC0-08+AC0-02): GO term enrichment analysis based on 229 candidate genes from the Aegilops speltoides B chromosomes.,10.5447/ipk/2020/8
+D. Heuermann et al. (2019+AC0-07+AC0-09): Interspecific competition among catch crop root biomass distribution and its influence on nitrogen and phosphorus scavenging in soils.,10.5447/ipk/2019/12
+The International Rye Genome Sequencing Consortium (IRGSC) (2020+AC0-12+AC0-07): SNP matrix produced for the phylogenetic analysis of Secale genetic diversity presented in the 2019+AC0ALQ-2021 rye (Secale cereale L. inbred line 'Lo7') genome assembly release.,10.5447/ipk/2020/31
+J. Thiel (2020+AC0-12+AC0-22): Expression data of floral meristems in barley.,10.5447/ipk/2020/35
+IBSC (2016+AC0-07+AC0-21): Representative transcript sequences of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/50
+H. Gundlach (2021+AC0-07+AC0-08): Transposon Annotation for Triticum aestivum Cultivar Fielder.,10.5447/ipk/2021/15
+S. Bachmann+AC0-Pfabe (2019+AC0-01+AC0-23): Screening of wild potato genetic resources for resistance against late blight on tubers.,10.5447/ipk/2019/1
+N. Wendler (2017+AC0-06+AC0-01): De novo assembly contigs of Hordeum bulbosum accession FB2012+AC0-011+AC0-2  (doubled haploid plant FBB+AF8-170).,10.5447/ipk/2017/13
+M. Mascher (2020+AC0-09+AC0-02): Genomic analysis of wheat cytogenetic stocks for chromosome 1D.,10.5447/ipk/2020/25
+IBSC (2016+AC0-07+AC0-21): Functional information of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/53
+M. Mascher (2014+AC0-09+AC0-08): W7984+AF8-WGS+AF8-assembly+AF8-Placement+AF8-of+AF8-kmer+AF8-markers+AC0-based+AF8-on+AF8-scaffolds.,10.5447/ipk/2014/13
++ACI-S. Lueck (2022+AC0-02+AC0-22): Classified microscopy image data set of powdery mildew+AC0-infected barley leaves at 48hai, containing positive images with fungal microcolonies and negative examples.+ACI-,10.5447/ipk/2022/1
+E. Sorge et al. (2021+AC0-01+AC0-20): Western blot analysis of nuclei extract proteins of wilde type and transgenic Arabidopsis thaliana plants possessing  degradation of specific nuclear proteins via the 26S proteasome pathway.,10.5447/ipk/2021/1
+IBSC (2016+AC0-08+AC0-19): MicroRNA precursor loci in the genome of barley cv. Morex.,10.5447/ipk/2016/15
+IBSC (2016+AC0-07+AC0-14): Raw data of the optical map of barley cv. Morex.,10.5447/ipk/2016/32
+N. Narisetti et al. (2023+AC0-06+AC0-05): AWN phenotyping tool+AC0- v0.1.,10.5447/ipk/2023/13
+N. Wendler (2017+AC0-08+AC0-03): Integration of de novo assembled Hordeum bulbosum contigs into genetic framework maps.,10.5447/ipk/2017/15
+IBSC (2016+AC0-07+AC0-21): Representative coding sequences of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/51
+S. Zheng (2022+AC0-11+AC0-03): Metabolic diversity in a collection of wild and cultivated Brassica rapa subspecies.,10.5447/ipk/2022/27
+K. Neumann (2019+AC0-09+AC0-11): Marker matrix of 9k iSelect SNPs used in genome+AC0-wide association scans (GWAS) to study biomass formation in spring barley.,10.5447/ipk/2019/14
+N. Stein (2018+AC0-04+AC0-17): High+AC0-throughput development of SSR marker candidates and their chromosomal assignment in rye (Secale cereale L.).,10.5447/ipk/2018/6
+J. Reif (2019+AC0-02+AC0-19): Genotyping information for diverse european bread wheat genotypes based on the ZUCHTWERT project.,10.5447/ipk/2020/12
+A. C+//3//Q-mara (2021+AC0-02+AC0-24): Simulation of chromosome condensation with loop extruders and centromeric nucleosomes.,10.5447/ipk/2021/5
+M. Mascher (2017+AC0-08+AC0-10): Raw data of the optical map of barley cv. Barke.,10.5447/ipk/2018/12
+M. Mascher (2022+AC0-08+AC0-17): Filtration script for genetic variant matrices in Variant Call Format (VCF).,10.5447/ipk/2022/15
+M. Jayakodi (2024+AC0-05+AC0-27): Adaptive diversification through structural variation in barley.,10.5447/ipk/2024/9
+Z. Liu (2018+AC0-07+AC0-18): Age dependent transcriptome analysis of barley seminal root.,10.5447/ipk/2019/15
+J. Reif (2019+AC0-02+AC0-19): Bread Wheat Exome Capture Sequencing SNP matrix of 77 diverse european genotypes from the ZUCHTWERT project.,10.5447/ipk/2020/13
+T. Schmutzer (2019+AC0-08+AC0-02): Metainformation data for the genome assembly of Aegilops speltoides including contig assignments to B chromosome.,10.5447/ipk/2020/11
+H. Mock (2019+AC0-10+AC0-11): Integrated peak areas of anthocyanins and other polyphenols measured by LC+AC0-UV+AF8-MS and LC+AC0-MS+AF8-MRM in a set of coloured potato tubers (Solanum tuberosum L.).,10.5447/ipk/2019/16
+T. Schmutzer (2019+AC0-08+AC0-02): Investigation of changes in repeat abundance between genome and B chromosome of Aegilops speltoides.,10.5447/ipk/2020/10
+IBSC (2016+AC0-07+AC0-21): Transcript sequences of low+AC0-confidence genes of barley cv. Morex.,10.5447/ipk/2016/47
+M. Schreiber (2017+AC0-03+AC0-09): Roggensauerteigbrot (German recipe for rye bread).,10.5447/ipk/2017/1
++ACI-J. Stock (2017+AC0-10+AC0-11): Adaptation to osmotic stress induced during Arabidopsis thaliana cryopreservation is regulated by WRKY22, a defense+AC0-related transcription factor.+ACI-,10.5447/ipk/2020/6
+A. Jozefowicz (2022+AC0-07+AC0-11): Identification of proteins taking part in N and water deficiency response in potato.,10.5447/ipk/2023/4
+M. Oppermann (2019+AC0-08+AC0-15): IPK genebank accessions passport data snapshot 2019+AC0-08+AC0-15.,10.5447/ipk/2019/13
+S. Lueck (2019+AC0-12+AC0-09): +//3//f/9-Blaster+//3//f/9- +//3//f/9- graphical sequence data workbench.,10.5447/ipk/2019/23
+M. Berkner (2022+AC0-06+AC0-16): Comparison of ten genomic prediction approaches in a diverse collection of plant genetic resources in wheat.,10.5447/ipk/2022/11
+A. Schulthess (2022+AC0-09+AC0-26): Evaluating the yellow rust resistance of 600 winter wheat IPK genebank accession samples and 199 modern European cultivars based on natural and artificial inoculations in multiple+AC0-environments.,10.5447/ipk/2022/23
+Y. Zhao (2022+AC0-09+AC0-28): Estimating the breeding values of 707 winter wheat IPK genebank accessions using yields of 'Elite+//3//Q-PGR' F1 hybrids tested across multiple+AC0-environment experiments.,10.5447/ipk/2022/25
+K. Neumann (2021+AC0-02+AC0-16): Chromosomal regions with co+AC0-localisation of QTL for growth under well+AC0-watered and drought conditions in barley.,10.5447/ipk/2021/4
+K. K+//3//Q-hl et al. (2021+AC0-02+AC0-19): Supplemental material for publication 'Counfounding factors in container+AC0-based assessment of drought tolerance in Solanum tuberosum'.,10.5447/ipk/2021/10
+G. Yu (2021+AC0-09+AC0-07): Transcriptome (cDNA) assembly of Aegilops sharonensis accession 1644.,10.5447/ipk/2021/21
++ACI-A. Schulthess (2022+AC0-09+AC0-26): Evaluating the yellow rust resistance of 7,682 winter wheat IPK genebank accessions and 80 modern European cultivars based on natural infections in multiple+AC0-environments.+ACI-,10.5447/ipk/2022/22
++ACI-A. Schulthess (2022+AC0-09+AC0-23): Genomic+AC0-phenotypic data interoperability between 8,838 genotyped wheat samples, grain yield breeding value estimates and yellow rust infection scores from multiple+AC0-environment field trials.+ACI-,10.5447/ipk/2022/21
+A. Schulthess (2022+AC0-09+AC0-26): Multiple+AC0-environment yield evaluation of 173 advanced wheat pre+AC0-breeding lines from crosses involving IPK genebank accessions with high yield breeding values.,10.5447/ipk/2022/24
+U. Wegner (2023+AC0-07+AC0-10): Enhancing a Sphaerobacter thermophilus +//3//QAt-transaminase for kinetic resolution of +//3//QAt- and +//3//QAt-amino acids.,10.5447/ipk/2023/12
+M. Oppermann (2020+AC0-08+AC0-31): IPK genebank accessions passport data snapshot 2020+AC0-08+AC0-31.,10.5447/ipk/2020/26
+D. Heuermann (2021+AC0-03+AC0-10): Nitrogen and phosphorus accumulation by catch crops grown in pure and mixed stands.,10.5447/ipk/2021/6
++ACI-A. Schulthess (2022+AC0-12+AC0-05): Passport information for 8,838 genotyped wheat samples.+ACI-,10.5447/ipk/2022/31
+V. Thirulogachandar (2021+AC0-07+AC0-20): Expression data of spike and spikelet meristems from barley.,10.5447/ipk/2021/20
+Y. Guo (2022+AC0-06+AC0-07): Variant matrices for six+AC0-rowed wild+AC0-growing barleys (Hordeum agriocrithon).,10.5447/ipk/2022/10
+K. S+//3//Q-omi+//3//Q-ska+AC0-Durdasiak (2020+AC0-01+AC0-15): Association mapping of wheat Fusarium head blight resistance+AC0-related regions using a candidate+AC0-gene approach and their verification in a biparental population.,10.5447/ipk/2020/0
+K. K+//3//Q-hl et al. (2022+AC0-02+AC0-07): LIDAR+AC0-based phenotyping of potato shoot development under drought stress.,10.5447/ipk/2022/12
+M. Oppermann (2020+AC0-06+AC0-04): IPK genebank accessions passport data snapshot 2020+AC0-05+AC0-15.,10.5447/ipk/2020/16
+D. Harpke (2023+AC0-02+AC0-10): De+AC0-novo assembled genotyping+AC0-by+AC0-sequencing (GBS) datasets for Crocus series Verni species.,10.5447/ipk/2023/5
+V. Hinterberger (2023+AC0-01+AC0-12): Powdery mildew resistance phenotyping of the winter wheat collection of the German Federal ex situ Genebank for Agricultural and Horticultural Crops at IPK Gatersleben.,10.5447/ipk/2023/0
+A. C+//3//Q-mara (2021+AC0-06+AC0-23): Simulation of chromosome condensation with loop extruders and centromeric nucleosomes (high resolution version).,10.5447/ipk/2021/16
++ACI-S. El Hanafi et al. (2023+AC0-05+AC0-16): Genome+AC0-wide prediction of thousand kernel weight for 234 winter barley accessions from the ICARDA genebank using 1,910 IPK genebank accessions as training set.+ACI-,10.5447/ipk/2023/8
+J. Keilwagen (2023+AC0-05+AC0-12): Introgression prediction for wheat genebank collections.,10.5447/ipk/2023/7
+M. Oppermann (2019+AC0-11+AC0-15): IPK genebank accessions passport data snapshot 2019+AC0-11+AC0-15.,10.5447/ipk/2019/22
+D. Heuermann (2022+AC0-08+AC0-31): Metabolite profile in root exudates of catch crops under different cultivation conditions.,10.5447/ipk/2022/19
+M. Mascher (2020+AC0-11+AC0-13): Example of a guide map file for use in the TRITEX genome assembly pipeline.,10.5447/ipk/2020/28
+W. Eckhoff (2023+AC0-06+AC0-22): Pseudonymized phenotypic and genotypic data from two stages of rye (Secale cereale) hybrid breeding program as implemented during 2018 to 2021 at KWS SAAT SE +ACY- Co. KGaA.,10.5447/ipk/2023/11
+M. Oppermann (2021+AC0-06+AC0-01): IPK genebank accessions passport data snapshot 2021+AC0-06+AC0-01.,10.5447/ipk/2021/12
+M. Oppermann (2021+AC0-04+AC0-01): IPK genebank accessions passport data snapshot 2021+AC0-04+AC0-01.,10.5447/ipk/2021/9
+A. Gippert et al. (2022+AC0-08+AC0-12): Unraveling metabolic patterns and molecular mechanisms underlying storability in sugar beet.,10.5447/ipk/2022/14
+M. Oppermann (2020+AC0-02+AC0-17): IPK genebank accessions passport data snapshot 2020+AC0-02+AC0-17.,10.5447/ipk/2020/5
+M. Oppermann (2020+AC0-11+AC0-17): IPK genebank accessions passport data snapshot 2020+AC0-11+AC0-17.,10.5447/ipk/2020/27
+M. Oppermann (2022+AC0-04+AC0-27): IPK genebank accessions passport data snapshot 2022+AC0-04+AC0-27.,10.5447/ipk/2022/7
+R. Abbai et al. (2023+AC0-07+AC0-11): Genotypic and phenotypic datasets of a tetraploid wheat RIL population.,10.5447/ipk/2023/17
+P. Svoboda (2024+AC0-06+AC0-07): Historical phenotypic data of spring and winter wheat accessions regenerated in Czech genebank in Prague+AC0-Ruzyne since the 1950s.,10.5447/ipk/2024/6
+L. Laber et al. (2023+AC0-12+AC0-05): Effects of moxidectin treatment on seedlings emerging from sheep faeces.,10.5447/ipk/2023/23
+Z. Yuan et al. (2024+AC0-07+AC0-24): Diseases resistance and agronomic traits of 853 plant genetic resources and 344 European elite genotypes in multi+AC0-environments.,10.5447/ipk/2024/7
+M. Heuermann (2023+AC0-08+AC0-18): High+AC0-throughput phenotyping of an Arabidopsis thaliana accession panel exposed to fluctuating light treatment EXP3.,10.5447/ipk/2024/3
+L. Laber et al. (2023+AC0-12+AC0-05): Influences of macrocyclic lactones on germination of temperate grassland species.,10.5447/ipk/2023/22
+H. Zhang (2024+AC0-09+AC0-30): Gene annotation for Vicia faba (Hedin+AF8-2) version 2 genome.,10.5447/ipk/2024/10
+M. Heuermann (2023+AC0-08+AC0-17): High+AC0-throughput phenotyping of an Arabidopsis thaliana accession panel exposed to fluctuating light treatment EXP1.,10.5447/ipk/2024/1
+M. Oppermann (2021+AC0-09+AC0-17): IPK genebank accessions passport data snapshot 2021+AC0-09+AC0-17.,10.5447/ipk/2021/19
+M. Berkner (2023+AC0-11+AC0-12): Leveraging the diversity in grain protein and lysine content across the winter wheat genebank collection hosted at the Leibniz Institute of Plant Genetics and Crop Plant Research.,10.5447/ipk/2023/20
+M. Oppermann (2022+AC0-05+AC0-20): IPK genebank accessions passport data snapshot 2022+AC0-05+AC0-22.,10.5447/ipk/2022/8
+M. Oppermann (2021+AC0-11+AC0-19): IPK genebank accessions passport data snapshot 2021+AC0-11+AC0-19.,10.5447/ipk/2021/22
+M. Oppermann (2023+AC0-02+AC0-17): IPK genebank accessions passport data snapshot 2023+AC0-02+AC0-17.,10.5447/ipk/2023/6
+M. Oppermann (2024+AC0-05+AC0-22): IPK genebank accessions passport data snapshot 2024+AC0-05+AC0-22.,10.5447/ipk/2024/5
+A. C+//3//Q-mara et al. (2022+AC0-04+AC0-05): Helical organization of barley metaphase chromatids.,10.5447/ipk/2023/2
+K. K+//3//Q-hl et al. (2023+AC0-03+AC0-09): Phenotyping shoot growth in potato under short+AC0-term and long+AC0-term drought stress.,10.5447/ipk/2023/9
+M. Haupt (2024+AC0-04+AC0-22): Major chromosome rearrangements in intergeneric wheat x rye hybrids in compatible and incompatible crosses detected by GBS read coverage analysis.,10.5447/ipk/2024/4
+J. Schneider (2023+AC0-06+AC0-20): Genomic SNP profiles for 100 winter wheat lines.,10.5447/ipk/2023/14
+M. Oppermann (2023+AC0-05+AC0-22): IPK genebank accessions passport data snapshot 2023+AC0-05+AC0-15.,10.5447/ipk/2023/10
+V. Hinterberger (2023+AC0-01+AC0-17): Powdery mildew resistance phenotyping of the Winter Wheat collection of the German Federal ex situ Genebank for Agricultural and Horticultural Crops at IPK Gatersleben.,10.5447/ipk/2023/1
+M. Oppermann (2022+AC0-08+AC0-17): IPK genebank accessions passport data snapshot 2022+AC0-08+AC0-17.,10.5447/ipk/2022/16
+G. Haberer (2021+AC0-11+AC0-22): Projection+AC0-based gene annotation of barley genotype Hatiexi.,10.5447/ipk/2022/3
+M. Oppermann (2022+AC0-11+AC0-16): IPK genebank accessions passport data snapshot 2022+AC0-11+AC0-16.,10.5447/ipk/2022/30
+H. Gundlach (2021+AC0-08+AC0-10): Transposon annotation for Cuscuta campestris.,10.5447/ipk/2023/24
+M. Oppermann (2024+AC0-02+AC0-15): IPK genebank accessions passport data snapshot 2024+AC0-02+AC0-15.,10.5447/ipk/2024/0
+M. Oppermann (2024+AC0-08+AC0-19): IPK genebank accessions passport data snapshot 2024+AC0-08+AC0-19.,10.5447/ipk/2024/8
++ACI-C. Becker et al. (2024+AC0-10+AC0-17): Concentration of amino acids, sugars, and phenolic compounds in grapevine cultivars 'Riesling' and 'Cabernet Sauvignon' at two phenological stages, cultivated under ambient or elevated CO2 concentration in the Geisenheim VineyardFACE.+ACI-,10.5447/ipk/2024/11
+M. Oppermann (2023+AC0-11+AC0-20): IPK genebank accessions passport data snapshot 2023+AC0-11+AC0-20.,10.5447/ipk/2023/21
+M. Oppermann (2023+AC0-08+AC0-22): IPK genebank accessions passport data snapshot 2023+AC0-08+AC0-22.,10.5447/ipk/2023/16
+D. Psaroudakis (2025+AC0-04+AC0-09): Time+AC0-Resolved Multi+AC0-Omics Analysis of Heat Stress Response in Moneymaker Tomato Plants.,10.5447/ipk/2025/3
+M. Oppermann (2024+AC0-12+AC0-02): IPK genebank accessions passport data snapshot 2024+AC0-12+AC0-02.,10.5447/ipk/2024/12
+L. Laber et al. (2025+AC0-03+AC0-13): Competition moderates impact of anthelmintic+AC0-contaminated soil on growth and fitness of temperate grassland species.,10.5447/ipk/2025/1
+J. Feng (2024+AC0-11+AC0-19): Pangenome graphs and variant matrix derived from haplotype+AC0-resolved genome sequence assemblies of Hordeum bulbosum.,10.5447/ipk/2025/4
+M. Oppermann (2025+AC0-03+AC0-10): IPK genebank accessions passport data snapshot 2025+AC0-03+AC0-10.,10.5447/ipk/2025/2

@@ -138,9 +138,8 @@ def run_on_list_of_pids():
 
 def csv_list_to_dqv():
     root = tk.Tk()
-    root.withdraw()  # Hide the root window
+    root.withdraw()
 
-    # Prompt user to select input CSV file
     input_file_path = filedialog.askopenfilename(
         title="Select Input CSV File",
         filetypes=[("CSV files", "*.csv")],
@@ -151,7 +150,6 @@ def csv_list_to_dqv():
         print("No input file selected.")
         return
 
-    # Prompt user to select output directory
     output_dir = filedialog.askdirectory(
         title="Select Output Directory",
         initialdir=os.path.join(cwd, "output")
@@ -161,65 +159,59 @@ def csv_list_to_dqv():
         print("No output directory selected.")
         return
 
-    # Open the CSV file
-    with open(input_file_path, "r", encoding="utf-8", newline="") as file:
-        reader = csv.reader(file, delimiter=",")
-        len_file = sum(1 for _ in file)  # Count lines in the file
-        print(f"len_file: {len_file}")
-        file.seek(0)  # Reset file pointer
-        
-        for index, line in enumerate(reader, start=1):
-            print(f"{index}: {line}")
-            current_time = datetime.now().strftime('%H:%M')  # Current hour and minute
-            start_time = datetime.now()
-            print(f"{current_time} - Processing line {index} of {len_file}:\n{line}")
-            print(f"type line: {type(line)}")
-            identifier = line[1]
-            print(f"found identifier: {identifier}")
+    # Attempt to open the file with UTF-7 encoding
+    try:
+        with open(input_file_path, "r", encoding="utf-7", newline="") as file:
+            reader = csv.reader(file, delimiter=",", quotechar='"', skipinitialspace=True)
+            lines = list(reader)
+    except UnicodeDecodeError:
+        # If UTF-7 fails, fallback to UTF-8
+        with open(input_file_path, "r", encoding="utf-8", newline="") as file:
+            reader = csv.reader(file, delimiter=",", quotechar='"', skipinitialspace=True)
+            lines = list(reader)
 
-            if identifier:
-                try:
-                    fes_results = FES_evaluation.fes_evaluate_to_list(identifier)
-                    fes_success = True
-                except ConnectTimeout:
-                    fes_success = False
-                    print("FES Connection timed out while evaluating.")
+    len_file = len(lines)
+    for index, line in enumerate(lines, start=1):
+        print(f"{index}: {line}")
+        current_time = datetime.now().strftime('%H:%M')
+        start_time = datetime.now()
+        print(f"{current_time} - Processing line {index} of {len_file}:\n{line}")
+        identifier = line[1]
+        print(f"found identifier: {identifier}")
 
-                try:
-                    fuji_results = FUJI_evaluation.fuji_evaluate_to_list(identifier)
-                    result_score_fuji = FUJI_evaluation.get_result_score()
-                    fuji_success = True
-                except ConnectTimeout:
-                    fuji_success = False
-                    print("FUJI Connection timed out while evaluating.")
-                else:
-                    print("Evaluation completed successfully.")
+        if identifier:
+            try:
+                fes_results = FES_evaluation.fes_evaluate_to_list(identifier)
+                fes_success = True
+            except ConnectTimeout:
+                fes_success = False
+                print("FES Connection timed out while evaluating.")
 
-                end_time = datetime.now()
+            try:
+                fuji_results = FUJI_evaluation.fuji_evaluate_to_list(identifier)
+                result_score_fuji = FUJI_evaluation.get_result_score()
+                fuji_success = True
+            except ConnectTimeout:
+                fuji_success = False
+                print("FUJI Connection timed out while evaluating.")
+            else:
+                print("Evaluation completed successfully.")
 
-                # Check success for both FES and FUJI
-                if fuji_success and fes_success:
-                    # Sanitize the identifier for file name compatibility
-                    sanitized_identifier = re.sub(r"[^\w\-_.]", "_", identifier)
-                    # Create the DQV representation graph
-                    graph = create_dqv_representation(
-                        identifier,
-                        fes_results or [],
-                        fuji_results or {},
-                        start_time,
-                        end_time
-                    )
+            end_time = datetime.now()
 
-                    # Prepare output directory
-                    # output_dir = os.path.join(cwd, "output")
-                    # os.makedirs(output_dir, exist_ok=True)
+            if fuji_success and fes_success:
+                sanitized_identifier = re.sub(r"[^\w\-_.]", "_", identifier)
+                graph = create_dqv_representation(
+                    identifier,
+                    fes_results or [],
+                    fuji_results or {},
+                    start_time,
+                    end_time
+                )
 
-                    # Define Turtle file path
-                    turtle_file_path = os.path.join(output_dir, f"{sanitized_identifier}_dqv.ttl")
-
-                    # Write the graph to a Turtle file
-                    graph.serialize(destination=turtle_file_path, format="turtle")
-                    print(f"Graph written to {turtle_file_path}")
+                turtle_file_path = os.path.join(output_dir, f"{sanitized_identifier}_dqv.ttl")
+                graph.serialize(destination=turtle_file_path, format="turtle")
+                print(f"Graph written to {turtle_file_path}")
 
 
 if __name__ == "__main__":
