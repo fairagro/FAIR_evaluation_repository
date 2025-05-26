@@ -7,6 +7,7 @@ from rdf_utils import extract_scores_from_rdf  # Utility to extract scores from 
 from pyvis.network import Network  # For RDF graph visualization
 import streamlit.components.v1 as components  # To embed HTML in Streamlit
 from FUJI_evaluation import fuji_evaluation_result_example, fuji_evaluate_to_list  # Cached FUJI evaluation results
+from requests.exceptions import ConnectTimeout
 
 # Example FES and FUJI evaluation results
 fes_evaluation_result = fes_evaluation_result_example
@@ -48,11 +49,10 @@ if st.button("Generate FAIR Evaluation"):
         else:
             # Handle FES evaluation errors
             if include_fes:
-                try:
-                    fes_evaluation_result_used = fes_evaluate_to_list(data_doi)
-                except RuntimeError as e:
-                    st.error(f"FES evaluation failed: {e}")
-                    fes_evaluation_result_used = None
+                result, error = fes_evaluate_to_list(data_doi)
+                fes_evaluation_result_used = result
+                if error:
+                    st.error(error)
             else:
                 fes_evaluation_result_used = None
 
@@ -60,6 +60,9 @@ if st.button("Generate FAIR Evaluation"):
             if include_fuji:
                 try:
                     fuji_evaluation_result_used = fuji_evaluate_to_list(data_doi)
+                except ConnectTimeout:
+                    st.error("FUJI evaluation timed out. Please check your network connection or try again later.")
+                    fes_evaluation_result_used = None
                 except RuntimeError as e:
                     st.error(f"FUJI evaluation failed: {e}")
                     fuji_evaluation_result_used = None

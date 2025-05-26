@@ -2,7 +2,7 @@ import re
 import requests
 import csv
 
-from requests.exceptions import ConnectTimeout
+from requests.exceptions import ConnectTimeout, RequestException
 
 # This is the Wilkinson FAIR Evaluation Service
 url = 'https://fairdata.services:7171/FAIR_Evaluator/collections/6/evaluate'
@@ -66,39 +66,30 @@ def evaluate(data_doi=None):
         print(f"Request failed with status code {response.status_code}")
 
 
-def fes_evaluate_to_list(data_doi=None):
-    data = data_example
+def fes_evaluate_to_list(data_doi: str | None = None) -> tuple[list[str] | None, str | None]:
+    data = data_example.copy()
     if data_doi:
         data["resource"] = data_doi
     print(f"Running FES evaluation for {data}")
 
     try:
-        response = requests.post(url, json=data, headers=headers, verify=True, timeout=120)
+        response = requests.post(url, json=data, headers=headers, verify=True, timeout=60)
     except ConnectTimeout:
-        print("Initial request timed out. Retrying with verify=False.")
-        response = requests.post(url, json=data, headers=headers, verify=False, timeout=120)
+        try:
+            response = requests.post(url, json=data, headers=headers, verify=False, timeout=60)
+        except ConnectTimeout:
+            return None, "FES evaluation timed out (even with SSL verification disabled)."
+    except RequestException as e:
+        return None, f"FES evaluation failed: {e}"
 
     if response.status_code == 200:
         print("Request successful!")
-
-        # Directly parsing the response content
         html_content = response.content.decode('utf-8')
-
-        # Find all occurrences of Score: followed by a number
         score_matches = re.findall(r'Score: (\d+)', html_content)
-
-        # Convert the scores to integers and calculate the average
-        # total_score = sum(int(score) for score in score_matches)
-        # average_score = total_score / len(score_matches) if score_matches else 0
-
-        # Append the average score to the list and return
-        # score_matches.append(str(average_score))
         print(f"fes_evaluate_to_list_result: {score_matches}")
-        return score_matches
+        return score_matches, None
 
-    else:
-        print(f"Request failed with status code {response.status_code}")
-        return None
+    return None, f"Request failed with status code {response.status_code}"
 
 
 def read_second_column(file_path):
