@@ -7,7 +7,7 @@ ENCODED_DOI = "10.20387%2Fbonares-b4h2-yd8t"
 if testing:
     FAIR_METRICS = "http://127.0.0.1:3030/FAIR_Metrics/sparql"
 else:
-    FAIR_METRICS = "http://fair_evaluation_repository-fuseki-1:3030/FAIR_Metrics/sparql"
+    FAIR_METRICS = "http://localhost:3030/FAIR_Metrics/sparql"
 
 FAIR_QUERIES = {
     "Basic Query": """PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
