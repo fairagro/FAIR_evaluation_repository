@@ -1,15 +1,19 @@
 import streamlit as st
 import pandas as pd
 from SPARQLWrapper import SPARQLWrapper, JSON
-from query_templates import FAIR_QUERIES, BONARES_QUERIES
+from query_templates import FAIR_QUERIES, RDI_QUERIES
 from dotenv import load_dotenv
 import os
+from config import testing
 
 # Load environment variables
 load_dotenv()
 
 # Retrieve Fuseki base URL from environment variables
-fuseki_base_url = os.getenv("FUSEKI_BASE_URL")
+if not testing:
+    fuseki_base_url = os.getenv("FUSEKI_BASE_URL")# Retrieve Fuseki base URL from environment variables
+else:
+    fuseki_base_url = os.getenv("FUSEKI_LOCAL")# for testing
 
 # Define SPARQL endpoints
 endpoints = {
@@ -24,7 +28,7 @@ st.title("SPARQL Explorer")
 selected_endpoint = st.selectbox("Select SPARQL Endpoint:", list(endpoints.keys()))
 
 # Load correct query templates based on the selected endpoint
-template_queries = FAIR_QUERIES if selected_endpoint == "FAIR_Metrics" else BONARES_QUERIES
+template_queries = FAIR_QUERIES if selected_endpoint == "FAIR_Metrics" else RDI_QUERIES
 
 # Use the selected endpoint for queries
 SPARQL_ENDPOINT = endpoints[selected_endpoint]
