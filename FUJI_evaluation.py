@@ -5,6 +5,7 @@ import requests
 import csv
 from typing import Dict, Any
 from requests.exceptions import ConnectTimeout
+from config import fuji_testing
 
 # Load dotenv
 load_dotenv()
@@ -13,11 +14,7 @@ USERNAME = os.getenv("fuji_username")
 PASSWORD = os.getenv("fuji_password")
 fuji_auth = (USERNAME, PASSWORD)
 
-
-local_testing = False
-# local_testing = True
-
-if local_testing:
+if fuji_testing:
     FUJI_URL = os.getenv("FUJI_LOCAL")
 else:
     FUJI_URL = os.getenv("fuji_url")
