@@ -11,6 +11,7 @@ services:
       - mynetwork
     volumes:
       - ./fuseki-data:/fuseki
+    restart: always
 
   fair_er:
     build: .
@@ -24,6 +25,7 @@ services:
       - .env
     networks:
       - mynetwork
+    restart: always
 
 networks:
   mynetwork:
