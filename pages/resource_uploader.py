@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-BASE_URL = os.getenv("BASE_URL", "http://localhost:8501")
+BASE_URL = os.getenv("APP_BASE_URL", "http://localhost:8501")
 
 # Define the static directory path
 STATIC_DIR = Path(__file__).parent.parent / "static"

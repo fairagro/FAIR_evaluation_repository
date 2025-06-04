@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.1234/example-dataset",
+  "name": "Example Dataset for FAIR Assessment",
+  "description": "This dataset contains sample data demonstrating compliance with FAIR principles.",
+  "keywords": ["FAIR", "metadata", "example", "sample data"],
+  "creator": {
+    "@type": "Person",
+    "name": "Jane Doe",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Example University"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Example Data Repository"
+  },
+  "datePublished": "2025-06-04",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": {
+    "@type": "DataDownload",
+    "contentUrl": "https://example.org/data/example-dataset.csv",
+    "encodingFormat": "text/csv"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Temperature",
+      "unitText": "Celsius"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Humidity",
+      "unitText": "Percentage"
+    }
+  ],
+  "citation": "Doe, J. (2025). Example Dataset for FAIR Assessment. Example Data Repository. https://doi.org/10.1234/example-dataset"
+}
