@@ -25,6 +25,9 @@ COPY rdf_cache.py .
 COPY DataQualityVocabulary/ ./DataQualityVocabulary/
 COPY pages/ ./pages/
 
+# Copy the .streamlit configuration directory
+COPY .streamlit/ /app/.streamlit/
+
 # Set environment variable to unbuffer Python output
 ENV PYTHONUNBUFFERED=1
 
@@ -32,4 +35,4 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 8501
 
 # Run the Streamlit application
-CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.baseUrlPath=fairness-tool"]
