@@ -130,7 +130,8 @@ if st.button("Generate FAIR Evaluation"):
                     xaxis_title="FAIR Dimensions",
                     yaxis_title="Scores",
                     barmode="group",  # Group the bars side by side
-                    legend_title="Source"
+                    legend_title="Source",
+                    yaxis=dict(range=[0, 1]),
                 )
 
                 # Save the bar chart figure to session state
