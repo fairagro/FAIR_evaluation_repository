@@ -3,21 +3,23 @@ import json
 from dotenv import load_dotenv
 import requests
 import csv
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 from requests.exceptions import ConnectTimeout
 from config import fuji_testing
 
 # Load dotenv
 load_dotenv()
 
-USERNAME = os.getenv("fuji_username")
-PASSWORD = os.getenv("fuji_password")
-fuji_auth = (USERNAME, PASSWORD)
+USE_FUJI_AUTH = os.getenv("USE_FUJI_AUTH", "false").lower() == "true"
+USERNAME = os.getenv("FUJI_USERNAME")
+PASSWORD = os.getenv("FUJI_PASSWORD")
+
+fuji_auth: Optional[tuple[str, str]] = (USERNAME, PASSWORD) if USE_FUJI_AUTH else None
 
 if fuji_testing:
     FUJI_URL = os.getenv("FUJI_LOCAL")
 else:
-    FUJI_URL = os.getenv("fuji_url")
+    FUJI_URL = os.getenv("FUJI_URL")
 if not FUJI_URL:
     raise RuntimeError("FUJI_URL is not set in .env file")
 headers = {

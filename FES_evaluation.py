@@ -1,11 +1,15 @@
+import os
 import re
 import requests
 import csv
-
+from dotenv import load_dotenv
 from requests.exceptions import ConnectTimeout, RequestException
 
+# Load dotenv
+load_dotenv()
+
 # This is the Wilkinson FAIR Evaluation Service
-url = 'https://fairdata.services:7171/FAIR_Evaluator/collections/6/evaluate'
+url = os.getenv("FES_URL", "https://fairdata.services:7171/FAIR_Evaluator/collections/6/evaluate")
 headers = {
     'accept': '*/*',
     'Content-Type': 'application/json'
