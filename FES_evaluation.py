@@ -112,7 +112,7 @@ def fes_evaluate_to_list_alternative(data_doi: str | None = None) -> tuple[list[
     else:
         payload = base_payload
 
-    print(f"Running FES evaluation for {payload}")
+    print(f"Running FES evaluation Alternative for {payload}")
 
     try:
         # First attempt with SSL verification
