@@ -99,7 +99,7 @@ def fes_evaluate_to_list(data_doi: str | None = None) -> tuple[list[str] | None,
 
 def fes_evaluate_to_list_alternative(data_doi: str | None = None) -> tuple[list[str] | None, str | None]:
     # Base configuration
-    url = "https://w3id.org/FAIR_Evaluator/collections/6/evaluate"
+    url_alt = "https://w3id.org/FAIR_Evaluator/collections/6/evaluate"
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     base_payload = {
         "executor": "FAIRagro Tool Dev",
@@ -117,10 +117,10 @@ def fes_evaluate_to_list_alternative(data_doi: str | None = None) -> tuple[list[
     try:
         # First attempt with SSL verification
         try:
-            response = requests.post(url, json=payload, headers=headers, verify=True, timeout=60)
+            response = requests.post(url_alt, json=payload, headers=headers, verify=True, timeout=60)
         except requests.exceptions.ConnectTimeout:
             # Second attempt without SSL verification
-            response = requests.post(url, json=payload, headers=headers, verify=False, timeout=60)
+            response = requests.post(url_alt, json=payload, headers=headers, verify=False, timeout=60)
     except requests.exceptions.RequestException as e:
         return None, f"FES evaluation failed: {e}"
 
