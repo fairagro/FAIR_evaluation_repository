@@ -1,7 +1,8 @@
 import streamlit as st  # Streamlit for UI rendering
 from datetime import datetime  # For tracking start and end times
 import plotly.graph_objects as go  # For creating grouped bar charts
-from FES_evaluation import fes_evaluate_to_list, fes_evaluation_result_example  # Cached FES evaluation results
+from FES_evaluation import fes_evaluate_to_list, fes_evaluation_result_example, \
+    fes_evaluate_to_list_alternative  # Cached FES evaluation results
 from doi_to_dqv import create_dqv_representation  # Function to generate RDF representation
 from rdf_utils import extract_scores_from_rdf  # Utility to extract scores from RDF
 from pyvis.network import Network  # For RDF graph visualization
@@ -49,7 +50,7 @@ if st.button("Generate FAIR Evaluation"):
         else:
             # Handle FES evaluation errors
             if include_fes:
-                result, error = fes_evaluate_to_list(data_doi)
+                result, error = fes_evaluate_to_list_alternative(data_doi)
                 fes_evaluation_result_used = result
                 if error:
                     st.error(error)

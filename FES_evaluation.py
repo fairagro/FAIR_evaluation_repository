@@ -2,6 +2,7 @@ import os
 import re
 import requests
 import csv
+import json
 from dotenv import load_dotenv
 from requests.exceptions import ConnectTimeout, RequestException
 
@@ -92,6 +93,59 @@ def fes_evaluate_to_list(data_doi: str | None = None) -> tuple[list[str] | None,
         score_matches = re.findall(r'Score: (\d+)', html_content)
         print(f"fes_evaluate_to_list_result: {score_matches}")
         return score_matches, None
+
+    return None, f"Request failed with status code {response.status_code}"
+
+
+def fes_evaluate_to_list_alternative(data_doi: str | None = None) -> tuple[list[str] | None, str | None]:
+    # Base configuration
+    url = "https://w3id.org/FAIR_Evaluator/collections/6/evaluate"
+    headers = {"Content-Type": "application/json", "Accept": "application/json"}
+    base_payload = {
+        "executor": "FAIRagro Tool Dev",
+        "title": "FAIRagro FAIR Assessment Tool Development",
+    }
+
+    # Prepare payload
+    if data_doi:
+        payload = {**base_payload, "resource": data_doi}
+    else:
+        payload = base_payload
+
+    print(f"Running FES evaluation for {payload}")
+
+    try:
+        # First attempt with SSL verification
+        try:
+            response = requests.post(url, json=payload, headers=headers, verify=True, timeout=60)
+        except requests.exceptions.ConnectTimeout:
+            # Second attempt without SSL verification
+            response = requests.post(url, json=payload, headers=headers, verify=False, timeout=60)
+    except requests.exceptions.RequestException as e:
+        return None, f"FES evaluation failed: {e}"
+
+    if response.status_code == 200:
+        print("Request successful!")
+        try:
+            # Parse the nested JSON structure
+            response_data = response.json()
+            eval_result = json.loads(response_data["evaluationResult"])
+
+            # Extract scores for metrics 1-22
+            scores = []
+            for metric_num in range(1, 23):
+                metric_key = f"http://fairdata.services:3333/FAIR_Evaluator/metrics/{metric_num}"
+                metric_entry = eval_result.get(metric_key, [{}])
+
+                # Extract score value (default to "0")
+                score_entries = metric_entry[0].get("http://semanticscience.org/resource/SIO_000300", [{}])
+                score_value = score_entries[0].get("@value", "0") if score_entries else "0"
+                scores.append(score_value)
+
+            print(f"fes_evaluate_to_list_result: {scores}")
+            return scores, None
+        except (KeyError, json.JSONDecodeError) as e:
+            return None, f"Response parsing failed: {e}"
 
     return None, f"Request failed with status code {response.status_code}"
 
