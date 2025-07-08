@@ -50,7 +50,7 @@ if st.button("Generate FAIR Evaluation"):
         else:
             # Handle FES evaluation errors
             if include_fes:
-                result, error = fes_evaluate_to_list_alternative(data_doi)
+                result, error = fes_evaluate_to_list(data_doi)
                 fes_evaluation_result_used = result
                 if error:
                     st.error(error)
