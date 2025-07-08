@@ -78,10 +78,10 @@ def fes_evaluate_to_list(data_doi: str | None = None) -> tuple[list[str] | None,
     print(f"Running FES evaluation for {data}")
 
     try:
-        response = requests.post(url, json=data, headers=headers, verify=True, timeout=60)
+        response = requests.post(url, json=data, headers=headers, verify=True, timeout=120)
     except ConnectTimeout as e1:
         try:
-            response = requests.post(url, json=data, headers=headers, verify=False, timeout=60)
+            response = requests.post(url, json=data, headers=headers, verify=False, timeout=120)
         except ConnectTimeout as e2:
             return None, f"FES evaluation timed out (even with SSL verification disabled). Original error: {e1}"
     except RequestException as e:
@@ -117,10 +117,10 @@ def fes_evaluate_to_list_alternative(data_doi: str | None = None) -> tuple[list[
     try:
         # First attempt with SSL verification
         try:
-            response = requests.post(url_alt, json=payload, headers=headers, verify=True, timeout=60)
+            response = requests.post(url_alt, json=payload, headers=headers, verify=True, timeout=120)
         except requests.exceptions.ConnectTimeout:
             # Second attempt without SSL verification
-            response = requests.post(url_alt, json=payload, headers=headers, verify=False, timeout=60)
+            response = requests.post(url_alt, json=payload, headers=headers, verify=False, timeout=120)
     except requests.exceptions.RequestException as e:
         return None, f"FES evaluation failed: {e}"
 
