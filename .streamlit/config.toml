@@ -3,8 +3,10 @@ enableStaticServing = true
 enableCORS = false
 enableXsrfProtection = false
 headless = true
-baseUrlPath = "fairness-tool"
 port = 8501
+
+# baseUrlPath = "fairness-tool"  # uncomment this line if you want /fairness-tool/
+baseUrlPath = ""               # uncomment this line for root /
 
 [browser]
 serverAddress = "daten.ktbl.de"
