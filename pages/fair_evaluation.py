@@ -30,7 +30,7 @@ if development_mode and not data_doi:
 
 # Checkboxes to include FES and FUJI evaluations
 include_fes = st.checkbox("Include FES Evaluation", value=True)
-include_fuji = st.checkbox("Include FUJI Evaluation", value=True)
+include_fuji = st.checkbox("Include F-UJI Evaluation", value=True)
 
 # Initialize session state for RDF representation and visualization toggle
 if "dqv_representation" not in st.session_state:

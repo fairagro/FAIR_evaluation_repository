@@ -35,4 +35,6 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 8501
 
 # Run the Streamlit application
-CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.baseUrlPath=fairness-tool"]
+ENV BASE_URL_PATH=""
+CMD ["sh", "-c", "streamlit run main.py --server.port=8501 --server.address=0.0.0.0 ${BASE_URL_PATH:+--server.baseUrlPath=$BASE_URL_PATH}"]
+
