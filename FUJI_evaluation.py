@@ -143,7 +143,7 @@ def fuji_evaluate_to_list(data_doi=None) -> Dict[str, float]:
     print(f"Running F-UJI evaluation for {data}")
 
     try:
-        response = requests.post(FUJI_URL, json=data, headers=headers, auth=fuji_auth, timeout=10)
+        response = requests.post(FUJI_URL, json=data, headers=headers, auth=fuji_auth, timeout=30)
         response.raise_for_status()
     except ConnectTimeout:
         print(f"Request timed out when trying to connect to {FUJI_URL}")  # Debugging
