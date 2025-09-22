@@ -9,6 +9,8 @@ from pyvis.network import Network  # For RDF graph visualization
 import streamlit.components.v1 as components  # To embed HTML in Streamlit
 from FUJI_evaluation import fuji_evaluation_result_example, fuji_evaluate_to_list  # Cached FUJI evaluation results
 from requests.exceptions import ConnectTimeout
+from concurrent.futures import ThreadPoolExecutor
+import threading
 
 # Example FES and FUJI evaluation results
 fes_evaluation_result = fes_evaluation_result_example
@@ -20,8 +22,22 @@ st.title("DOI to FAIR Evaluation")
 # Development toggle
 development_mode = st.checkbox("Use cached result (Development Mode)", value=True)
 
-# Input field for DOI
-data_doi = st.text_input("Enter a DOI:", placeholder="10.1000/xyz123")
+# Choose input mode
+input_mode = st.radio("Input mode", ["Single DOI", "Multiple DOIs (one per line)"], horizontal=True)
+
+# Input field(s) for DOI(s)
+if input_mode == "Single DOI":
+    data_doi = st.text_input("Enter a DOI:", placeholder="10.1000/xyz123")
+    data_dois = []
+else:
+    data_dois_text = st.text_area(
+        "Enter DOIs (one per line):",
+        placeholder="10.1000/xyz123\n10.2000/abc456",
+        height=120
+    )
+    # Keep parsing minimal for now; no further processing changes yet
+    data_dois = [line.strip() for line in data_dois_text.splitlines() if line.strip()]
+    data_doi = None  # Not used yet in multi mode
 
 # Provide a default DOI in developer mode if no input is provided
 if development_mode and not data_doi:
@@ -42,33 +58,67 @@ if "bar_chart" not in st.session_state:
 
 # Generate FAIR Evaluation button
 if st.button("Generate FAIR Evaluation"):
+    # Always reset visualization state on click to avoid showing stale charts if evaluation fails
+    st.session_state["dqv_representation"] = None
+    st.session_state["bar_chart"] = None
+    st.session_state["show_rdf"] = False
+
     if data_doi or development_mode:
         if development_mode:
             st.warning("Using cached result for development.")
             fes_evaluation_result_used = fes_evaluation_result if include_fes else None
             fuji_evaluation_result_used = fuji_evaluation_result if include_fuji else None
         else:
-            # Handle FES evaluation errors
-            if include_fes:
-                result, error = fes_evaluate_to_list(data_doi)
-                fes_evaluation_result_used = result
-                if error:
-                    st.error(error)
-            else:
-                fes_evaluation_result_used = None
+            # Run FES and FUJI in parallel
+            fes_evaluation_result_used = None
+            fuji_evaluation_result_used = None
 
-            # Handle FUJI evaluation errors
-            if include_fuji:
-                try:
-                    fuji_evaluation_result_used = fuji_evaluate_to_list(data_doi)
-                except ConnectTimeout:
-                    st.error("FUJI evaluation timed out. Please check your network connection or try again later.")
-                    fes_evaluation_result_used = None
-                except RuntimeError as e:
-                    st.error(f"FUJI evaluation failed: {e}")
-                    fuji_evaluation_result_used = None
-            else:
-                fuji_evaluation_result_used = None
+            def _now_ts():
+                return datetime.now().strftime("%H:%M:%S.%f")[:-3]
+
+            def _fes_task(doi):
+                print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FES start for DOI: {doi}")
+                res = fes_evaluate_to_list(doi)
+                print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FES end for DOI: {doi}")
+                return res
+
+            def _fuji_task(doi):
+                print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FUJI start for DOI: {doi}")
+                res = fuji_evaluate_to_list(doi)
+                print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FUJI end for DOI: {doi}")
+                return res
+
+            with ThreadPoolExecutor(max_workers=2) as executor:
+                futures = {}
+                if include_fes:
+                    futures["fes"] = executor.submit(_fes_task, data_doi)
+                if include_fuji:
+                    futures["fuji"] = executor.submit(_fuji_task, data_doi)
+
+                # Collect FES result
+                if "fes" in futures:
+                    try:
+                        fes_result, fes_error = futures["fes"].result()
+                        fes_evaluation_result_used = fes_result
+                        if fes_error:
+                            st.error(fes_error)
+                    except Exception as e:
+                        st.error(f"FES evaluation failed: {e}")
+                        fes_evaluation_result_used = None
+
+                # Collect FUJI result
+                if "fuji" in futures:
+                    try:
+                        fuji_evaluation_result_used = futures["fuji"].result()
+                    except ConnectTimeout:
+                        st.error("FUJI evaluation timed out. Please check your network connection or try again later.")
+                        fuji_evaluation_result_used = None
+                    except RuntimeError as e:
+                        st.error(f"FUJI evaluation failed: {e}")
+                        fuji_evaluation_result_used = None
+                    except Exception as e:
+                        st.error(f"FUJI evaluation failed: {e}")
+                        fuji_evaluation_result_used = None
 
         if fes_evaluation_result_used or fuji_evaluation_result_used:
             start_time = datetime.now()
