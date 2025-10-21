@@ -130,16 +130,16 @@ if st.button("Generate FAIR Evaluation"):
                 def _now_ts():
                     return datetime.now().strftime("%H:%M:%S.%f")[:-3]
 
-                def _fes_task(doi):
-                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FES start for DOI: {doi}")
-                    res = fes_evaluate_to_list(doi)
-                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FES end for DOI: {doi}")
+                def _fes_task(doi_1):
+                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FES start for DOI: {doi_1}")
+                    res = fes_evaluate_to_list(doi_1)
+                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FES end for DOI: {doi_1}")
                     return res
 
-                def _fuji_task(doi):
-                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FUJI start for DOI: {doi}")
-                    res = fuji_evaluate_to_list(doi)
-                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FUJI end for DOI: {doi}")
+                def _fuji_task(doi_2):
+                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FUJI start for DOI: {doi_2}")
+                    res = fuji_evaluate_to_list(doi_2)
+                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FUJI end for DOI: {doi_2}")
                     return res
 
                 with ThreadPoolExecutor(max_workers=2) as executor:
@@ -304,6 +304,8 @@ if st.session_state["dqv_by_doi"] and sel in st.session_state["dqv_by_doi"]:
 elif st.session_state["dqv_representation"]:
     rdf_graph = st.session_state["dqv_representation"]
 
+format_mapping = None
+
 if rdf_graph:
     download_format = st.selectbox(
         "Select the format to download the RDF representation:",
@@ -329,6 +331,31 @@ if rdf_graph:
         )
     except Exception as e:
         st.error(f"Failed to serialize RDF graph: {e}")
+
+# --- Add Download All Files button if multiple DOIs exist ---
+if len(st.session_state["dqv_by_doi"]) > 1:
+    all_zip_name = "all_dqv_files.zip"
+    import io, zipfile
+
+    zip_buffer = io.BytesIO()
+    with zipfile.ZipFile(zip_buffer, "w", zipfile.ZIP_DEFLATED) as zipf:
+        for doi, rdf_graph in st.session_state["dqv_by_doi"].items():
+            try:
+                selected_format, file_extension = format_mapping[st.session_state["download_format"]]
+                rdf_data = rdf_graph.serialize(format=selected_format)
+                safe_name = doi.replace("/", "_")
+                zipf.writestr(f"rdf_graph_{safe_name}.{file_extension}", rdf_data)
+            except Exception as e:
+                st.warning(f"Skipping {doi} due to serialization error: {e}")
+    zip_buffer.seek(0)
+
+    st.download_button(
+        label="Download All RDF Graphs as ZIP",
+        data=zip_buffer,
+        file_name=all_zip_name,
+        mime="application/zip"
+    )
+
 
 # Footer
 st.markdown("---")

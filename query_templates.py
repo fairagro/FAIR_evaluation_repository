@@ -209,7 +209,88 @@ SELECT ?prefLabel ?altLabel ?value ?definition ?computedBy WHERE {{
   }}
 }}
 ORDER BY ?prefLabel
-"""
+""",
+
+"Average Score - Overall": """PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv: <http://www.w3.org/ns/dqv#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (AVG(xsd:float(?value)) AS ?averageOverall)
+WHERE {
+  ?dataset a dcat:Dataset ;
+           dcat:distribution ?distribution .
+  ?distribution dqv:hasQualityMeasurement ?measurement .
+  ?measurement dqv:value ?value .
+}
+""",
+
+    "Average Score - Findability": """PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv: <http://www.w3.org/ns/dqv#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (AVG(xsd:float(?fValue)) AS ?averageFindability)
+WHERE {
+  ?dataset a dcat:Dataset ;
+           dcat:distribution ?distribution .
+  ?distribution dqv:hasQualityMeasurement ?m .
+  ?m dqv:value ?fValue ;
+     dqv:isMeasurementOf ?metric .
+  SERVICE <http://localhost:3030/FAIR_Metrics/sparql> {
+    ?metric dqv:inDimension <https://fairagro.net/ontology#findability> .
+  }
+}
+""",
+
+    "Average Score - Accessibility": """PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv: <http://www.w3.org/ns/dqv#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (AVG(xsd:float(?aValue)) AS ?averageAccessibility)
+WHERE {
+  ?dataset a dcat:Dataset ;
+           dcat:distribution ?distribution .
+  ?distribution dqv:hasQualityMeasurement ?m .
+  ?m dqv:value ?aValue ;
+     dqv:isMeasurementOf ?metric .
+  SERVICE <http://localhost:3030/FAIR_Metrics/sparql> {
+    ?metric dqv:inDimension <https://fairagro.net/ontology#accessibility> .
+  }
+}
+""",
+
+    "Average Score - Interoperability": """PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv: <http://www.w3.org/ns/dqv#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (AVG(xsd:float(?iValue)) AS ?averageInteroperability)
+WHERE {
+  ?dataset a dcat:Dataset ;
+           dcat:distribution ?distribution .
+  ?distribution dqv:hasQualityMeasurement ?m .
+  ?m dqv:value ?iValue ;
+     dqv:isMeasurementOf ?metric .
+  SERVICE <http://localhost:3030/FAIR_Metrics/sparql> {
+    ?metric dqv:inDimension <https://fairagro.net/ontology#interoperability> .
+  }
+}
+""",
+
+    "Average Score - Reusability": """PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dqv: <http://www.w3.org/ns/dqv#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (AVG(xsd:float(?rValue)) AS ?averageReusability)
+WHERE {
+  ?dataset a dcat:Dataset ;
+           dcat:distribution ?distribution .
+  ?distribution dqv:hasQualityMeasurement ?m .
+  ?m dqv:value ?rValue ;
+     dqv:isMeasurementOf ?metric .
+  SERVICE <http://localhost:3030/FAIR_Metrics/sparql> {
+    ?metric dqv:inDimension <https://fairagro.net/ontology#reusability> .
+  }
+}
+""",
 
 }
 

@@ -18,8 +18,11 @@ else:
 # Define SPARQL endpoints
 endpoints = {
     "FAIR_Metrics": f"{fuseki_base_url}/FAIR_Metrics/sparql",
-    "BonaRes": f"{fuseki_base_url}/bonares/sparql",
     "e!DAL": f"{fuseki_base_url}/e!dal/sparql",
+    "BonaRes": f"{fuseki_base_url}/bonares/sparql",
+    "openagrar": f"{fuseki_base_url}/openagrar/sparql",
+    "nsfi": f"{fuseki_base_url}/nsfi/sparql",
+    "publisso": f"{fuseki_base_url}/publisso/sparql",
 }
 
 # Streamlit UI components
