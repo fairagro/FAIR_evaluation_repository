@@ -41,11 +41,11 @@ dataset_scores = {
         "Reusability": 0.4017143
     },
     "OpenAgrar (JKI)": {
-        "All Tests Average": 0.48412699,
-        "Findability": 0.6315789,
-        "Accessibility": 0.45,
-        "Interoperability": 0.53846157,
-        "Reusability": 0.33333334
+        "All Tests Average": 0.5925926,
+        "Findability": 0.6885965,
+        "Accessibility": 0.5416667,
+        "Interoperability": 0.63461536,
+        "Reusability": 0.50396824
     },
     "National Soil & Forest Inventories (Thünen)": {
         "All Tests Average": 0.48562735,
