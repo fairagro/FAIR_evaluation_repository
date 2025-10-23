@@ -1,0 +1,1683 @@
+[
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-22__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-LinksToRelatedEntitiesMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-24__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-1a"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-31__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-LicenseInformationMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-20__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataContainsQualifiedOutwardReferencesMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-11__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-SearchableMetadataMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-13__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-AccessConditionsMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-26__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-30__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-4"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-33__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ProvenanceInformationMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-4__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-StructuredMetadataMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-2__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-IdentifierPersistenceMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-28__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-2b"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-20__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-SemanticMetadataResourcesMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-10__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-SearchableMetadataMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-16__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-DataKnowledgeRepresentationLanguageWeakMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#qualityChecking-10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "The checking of the dataset distribution's quality"
+      }
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-05-20T14:42:27.335582"
+      }
+    ],
+    "http://www.w3.org/ns/prov#generated": [
+      {
+        "@id": "https://fairagro.net/ontology#qualityMetadata-10.5447%2Fipk%2F2020%2F3"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-05-20T14:42:02.113454"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://fairagro.net/ontology#distribution-10.5447%2Fipk%2F2020%2F3"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-3__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-PersistentIdentifierMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-35__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-CommunityMetadataStandardMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-36__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-CommunityMetadataStandardMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-15__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-StandardCommunicationProtocolMetadataMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-13__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataPersistenceMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-27__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-2a"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-14__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-AccessConditionsMetric-3"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-2__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-GloballyUniqueIdentifierMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-19__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-SemanticMetadataResourcesMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-5__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-DescriptiveCoreMetadataMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-32__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-LicenseInformationMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-21__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataIncludesLicenseStrongMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-22__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataIncludesLicenseWeakMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-5__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-GroundedMetadataMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-9__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-InclusionOfDataIdentifierInMetadataMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-41__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-DataFileFormatMetric-1c"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-3__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-DataIdentifierPersistenceMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-29__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-3"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-6__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-DataIdentifierExplicitlyInMetadataMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#dataset-10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Raw images files from quantitative monitoring of 484 Arabidopsis thaliana plants using high-throughput plant phenotyping (MIAPPE 1.1 update)"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#distribution": [
+      {
+        "@id": "https://fairagro.net/ontology#distribution-10.5447%2Fipk%2F2020%2F3"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-11__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-DataAuthenticationAuthorizationMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-18__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-FormalMetadataRepresentationMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-34__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ProvenanceInformationMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-10__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-OpenFreeProtocolMetadataRetrievalMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-4__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-PersistentIdentifierMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-6__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-DescriptiveCoreMetadataMetric-2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-12__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataAuthenticationAuthorizationMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-8__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-InclusionOfDataIdentifierInMetadataMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-14__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataKnowledgeRepresentationLanguageWeakMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-19__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataUsesFAIRVocabulariesStrongMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-23__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-17__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-FormalMetadataRepresentationMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-1__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-GloballyUniqueIdentifierMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-8__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-SearchableInMajorSearchEngineMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#distribution-10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Distribution"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "Collection"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "DOI distribution of dataset"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#accessURL": [
+      {
+        "@id": "https://doi.org/10.5447%2Fipk%2F2020%2F3"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#hasQualityMeasurement": [
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-10__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-11__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-12__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-13__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-14__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-15__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-16__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-17__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-18__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-19__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-1__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-20__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-21__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-22__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-2__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-3__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-4__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-5__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-6__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-7__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-8__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fes_measurement-9__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-10__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-11__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-12__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-13__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-14__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-15__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-16__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-17__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-18__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-19__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-1__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-20__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-21__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-22__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-23__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-24__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-25__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-26__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-27__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-28__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-29__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-2__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-30__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-31__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-32__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-33__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-34__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-35__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-36__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-37__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-38__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-39__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-3__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-40__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-41__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-4__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-5__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-6__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-7__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-8__10.5447%2Fipk%2F2020%2F3"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#fuji_measurement-9__10.5447%2Fipk%2F2020%2F3"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-17__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-DataKnowledgeRepresentationLanguageStrongMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-7__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataIdentifierExplicitlyInMetadataMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-40__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-DataFileFormatMetric-1b"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#qualityMetadata-10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMetadata"
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-05-20T14:42:27.515311"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      },
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#qualityChecking-10.5447%2Fipk%2F2020%2F3"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-21__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-LinksToRelatedEntitiesMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-12__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-AccessConditionsMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-15__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataKnowledgeRepresentationLanguageStrongMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-1__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-UniqueIdentifierMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-16__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-StandardCommunicationProtocolDataMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-39__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-DataFileFormatMetric-1a"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-7__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-DescriptiveCoreMetadataMetric-3"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-25__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-ContentDescriptionMetric-1b"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.25"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-37__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-CommunityMetadataStandardMetric-3"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fuji_measurement-38__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FUJIAutomatedFAIRDataAssessmentTool"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FsF-DataFileFormatMetric-1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-9__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-OpenFreeProtocolDataRetrievalMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://fairagro.net/ontology#fes_measurement-18__10.5447%2Fipk%2F2020%2F3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/ns/dqv#computedBy": [
+      {
+        "@id": "https://fairagro.net/ontology#FAIREvaluationServices"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fairagro.net/ontology#FES-MetadataUsesFAIRVocabulariesWeakMetric"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ]
+  }
+]
