@@ -14,4 +14,4 @@ def ttl_to_jsonld(folder: str) -> None:
         g.serialize(destination=output_file, format="json-ld")
 
 if __name__ == "__main__":
-    ttl_to_jsonld(r"H:\GitHub\FAIR_evaluation_repository\output\BonaRes")
+    ttl_to_jsonld(r".\output\examples")
