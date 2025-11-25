@@ -23,3 +23,12 @@ fairagro:FUJIAutomatedFAIRDataAssessmentTool
     """^^xsd:string ;
     dcterms:hasPart <https://www.f-uji.net/?action=test> ;
     dcterms:references <https://www.f-uji.net/index.php?action=about> .
+
+fairagro:FAIRChecker
+    a prov:SoftwareAgent ;   
+    rdfs:label "FAIR-Checker (FC)"^^xsd:string ;
+    rdfs:comment """
+    FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources.
+    """^^xsd:string ;
+    dcterms:hasPart <https://fair-checker.france-bioinformatique.fr/api/check/metrics_all> ;
+    dcterms:references <https://fair-checker.france-bioinformatique.fr/about> .

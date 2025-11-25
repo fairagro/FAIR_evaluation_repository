@@ -2,7 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix fair: <https://fairagro.net/ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+@prefix fairchecker: <https://fair-checker.france-bioinformatique.fr/data/> .
 
 
 fair:FAIRDataQuality a dqv:Category ;
@@ -95,7 +95,7 @@ fair:FsF-InclusionOfDataIdentifierInMetadataMetric-2 a dqv:Metric ;
     skos:prefLabel "Metric test for FsF-F3-01M-2"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:findability .
-	
+
 fair:FsF-SearchableMetadataMetric-1 a dqv:Metric ;
     skos:altLabel "FsF-F4-01M-1"@en ;
     skos:definition "Metadata is given in a way major search engines can ingest it for their catalogues (JSON-LD, Dublin Core, RDFa)"@en ;
@@ -131,14 +131,14 @@ fair:FsF-AccessConditionsMetric-3 a dqv:Metric ;
     skos:prefLabel "Metric test for FsF-A1-01M-3"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:accessibility .
-	
+
 fair:FsF-StandardCommunicationProtocolMetadataMetric-1 a dqv:Metric ;
     skos:altLabel "FsF-A1-02M-1"@en ;
     skos:definition "Landing page link is based on standardized web communication protocols."@en ;
     skos:prefLabel "Metric test for FsF-A1-02M-1"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:accessibility .
-	
+
 fair:FsF-StandardCommunicationProtocolDataMetric-1 a dqv:Metric ;
     skos:altLabel "FsF-A1-03D-1"@en ;
     skos:definition "Metadata includes a resolvable link to data based on standardized web communication protocols."@en ;
@@ -160,7 +160,7 @@ fair:FsF-FormalMetadataRepresentationMetric-2 a dqv:Metric ;
     skos:prefLabel "Metric test for FsF-I1-01M-2"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:interoperability .
-	
+
 fair:FsF-SemanticMetadataResourcesMetric-1 a dqv:Metric ;
     skos:altLabel "FsF-I2-01M-1"@en ;
     skos:definition "Vocabulary namespace URIs can be identified in metadata"@en ;
@@ -174,7 +174,7 @@ fair:FsF-SemanticMetadataResourcesMetric-2 a dqv:Metric ;
     skos:prefLabel "Metric test for FsF-I2-01M-2"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:interoperability .
-	
+
 fair:FsF-LinksToRelatedEntitiesMetric-1 a dqv:Metric ;
     skos:altLabel "FsF-I3-01M-1"@en ;
     skos:definition "Related resources are explicitly mentioned in metadata"@en ;
@@ -245,7 +245,7 @@ fair:FsF-ContentDescriptionMetric-4 a dqv:Metric ;
     skos:prefLabel "Metric test for FsF-R1-01MD-4"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:reusability .
-	
+
 fair:FsF-LicenseInformationMetric-1 a dqv:Metric ;
     skos:altLabel "FsF-R1.1-01M-1"@en ;
     skos:definition "Licence information is given in an appropriate metadata element"@en ;
@@ -259,7 +259,7 @@ fair:FsF-LicenseInformationMetric-2 a dqv:Metric ;
     skos:prefLabel "Metric test for FsF-R1.1-01M-2"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:reusability .
-	
+
 fair:FsF-ProvenanceInformationMetric-1 a dqv:Metric ;
     skos:altLabel "FsF-R1.2-01M-1"@en ;
     skos:definition "Metadata contains elements which hold provenance information and can be mapped to PROV"@en ;
@@ -322,7 +322,7 @@ fair:FsF-DataFileFormatMetric-1c a dqv:Metric ;
     skos:prefLabel "Metric test for FsF-R1.3-02D-1c"@en ;
     dqv:expectedDataType xsd:float ;
     dqv:inDimension fair:reusability .
-	
+
 
 
 fair:FES-UniqueIdentifierMetric a dqv:Metric ;
@@ -380,8 +380,8 @@ fair:FES-SearchableInMajorSearchEngineMetric a dqv:Metric ;
     skos:definition "Tests whether a machine is able to discover the resource by search, using Microsoft Bing."@en ;
     dqv:inDimension fair:findability ;
     dqv:expectedDataType xsd:float .
-	
-	
+
+
 fair:FES-OpenFreeProtocolDataRetrievalMetric a dqv:Metric ;
     skos:prefLabel "Uses open free protocol for data retrieval"@en ;
     skos:altLabel "FAIR Metrics Gen2 - Uses open free protocol for data retrieval (A1.1)"@en ;
@@ -416,8 +416,8 @@ fair:FES-MetadataPersistenceMetric a dqv:Metric ;
     skos:definition "Metric to test if the metadata contains a persistence policy, explicitly identified by a persistencePolicy key (in hashed data) or a http://www.w3.org/2000/10/swap/pim/doc#persistencePolicy predicate in Linked Data."@en ;
     dqv:inDimension fair:accessibility ;
     dqv:expectedDataType xsd:float .
-	
-	
+
+
 fair:FES-MetadataKnowledgeRepresentationLanguageWeakMetric a dqv:Metric ;
     skos:prefLabel "Metadata Knowledge Representation Language (weak)"@en ;
     skos:altLabel "FAIR Metrics Gen2 - Metadata Knowledge Representation Language (weak) (I1)"@en ;
@@ -466,8 +466,8 @@ fair:FES-MetadataContainsQualifiedOutwardReferencesMetric a dqv:Metric ;
     skos:definition "Maturity Indicator to test if the metadata links outward to third-party resources. It only tests metadata that can be represented as Linked Data."@en ;
     dqv:inDimension fair:interoperability ;
     dqv:expectedDataType xsd:float .
-	
-	
+
+
 fair:FES-MetadataIncludesLicenseStrongMetric a dqv:Metric ;
     skos:prefLabel "Metadata Includes License (strong)"@en ;
     skos:altLabel "FAIR Metrics Gen2 - Metadata Includes License (strong) (R1.1)"@en ;
@@ -479,5 +479,94 @@ fair:FES-MetadataIncludesLicenseWeakMetric a dqv:Metric ;
     skos:prefLabel "Metadata Includes License (weak)"@en ;
     skos:altLabel "FAIR Metrics Gen2 - Metadata Includes License (weak) (R1.1)"@en ;
     skos:definition "Maturity Indicator to test if the metadata contains an explicit pointer to the license. This 'weak' test will use a case-insensitive regular expression, and scan both key/value style metadata, as well as linked data metadata. Tests: xhtml, dvia, dcterms, cc, data.gov.au, and Schema license predicates in linked data, and validates the value of those properties."@en ;
+    dqv:inDimension fair:reusability ;
+    dqv:expectedDataType xsd:float .
+
+
+
+fair:FC-UniqueIDs-F1A a dqv:Metric ;
+    skos:prefLabel "Unique IDs"@en ;
+    skos:altLabel "Unique IDs (F1A)"@en ;
+    skos:definition "FAIRChecker checks that the resource identifier is a reachable URL. It's better if the URL is persistent (WebID, PURL or DOI)."@en ;
+    dqv:inDimension fair:findability ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-PersistentIDs-F1B a dqv:Metric ;
+    skos:prefLabel "Persistent IDs"@en ;
+    skos:altLabel "Persistent IDs (F1B)"@en ;
+    skos:definition "Weak: FAIR-Checker verifies that at least one namespace from identifiers.org is used in metadata. Strong: FAIR-Checker verifies that the “identifier” property from DCTerms or Schema.org vocabularies is present in metadata."@en ;
+    dqv:inDimension fair:findability ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-StructuredMetadata-F2A a dqv:Metric ;
+    skos:prefLabel "Structured metadata"@en ;
+    skos:altLabel "Structured metadata (F2A)"@en ;
+    skos:definition "Weak: FAIR-Checker verifies that at least one RDF triple can be found in metadata. Strong: it searches for at least one property in dct:title dct:description dct:accessURL dct:downloadURL dcat:endpointURL dcat:endpointDescription."@en ;
+    dqv:inDimension fair:findability ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-SharedVocabulariesForMetadata-F2B a dqv:Metric ;
+    skos:prefLabel "Shared vocabularies for metadata"@en ;
+    skos:altLabel "Shared vocabularies for metadata (F2B)"@en ;
+    skos:definition "Weak: FAIR-Checker verifies that at least one used ontology class or property are known in major ontology registries (OLS, BioPortal, LOV). Strong: FAIR-Checker verifies that all used ontology classes or properties are known in major ontology registries (OLS, BioPortal, LOV)"@en ;
+    dqv:inDimension fair:findability ;
+    dqv:expectedDataType xsd:float .
+
+
+fair:FC-OpenResolutionProtocol-A1.1 a dqv:Metric ;
+    skos:prefLabel "Open resolution protocol"@en ;
+    skos:altLabel "Open resolution protocol (A1.1)"@en ;
+    skos:definition "FAIR-Checker verifies that the resource is accessible via an open protocol, for instance the protocol needs to be HTTP."@en ;
+    dqv:inDimension fair:accessibility ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-AuthorisationProcedureOrAccessRights-A1.2 a dqv:Metric ;
+    skos:prefLabel "Authorisation procedure or access rights"@en ;
+    skos:altLabel "Authorisation procedure or access rights (A1.2)"@en ;
+    skos:definition "The protocol allows for an authentication and authorisation procedure where necessary. FAIR-Checker verifies if access rights are specified in metadata through terms odrl:hasPolicy, dct:rights, dct:accessRights, or dct:license."@en ;
+    dqv:inDimension fair:accessibility ;
+    dqv:expectedDataType xsd:float .
+
+
+fair:FC-MachineReadableFormat-I1 a dqv:Metric ;
+    skos:prefLabel "Machine readable format"@en ;
+    skos:altLabel "Machine readable format (I1)"@en ;
+    skos:definition "FAIR-Checker verifies that at least one RDF triple can be found in metadata."@en ;
+    dqv:inDimension fair:interoperability ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-UseSharedOntologies-I2 a dqv:Metric ;
+    skos:prefLabel "Use shared ontologies"@en ;
+    skos:altLabel "Use shared ontologies (I2)"@en ;
+    skos:definition "Weak: FAIR-Checker verifies that at least one used ontology class or property are known in major ontology registries (OLS, BioPortal, LOV). Strong: FAIR-Checker verifies that all used ontology classes or properties are known in major ontology registries (OLS, BioPortal, LOV)"@en ;
+    dqv:inDimension fair:interoperability ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-ExternalLinks-I3 a dqv:Metric ;
+    skos:prefLabel "External links"@en ;
+    skos:altLabel "External links (I3)"@en ;
+    skos:definition "FAIR-Checker verifies that at least 3 different URL authorities are used in the URIs of RDF metadata."@en ;
+    dqv:inDimension fair:interoperability ;
+    dqv:expectedDataType xsd:float .
+
+
+fair:FC-MetadataIncludesLicense-R1.1 a dqv:Metric ;
+    skos:prefLabel "Metadata includes license"@en ;
+    skos:altLabel "Metadata includes license (R1.1)"@en ;
+    skos:definition "Metadata includes license. FAIR-Checker verifies that at least one license property from Schema.org, DCTerms, or DOAP ontologies are found in metadata."@en ;
+    dqv:inDimension fair:reusability ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-MetadataIncludesProvenance-R1.2 a dqv:Metric ;
+    skos:prefLabel "Metadata includes provenance"@en ;
+    skos:altLabel "Metadata includes provenance (R1.2)"@en ;
+    skos:definition "Metadata includes provenance. FAIR-Checker verifies that at least one provenance property from PROV, DCTerms, or PAV ontologies are found in metadata."@en ;
+    dqv:inDimension fair:reusability ;
+    dqv:expectedDataType xsd:float .
+
+fair:FC-CommunityStandards-R1.3 a dqv:Metric ;
+    skos:prefLabel "Community standards"@en ;
+    skos:altLabel "Community standards (R1.3)"@en ;
+    skos:definition "Weak: FAIR-Checker verifies that at least one used ontology class or property are known in major ontology registries (OLS, BioPortal, LOV). Strong: FAIR-Checker verifies that all used ontology classes or properties are known in major ontology registries (OLS, BioPortal, LOV)"@en ;
     dqv:inDimension fair:reusability ;
     dqv:expectedDataType xsd:float .

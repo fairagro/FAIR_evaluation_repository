@@ -12,6 +12,7 @@ from requests.exceptions import ConnectTimeout
 # Direct imports (no try/except) since these modules and attributes are guaranteed to exist
 from FES_evaluation import fes_evaluate_to_list, fes_evaluation_result_example
 from FUJI_evaluation import fuji_evaluate_to_list, fuji_evaluation_result_example
+from FC_evaluation import fairchecker_evaluate_to_list ,fc_evaluation_result_example
 
 from doi_to_dqv import create_dqv_representation  # Function to generate RDF representation
 from rdf_utils import extract_scores_from_rdf  # Utility to extract scores from RDF
@@ -19,6 +20,7 @@ from rdf_utils import extract_scores_from_rdf  # Utility to extract scores from 
 # Example FES and FUJI evaluation results (use provided examples)
 fes_evaluation_result = fes_evaluation_result_example
 fuji_evaluation_result = fuji_evaluation_result_example
+fc_evaluation_result = fc_evaluation_result_example
 
 # Streamlit UI
 st.title("DOI to FAIR Evaluation")
@@ -26,7 +28,7 @@ st.title("DOI to FAIR Evaluation")
 # Development toggle
 development_mode = st.checkbox("Use cached result (Development Mode)", value=True)
 # Warn if development mode is on but cached examples are unavailable
-if development_mode and (not fes_evaluation_result or not fuji_evaluation_result):
+if development_mode and (not fes_evaluation_result or not fuji_evaluation_result or not fc_evaluation_result):
     st.info("Cached example results are not available; charts may be empty unless live evaluations are run.")
 
 # Input field for DOI(s): one per line (also supports a single DOI)
@@ -46,6 +48,7 @@ if development_mode and not data_dois:
 # Checkboxes to include FES and FUJI evaluations
 include_fes = st.checkbox("Include FES Evaluation", value=True)
 include_fuji = st.checkbox("Include F-UJI Evaluation", value=True)
+include_fc = st.checkbox("Include FC Evaluation", value=True)
 
 # Initialize session state for RDF representation and visualization toggle
 if "dqv_representation" not in st.session_state:
@@ -61,6 +64,7 @@ def build_grouped_bar_chart(extracted_scores: dict, title: str) -> go.Figure:
     # Always use whatever data exists in the extracted_scores
     fes_dimension_scores = extracted_scores.get("fes", {})
     fuji_dimension_scores = extracted_scores.get("fuji", {})
+    fc_dimension_scores = extracted_scores.get("fc", {})
 
     fes_dimension_values = [
         fes_dimension_scores.get("findability_score", 0),
@@ -76,11 +80,20 @@ def build_grouped_bar_chart(extracted_scores: dict, title: str) -> go.Figure:
         fuji_dimension_scores.get("reusability_score", 0),
     ]
 
+    fc_dimension_values = [
+        fc_dimension_scores.get("findability_score", 0),
+        fc_dimension_scores.get("accessibility_score", 0),
+        fc_dimension_scores.get("interoperability_score", 0),
+        fc_dimension_scores.get("reusability_score", 0),
+    ]
+
     fair_fig = go.Figure()
     if fes_dimension_scores:
         fair_fig.add_trace(go.Bar(x=fair_dimensions, y=fes_dimension_values, name="FES", marker={"color": "skyblue"}))
     if fuji_dimension_scores:
         fair_fig.add_trace(go.Bar(x=fair_dimensions, y=fuji_dimension_values, name="FUJI", marker={"color": "orange"}))
+    if fc_dimension_scores:
+        fair_fig.add_trace(go.Bar(x=fair_dimensions, y=fc_dimension_values, name="FC", marker={"color": "green"}))
 
     fair_fig.update_layout(
         title=title,
@@ -91,6 +104,7 @@ def build_grouped_bar_chart(extracted_scores: dict, title: str) -> go.Figure:
         yaxis=dict(range=[0, 1]),
     )
     return fair_fig
+
 # Add per-DOI storage and selection
 if "dqv_by_doi" not in st.session_state:
     st.session_state["dqv_by_doi"] = {}
@@ -122,10 +136,12 @@ if st.button("Generate FAIR Evaluation"):
             if development_mode:
                 fes_evaluation_result_used = fes_evaluation_result if include_fes else None
                 fuji_evaluation_result_used = fuji_evaluation_result if include_fuji else None
+                fc_evaluation_result_used = fc_evaluation_result if include_fc else None
             else:
                 # Run FES and FUJI in parallel (per DOI)
                 fes_evaluation_result_used = None
                 fuji_evaluation_result_used = None
+                fc_evaluation_result_used = None
 
                 def _now_ts():
                     return datetime.now().strftime("%H:%M:%S.%f")[:-3]
@@ -142,12 +158,20 @@ if st.button("Generate FAIR Evaluation"):
                     print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FUJI end for DOI: {doi_2}")
                     return res
 
-                with ThreadPoolExecutor(max_workers=2) as executor:
+                def _fc_task(doi_3):
+                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FC start for DOI: {doi_3}")
+                    res = fairchecker_evaluate_to_list(doi_3)
+                    print(f"[{_now_ts()}] [Thread {threading.current_thread().name}] FC end for DOI: {doi_3}")
+                    return res
+
+                with ThreadPoolExecutor(max_workers=4) as executor:
                     futures = {}
                     if include_fes:
                         futures["fes"] = executor.submit(_fes_task, current_doi)
                     if include_fuji:
                         futures["fuji"] = executor.submit(_fuji_task, current_doi)
+                    if include_fc:
+                        futures["fc"] = executor.submit(_fc_task, current_doi)
 
                     # Collect FES result
                     if "fes" in futures:
@@ -174,8 +198,23 @@ if st.button("Generate FAIR Evaluation"):
                             st.error(f"FUJI evaluation failed: {e}")
                             fuji_evaluation_result_used = None
 
+                    # Collect FC result
+                    if "fc" in futures:
+                        try:
+                            fc_evaluation_result_used = futures["fc"].result()
+                        except ConnectTimeout:
+                            st.error(
+                                "FC evaluation timed out. Please check your network connection or try again later.")
+                            fc_evaluation_result_used = None
+                        except RuntimeError as e:
+                            st.error(f"FC evaluation failed: {e}")
+                            fc_evaluation_result_used = None
+                        except Exception as e:
+                            st.error(f"FC evaluation failed: {e}")
+                            fc_evaluation_result_used = None
+
             # If any result exists for this DOI, build graph and chart (shows last processed DOI)
-            if fes_evaluation_result_used or fuji_evaluation_result_used:
+            if fes_evaluation_result_used or fuji_evaluation_result_used or fc_evaluation_result_used:
                 start_time = datetime.now()
                 end_time = datetime.now()
 
@@ -184,6 +223,7 @@ if st.button("Generate FAIR Evaluation"):
                         doi=current_doi,
                         fes_evaluation_result=fes_evaluation_result_used or {},
                         fuji_evaluation_result=fuji_evaluation_result_used or {},
+                        fc_evaluation_result=fc_evaluation_result_used or {},
                         start_time=start_time,
                         end_time=end_time,
                     )
@@ -195,7 +235,7 @@ if st.button("Generate FAIR Evaluation"):
             # Another duplicated chart-building section
                     chart_figure = build_grouped_bar_chart(
                         extracted_scores=scores_by_metric,
-                        title=f"FAIR Dimension Scores (Grouped by FES and FUJI) — {current_doi}"
+                        title=f"FAIR Dimension Scores (Grouped by FES, FUJI, FC) — {current_doi}"
                     )
                     st.session_state["bar_chart"] = chart_figure
 
@@ -252,10 +292,11 @@ if st.session_state["dqv_by_doi"]:
         scores_by_metric = extract_scores_from_rdf(rdf_graph_sel)
         fes_scores = scores_by_metric.get("fes", {}) if include_fes else {}
         fuji_scores = scores_by_metric.get("fuji", {}) if include_fuji else {}
+        fc_scores = scores_by_metric.get("fc", {}) if include_fc else {}
 
         chart_figure = build_grouped_bar_chart(
             extracted_scores=scores_by_metric,
-            title=f"FAIR Dimension Scores (Grouped by FES and FUJI) — {selected_doi}"
+            title=f"FAIR Dimension Scores (Grouped by FES, FUJI, FC) — {selected_doi}"
         )
         st.plotly_chart(chart_figure)
     except Exception as e:

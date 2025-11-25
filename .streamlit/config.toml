@@ -9,4 +9,4 @@ port = 8501
 baseUrlPath = ""               # uncomment this line for root /
 
 [browser]
-serverAddress = "daten.ktbl.de"
+# serverAddress = "daten.ktbl.de"

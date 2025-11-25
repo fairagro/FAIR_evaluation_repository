@@ -1,0 +1,782 @@
+[
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40e9",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/R1.3"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.141163"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/I1",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/I1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "FAIR-Checker verifies that at least one RDF triple can be found in metadata."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Machine readable format"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Interoperable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/A1.1",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/A1.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "FAIR-Checker verifies that the resource is accessible via an open protocol, for instance the protocol needs             to be HTTP."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Open resolution protocol"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Accessible"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/F1A",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/F1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "FAIRChecker checks that the resource identifier is a reachable URL. It's better if the URL is persistent (WebID, PURL or DOI)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unique IDs"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Findable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/I3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/I3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "FAIR-Checker verifies that at least 3 different URL authorities are used in the URIs of RDF metadata."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "External links"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Interoperable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/F1B",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/F1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Weak : FAIR-Checker verifies that at least one namespace from identifiers.org is used in metadata.<br> Strong : FAIR-Checker verifies that the  “identifier” property from DCTerms or Schema.org vocabularies is present in metadata."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Persistent IDs"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Findable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/R1.2",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/R1.2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Metadata includes provenance.<br> FAIR-Checker verifies that at least one provenance property from PROV, DCTerms, or PAV ontologies are found in metadata."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Metadata includes provenance"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Reusable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/F2A",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/F2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Weak: FAIR-Checker verifies that at least one RDF triple can be found in metadata.<br> Strong: it searches for at least one property in dct:title dct:description dct:accessURL dct:downloadURL dcat:endpointURL dcat:endpointDescription."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Structured metadata"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Findable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/I2",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/I2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Weak: FAIR-Checker verifies that at least one used ontology class or property are known in major ontology registries (OLS, BioPortal, LOV)<br> Strong: FAIR-Checker verifies that all used ontology classes or properties are known in major ontology registries (OLS, BioPortal, LOV)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Use shared ontologies"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Interoperable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40e1",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/I2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.103071"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40d9",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/F2B"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.067066"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40e7",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/R1.2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.135413"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40d5",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/F1B"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.047664"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40dd",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/A1.2"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.084855"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40d3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/F1A"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:57.999653"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/F2B",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/F2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Weak: FAIR-Checker verifies that at least one used ontology class or property are known in major ontology registries (OLS, BioPortal, LOV)<br> Strong: FAIR-Checker verifies that all used ontology classes or properties are known in major ontology registries (OLS, BioPortal, LOV)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Shared vocabularies for metadata"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Findable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/R1.3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/R1.3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Weak: FAIR-Checker verifies that at least one used ontology class or property are known in major ontology registries (OLS, BioPortal, LOV)<br> Strong: FAIR-Checker verifies that all used ontology classes or properties are known in major ontology registries (OLS, BioPortal, LOV)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Community standards"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Reusable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40e3",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/I3"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.108919"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40db",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/A1.1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.073025"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/A1.2",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/A1.2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The protocol allows for an authentication and authorisation procedure where necessary. <br>            FAIR-Checker verifies if access rights are specified in metadata through terms             odrl:hasPolicy, dct:rights, dct:accessRights, or dct:license."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Authorisation procedure or access rights"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Accessible"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/R1.1",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Dimension"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://w3id.org/fair/principles/terms/R1.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Metadata includes license.<br> FAIR-Checker verifies that at least one license property from Schema.org, DCTerms, or DOAP ontologies are found in metadata."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Metadata includes license"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inCategory": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/Reusable"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40e5",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/R1.1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.121013"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40df",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/I1"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.097135"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  },
+  {
+    "@id": "https://fair-checker.france-bioinformatique.fr/data/6925816686cc179e473e40d7",
+    "@type": [
+      "http://www.w3.org/ns/dqv#QualityMeasurement"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://doi.org/10.1186/s13326-023-00289-5"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#computedOn": [
+      {
+        "@id": "https://doi.org/10.20387/BONARES-42HW-3J53"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#isMeasurementOf": [
+      {
+        "@id": "https://fair-checker.france-bioinformatique.fr/data/F2A"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#value": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://www.w3.org/ns/prov#generatedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-11-25T11:13:58.060403"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "https://github.com/IFB-ElixirFr/fair-checker"
+      }
+    ]
+  }
+]

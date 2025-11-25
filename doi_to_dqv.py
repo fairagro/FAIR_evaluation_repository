@@ -5,7 +5,7 @@ from doi_info_fetcher import get_datacite_doi_info
 from FES_evaluation import fes_evaluate_to_list
 from FUJI_evaluation import fuji_evaluate_to_list
 from datetime import datetime
-from metric_mappings import fes_metric_mapping, fuji_metric_mapping
+from metric_mappings import fes_metric_mapping, fuji_metric_mapping, fc_metric_mapping
 
 WRITE_METRICS = False
 WRITE_AGENTS = False
@@ -13,6 +13,7 @@ WRITE_DIMENSIONS = False
 
 # Namespaces
 FAIRAGRO = Namespace("https://fairagro.net/ontology#")
+FAIRCHECKER = Namespace("https://fair-checker.france-bioinformatique.fr/data/")
 DCAT = Namespace("http://www.w3.org/ns/dcat#")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 DQV = Namespace("http://www.w3.org/ns/dqv#")
@@ -26,7 +27,7 @@ checkers_graph = Graph()
 checkers_graph.parse("DataQualityVocabulary/FAIR_quality_services.ttl", format='turtle')
 
 
-def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evaluation_result: dict, start_time: datetime,
+def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evaluation_result: dict, fc_evaluation_result: dict, start_time: datetime,
                               end_time: datetime):
     dataset_info = get_datacite_doi_info(doi)
     if not dataset_info:
@@ -41,6 +42,7 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
     g.bind("skos", SKOS)
     g.bind("fairagro", FAIRAGRO)
     g.bind("prov", PROV)
+    g.bind("fairchecker", FAIRCHECKER)
 
     # URL-encode the DOI to make it safe for use in URLs and URIs
     doi_encoded = quote(doi, safe='')
@@ -53,6 +55,7 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
     distribution_uri = FAIRAGRO[f"distribution-{doi_slug}"]
     fes_service_uri = FAIRAGRO["FAIREvaluationServices"]
     fuji_service_uri = FAIRAGRO["FUJIAutomatedFAIRDataAssessmentTool"]
+    fc_service_uri = FAIRAGRO["FAIRChecker"]
     quality_metadata_uri = FAIRAGRO[f"qualityMetadata-{doi_slug}"]
     quality_checking_activity_uri = FAIRAGRO[f"qualityChecking-{doi_slug}"]
 
@@ -115,6 +118,11 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
             for s, p, o in checkers_graph.triples((fuji_service_uri, None, None)):
                 g.add((s, p, o))
 
+        # Adding FC quality service if evaluation result exists
+        if fc_evaluation_result:
+            for s, p, o in checkers_graph.triples((fc_service_uri, None, None)):
+                g.add((s, p, o))
+
     # Adding FES quality measurements and metrics
     measurements = []
     metric_index = 0
@@ -160,6 +168,32 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
         g.add((measurement_uri, DQV.isMeasurementOf, metric_uri))
         g.add((measurement_uri, DQV.value, Literal(score, datatype=XSD.float)))
         g.add((measurement_uri, DQV.computedBy, fuji_service_uri))
+        measurements.append(measurement_uri)
+
+    # Linking measurements to the distribution
+    for measurement in measurements:
+        g.add((distribution_uri, DQV.hasQualityMeasurement, measurement))
+
+    # Adding FC quality measurements and metrics
+    measurements = []
+    metric_index = 0
+    for sub_metric, score in fc_evaluation_result.items():
+        metric_uri = fc_metric_mapping.get(sub_metric)
+        print(metric_uri)
+        if not metric_uri:
+            continue
+        measurement_uri = FAIRAGRO[f"fc_measurement-{metric_index + 1}__{doi_slug}"]
+        metric_index += 1
+
+        if WRITE_METRICS:
+            # Add metric to the graph
+            for s, p, o in metrics_graph.triples((metric_uri, None, None)):
+                g.add((s, p, o))
+
+        g.add((measurement_uri, RDF.type, DQV.QualityMeasurement))
+        g.add((measurement_uri, DQV.isMeasurementOf, metric_uri))
+        g.add((measurement_uri, DQV.value, Literal(score, datatype=XSD.float)))
+        g.add((measurement_uri, DQV.computedBy, fc_service_uri))
         measurements.append(measurement_uri)
 
     # Linking measurements to the distribution

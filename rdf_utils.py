@@ -41,9 +41,10 @@ def validate_doi(doi: str) -> bool:
 
 
 def extract_scores_from_rdf(graph: Graph) -> dict:
-    # Initialize scores dictionaries for FES and FUJI
+    # Initialize scores dictionaries for FES,FUJI and FC
     fes_scores = defaultdict(list)
     fuji_scores = defaultdict(list)
+    fc_scores = defaultdict(list)
 
     print("Starting extraction of scores from RDF...")
 
@@ -85,20 +86,25 @@ def extract_scores_from_rdf(graph: Graph) -> dict:
         # Get the dimension of the metric
         dimension = get_dimension(metric)
         if dimension:
-            # Determine if it's an FES or FUJI measurement based on the computedBy value
+            # Determine if it's an FES, FUJI or FC measurement based on the computedBy value
             if computed_by == FAIRAGRO["FAIREvaluationServices"]:
                 fes_scores[dimension].append(score_value)
             elif computed_by == FAIRAGRO["FUJIAutomatedFAIRDataAssessmentTool"]:
                 fuji_scores[dimension].append(score_value)
+            elif computed_by == FAIRAGRO["FAIRChecker"]:
+                fc_scores[dimension].append(score_value)
 
     # Calculate the average score for each category for FES and FUJI and round to 2 decimal places
     fes_averages = {k: sum(v) / len(v) if v else 0.0 for k, v in fes_scores.items()}
     fuji_averages = {k: sum(v) / len(v) if v else 0.0 for k, v in fuji_scores.items()}
+    fc_averages = {k: sum(v) / len(v) if v else 0.0 for k, v in fc_scores.items()}
 
     print(f"Calculated FES averages: {fes_averages}")
     print(f"Calculated FUJI averages: {fuji_averages}")
+    print(f"Calculated FC averages: {fc_averages}")
 
     return {
         "fes": fes_averages,
         "fuji": fuji_averages,
+        "fc": fc_averages,
     }
