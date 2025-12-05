@@ -269,15 +269,36 @@ if st.session_state["dqv_by_doi"]:
 
     doi_options = list(st.session_state["dqv_by_doi"].keys())
 
+    # Keep track of current index
+    if "doi_index" not in st.session_state:
+        st.session_state["doi_index"] = doi_options.index(st.session_state["selected_doi"])
+
+    # Next / Previous buttons
+    col1, col2 = st.columns([1, 1])
+    with col1:
+        if st.button("⬅ Previous"):
+            if st.session_state.doi_index > 0:
+                st.session_state.doi_index -= 1
+    with col2:
+        if st.button("Next ➡"):
+            if st.session_state.doi_index < len(doi_options) - 1:
+                st.session_state.doi_index += 1
+
+    # Sync selected DOI with current index
+    st.session_state["selected_doi"] = doi_options[st.session_state.doi_index]
+
     # Anchor to keep the view from jumping to top on rerun
     st.markdown('<div id="results-anchor"></div>', unsafe_allow_html=True)
 
-    # Bind directly to the session state; do NOT pass index to avoid resetting selection
+    # Selectbox bound to session state (optional: user can still pick manually)
     st.selectbox(
         "Select DOI to view results:",
         doi_options,
-        key="selected_doi"
+        index=st.session_state["doi_index"],
+        key="selected_doi",
+        on_change=lambda: st.session_state.update({"doi_index": doi_options.index(st.session_state["selected_doi"])})
     )
+
     selected_doi = st.session_state["selected_doi"]
 
     # Keep the viewport near results after rerun

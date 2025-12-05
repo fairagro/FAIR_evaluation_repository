@@ -1,69 +1,65 @@
-import json
+import re
 import tkinter as tk
 from tkinter import filedialog
 from pathlib import Path
-import re
 
-def main(numbered: bool = False, write_output: bool = False):
-    def read_dois(file_path: str):
-        path = Path(file_path)
-        if not path.is_file():
-            print(f"File not found: {file_path}")
-            return []
+DOI_REGEX = r"10\.\d{4,9}/[^\s\"\'<>]+"  # basic DOI capture
 
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+# define multiple trailing-cleanup regex patterns
+TRAILING_CLEANUPS = [
+    re.compile(r'[.,;)\n"\'\s]+$'),          # trailing punctuation/whitespace
+    re.compile(r'\\n.*$', re.IGNORECASE),
 
-        doi_pattern = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", re.IGNORECASE)
-        dois = []
+]
 
-        def extract_from_obj(obj):
-            if isinstance(obj, dict):
-                for value in obj.values():
-                    extract_from_obj(value)
-            elif isinstance(obj, list):
-                for item in obj:
-                    extract_from_obj(item)
-            elif isinstance(obj, str):
-                matches = doi_pattern.findall(obj)
-                for match in matches:
-                    cleaned = match.rstrip(").; ")
-                    dois.append(cleaned)
+def clean_doi(doi: str) -> str:
+    for pattern in TRAILING_CLEANUPS:
+        doi = pattern.sub('', doi)
+    # handle duplicated prefix like 10.20387/10.20387/...
+    parts = doi.split('/')
+    if len(parts) > 2 and parts[0] == parts[1]:
+        doi = '/'.join(parts[1:])
+    return doi
 
-        extract_from_obj(data)
-        return dois
 
+def extract_dois_from_file(file_path: Path):
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+        content = f.read()
+    found = re.findall(DOI_REGEX, content)
+
+    seen = set()
+    unique_dois = []
+    for doi in found:
+        doi = clean_doi(doi)
+        if doi and doi not in seen:
+            seen.add(doi)
+            unique_dois.append(doi)
+    return unique_dois
+
+
+def main():
     root = tk.Tk()
     root.withdraw()
-    file_paths = filedialog.askopenfilenames(
-        title="Select JSON file(s)",
-        filetypes=[("JSON files", "*.json")]
-    )
-
+    file_paths = filedialog.askopenfilenames(title="Select file(s) to extract DOIs")
     if not file_paths:
-        print("No file selected")
+        print("No files selected")
         return
 
     for file_path in file_paths:
-        print(f"\nProcessing: {file_path}")
-        dois = read_dois(file_path)
-        for i, doi in enumerate(dois, start=1):
-            if numbered:
-                print(f"{i}. {doi}")
-            else:
-                print(doi)
+        path = Path(file_path)
+        dois = extract_dois_from_file(path)
+        print(f"\nFile: {file_path}")
+        for doi in dois:
+            print(doi)
 
-        if write_output:
-            input_path = Path(file_path)
-            output_dir = input_path.parent / "output"
-            output_dir.mkdir(exist_ok=True)
-            output_path = output_dir / f"{input_path.stem}.txt"
-
-            with open(output_path, "w", encoding="utf-8") as f:
-                for doi in dois:
-                    f.write(f"{doi}\n")
-            print(f"Results written to {output_path}")
+        output_folder = path.parent / "output"
+        output_folder.mkdir(exist_ok=True)
+        output_file = output_folder / f"{path.stem}.txt"
+        with open(output_file, "w", encoding="utf-8") as f:
+            for doi in dois:
+                f.write(doi + "\n")
+        print(f"Saved {len(dois)} unique DOIs to {output_file}")
 
 
 if __name__ == "__main__":
-    main(numbered=True, write_output=True)
+    main()

@@ -46,7 +46,7 @@ def fairchecker_evaluate_to_list(data_doi: str) -> Dict[str, float]:
             checker_url,
             params=params,
             headers={"accept": "application/json"},
-            timeout=30
+            timeout=45
         )
         response.raise_for_status()
     except ConnectTimeout:
@@ -54,7 +54,7 @@ def fairchecker_evaluate_to_list(data_doi: str) -> Dict[str, float]:
         raise RuntimeError("FAIR-Checker API is unreachable (timeout).")
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
-        raise RuntimeError(f"FAIR-Checker API request failed: {e}")
+        raise RuntimeError(f"FAIR-Checker API request failed for {data_doi}: {e}")
 
     if response.status_code == 200:
         print("Request successful!")
