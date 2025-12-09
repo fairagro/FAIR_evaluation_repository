@@ -32,7 +32,7 @@ if development_mode and (not fes_evaluation_result or not fuji_evaluation_result
     st.info("Cached example results are not available; charts may be empty unless live evaluations are run.")
 
 # Input field for DOI(s): one per line (also supports a single DOI)
-st.markdown("Enter one or more DOIs, one per line. You can also enter a single DOI.")
+st.markdown("Enter one or more DOIs, one per line.")
 data_dois_text = st.text_area(
     "DOI(s)",
     placeholder="10.1000/xyz123\n10.2000/abc456",
@@ -269,11 +269,24 @@ if st.session_state["dqv_by_doi"]:
 
     doi_options = list(st.session_state["dqv_by_doi"].keys())
 
-    # Keep track of current index
+    # Initialize session state
     if "doi_index" not in st.session_state:
-        st.session_state["doi_index"] = doi_options.index(st.session_state["selected_doi"])
+        st.session_state["doi_index"] = 0
+    if "selected_doi" not in st.session_state:
+        st.session_state["selected_doi"] = doi_options[st.session_state["doi_index"]]
 
-    # Next / Previous buttons
+    # Anchor to keep the view from jumping to top on rerun
+    st.markdown('<div id="results-anchor"></div>', unsafe_allow_html=True)
+
+    # Selectbox bound to session state, no index
+    st.selectbox(
+        "Select DOI to view results:",
+        doi_options,
+        key="selected_doi",
+        on_change=lambda: st.session_state.update({"doi_index": doi_options.index(st.session_state["selected_doi"])})
+    )
+
+    # Next / Previous buttons below selectbox
     col1, col2 = st.columns([1, 1])
     with col1:
         if st.button("⬅ Previous"):
@@ -284,22 +297,8 @@ if st.session_state["dqv_by_doi"]:
             if st.session_state.doi_index < len(doi_options) - 1:
                 st.session_state.doi_index += 1
 
-    # Sync selected DOI with current index
-    st.session_state["selected_doi"] = doi_options[st.session_state.doi_index]
-
-    # Anchor to keep the view from jumping to top on rerun
-    st.markdown('<div id="results-anchor"></div>', unsafe_allow_html=True)
-
-    # Selectbox bound to session state (optional: user can still pick manually)
-    st.selectbox(
-        "Select DOI to view results:",
-        doi_options,
-        index=st.session_state["doi_index"],
-        key="selected_doi",
-        on_change=lambda: st.session_state.update({"doi_index": doi_options.index(st.session_state["selected_doi"])})
-    )
-
-    selected_doi = st.session_state["selected_doi"]
+    # After buttons, get the current selected DOI from index
+    selected_doi = doi_options[st.session_state["doi_index"]]
 
     # Keep the viewport near results after rerun
     st.markdown(
