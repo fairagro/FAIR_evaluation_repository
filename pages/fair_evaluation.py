@@ -262,43 +262,46 @@ if st.button("Reset Visualization and Chart"):
 
 # Selector and chart for chosen DOI (supports multiple results)
 if st.session_state["dqv_by_doi"]:
-    # Ensure a stable initial selection only once
-    if "selected_doi" not in st.session_state or st.session_state["selected_doi"] not in st.session_state["dqv_by_doi"]:
+    doi_options = list(st.session_state["dqv_by_doi"].keys())
+
+    # Ensure a stable initial selection
+    if "selected_doi" not in st.session_state or st.session_state["selected_doi"] not in doi_options:
         first_doi = next(iter(st.session_state["dqv_by_doi"].keys()))
         st.session_state["selected_doi"] = first_doi
 
-    doi_options = list(st.session_state["dqv_by_doi"].keys())
-
-    # Initialize session state
+    # Initialize and clamp doi_index
     if "doi_index" not in st.session_state:
         st.session_state["doi_index"] = 0
-    if "selected_doi" not in st.session_state:
-        st.session_state["selected_doi"] = doi_options[st.session_state["doi_index"]]
+    else:
+        st.session_state["doi_index"] = min(st.session_state["doi_index"], len(doi_options) - 1)
+
+    # Make sure selected_doi matches index
+    st.session_state["selected_doi"] = doi_options[st.session_state["doi_index"]]
 
     # Anchor to keep the view from jumping to top on rerun
     st.markdown('<div id="results-anchor"></div>', unsafe_allow_html=True)
 
-    # Selectbox bound to session state, no index
-    st.selectbox(
-        "Select DOI to view results:",
-        doi_options,
-        key="selected_doi",
-        on_change=lambda: st.session_state.update({"doi_index": doi_options.index(st.session_state["selected_doi"])})
-    )
+    # Only show selectbox if multiple DOIs
+    if len(doi_options) > 1:
+        st.selectbox(
+            "Select DOI to view results:",
+            doi_options,
+            key="selected_doi",
+            on_change=lambda: st.session_state.update({"doi_index": doi_options.index(st.session_state["selected_doi"])})
+        )
 
-    # Next / Previous buttons below selectbox
-    col1, col2 = st.columns([1, 1])
-    with col1:
-        if st.button("⬅ Previous"):
-            if st.session_state.doi_index > 0:
+        # Next / Previous buttons below selectbox
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("⬅ Previous") and st.session_state.doi_index > 0:
                 st.session_state.doi_index -= 1
-    with col2:
-        if st.button("Next ➡"):
-            if st.session_state.doi_index < len(doi_options) - 1:
+        with col2:
+            if st.button("Next ➡") and st.session_state.doi_index < len(doi_options) - 1:
                 st.session_state.doi_index += 1
 
-    # After buttons, get the current selected DOI from index
+    # Current selected DOI
     selected_doi = doi_options[st.session_state["doi_index"]]
+    st.write("DOI:", selected_doi)
 
     # Keep the viewport near results after rerun
     st.markdown(
