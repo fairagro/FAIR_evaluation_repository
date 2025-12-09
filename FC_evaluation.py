@@ -8,7 +8,7 @@ from requests.exceptions import ConnectTimeout
 # Load dotenv
 load_dotenv()
 
-FAIRCHECKER_URL = os.getenv("FAIRCHECKER_URL")
+FAIRCHECKER_URL = os.getenv("FAIRCHECKER_URL", "https://fair-checker.france-bioinformatique.fr/api/check/metrics_all")
 
 headers = {
     'accept': '*/*',
