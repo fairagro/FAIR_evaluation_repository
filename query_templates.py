@@ -101,6 +101,19 @@ PREFIX fairagro: <https://fairagro.net/ontology#>
       OPTIONAL { ?metric dqv:inDimension ?dimension }
       OPTIONAL { ?metric skos:definition ?definition }
     } ORDER BY ?dimension ?metric
+    """,
+
+    "Fair Checker (FC) Metrics": """PREFIX dqv: <http://www.w3.org/ns/dqv#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX fairagro: <https://fairagro.net/ontology#>
+
+    SELECT ?metric ?label ?dimension ?definition WHERE {
+      ?metric a dqv:Metric ;
+              FILTER (STRSTARTS(STR(?metric), "https://fairagro.net/ontology#FC-")).
+      OPTIONAL { ?metric skos:prefLabel ?label }
+      OPTIONAL { ?metric dqv:inDimension ?dimension }
+      OPTIONAL { ?metric skos:definition ?definition }
+    } ORDER BY ?dimension ?metric
     """
 }
 
