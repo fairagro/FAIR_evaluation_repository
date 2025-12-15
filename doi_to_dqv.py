@@ -77,6 +77,7 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
     g.add((quality_metadata_uri, RDF.type, DQV.QualityMetadata))
     g.add((quality_metadata_uri, PROV.wasAttributedTo, fes_service_uri))
     g.add((quality_metadata_uri, PROV.wasAttributedTo, fuji_service_uri))
+    g.add((quality_metadata_uri, PROV.wasAttributedTo, fc_service_uri))
     g.add((quality_metadata_uri, PROV.generatedAtTime, Literal(datetime.now().isoformat(), datatype=XSD.dateTime)))
     g.add((quality_metadata_uri, PROV.wasGeneratedBy, quality_checking_activity_uri))
 
@@ -86,6 +87,7 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
            Literal("The checking of the dataset distribution's quality", datatype=XSD.string)))
     g.add((quality_checking_activity_uri, PROV.wasAssociatedWith, fes_service_uri))
     g.add((quality_checking_activity_uri, PROV.wasAssociatedWith, fuji_service_uri))
+    g.add((quality_checking_activity_uri, PROV.wasAssociatedWith, fc_service_uri))
     g.add((quality_checking_activity_uri, PROV.used, distribution_uri))
     g.add((quality_checking_activity_uri, PROV.generated, quality_metadata_uri))
     g.add((quality_checking_activity_uri, PROV.startedAtTime, Literal(start_time.isoformat(), datatype=XSD.dateTime)))
