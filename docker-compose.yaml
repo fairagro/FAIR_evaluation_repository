@@ -37,6 +37,21 @@ services:
       - mynetwork
     restart: always
 
+  mcp:
+    build:
+      context: ./mcp_server
+    stdin_open: true
+    tty: true
+    environment:
+      - MCP_TRANSPORT=tcp
+      - MCP_PORT=3333
+      - MCP_HOST=0.0.0.0
+    ports:
+      - "3333:3333"
+    networks:
+      - mynetwork
+    restart: always
+
 networks:
   mynetwork:
     driver: bridge
