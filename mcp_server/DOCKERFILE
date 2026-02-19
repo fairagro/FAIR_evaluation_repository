@@ -7,4 +7,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY server.py .
 
+ENV FUSEKI_URL=http://fuseki:3030
+ENV FUSEKI_USER=admin
+ENV FUSEKI_PASSWORD=admin
+
 CMD ["python", "server.py"]

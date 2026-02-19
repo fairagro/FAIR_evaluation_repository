@@ -26,7 +26,7 @@ services:
     networks:
       - mynetwork
     restart: always
-    
+
   fuji:
     image: ghcr.io/pangaea-data-publisher/fuji:latest
     ports:
@@ -41,13 +41,13 @@ services:
     build:
       context: ./mcp_server
     stdin_open: true
-    tty: true
+    tty: false
     environment:
-      - MCP_TRANSPORT=tcp
-      - MCP_PORT=3333
-      - MCP_HOST=0.0.0.0
-    ports:
-      - "3333:3333"
+      - FUSEKI_URL=http://fuseki:3030
+      - FUSEKI_USER=${FUSEKI_USER:-admin}
+      - FUSEKI_PASSWORD=${FUSEKI_PASSWORD}
+    env_file:
+      - .env
     networks:
       - mynetwork
     restart: always
