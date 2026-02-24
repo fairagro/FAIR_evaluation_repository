@@ -1,3 +1,4 @@
+import os
 import threading
 from concurrent.futures import ThreadPoolExecutor
 
@@ -420,6 +421,79 @@ if len(st.session_state["dqv_by_doi"]) > 1:
         mime="application/zip"
     )
 
+
+# --- Upload to Fuseki (demo dataset) ---
+if st.session_state["dqv_by_doi"]:
+    st.markdown("---")
+    st.subheader("Upload to Fuseki")
+
+    FUSEKI_URL = os.environ.get("FUSEKI_URL", "http://fuseki:3030")
+    FUSEKI_USER = os.environ.get("FUSEKI_USER", "admin")
+    FUSEKI_PASSWORD = os.environ.get("FUSEKI_PASSWORD", "")
+    FUSEKI_DATASET = "demo"
+
+    clear_before_upload = st.checkbox("Clear all existing data in demo dataset before uploading", value=True)
+
+    if st.button("⬆ Upload all results to Fuseki (demo dataset)"):
+        import requests as _requests
+
+        # Optionally clear all existing data in the demo dataset first
+        if clear_before_upload:
+            try:
+                clear_response = _requests.post(
+                    f"{FUSEKI_URL}/{FUSEKI_DATASET}/update",
+                    data="CLEAR ALL",
+                    headers={"Content-Type": "application/sparql-update"},
+                    auth=(FUSEKI_USER, FUSEKI_PASSWORD),
+                    timeout=30,
+                )
+                if clear_response.status_code not in (200, 201, 204):
+                    st.error(f"Failed to clear demo dataset: HTTP {clear_response.status_code}: {clear_response.text[:200]}")
+                    st.stop()
+            except Exception as e:
+                st.error(f"Failed to clear demo dataset: {e}")
+                st.stop()
+
+        upload_results = []
+        progress_fuseki = st.progress(0)
+        total_uploads = len(st.session_state["dqv_by_doi"])
+
+        for i, (doi, rdf_g) in enumerate(st.session_state["dqv_by_doi"].items(), start=1):
+            try:
+                turtle_data = rdf_g.serialize(format="turtle")
+
+                response = _requests.post(
+                    f"{FUSEKI_URL}/{FUSEKI_DATASET}/data",
+                    data=turtle_data.encode("utf-8") if isinstance(turtle_data, str) else turtle_data,
+                    headers={"Content-Type": "text/turtle"},
+                    auth=(FUSEKI_USER, FUSEKI_PASSWORD),
+                    timeout=30,
+                )
+                if response.status_code in (200, 201, 204):
+                    upload_results.append(("success", doi, f"HTTP {response.status_code}"))
+                else:
+                    upload_results.append(("error", doi, f"HTTP {response.status_code}: {response.text[:200]}"))
+            except Exception as e:
+                upload_results.append(("error", doi, str(e)))
+
+            progress_fuseki.progress(int(i / total_uploads * 100))
+
+        # Show results
+        success_count = sum(1 for r in upload_results if r[0] == "success")
+        error_count = len(upload_results) - success_count
+
+        if success_count:
+            st.success(f"✅ Successfully uploaded {success_count}/{total_uploads} graphs to `{FUSEKI_DATASET}` dataset.")
+            with st.expander("Uploaded graphs"):
+                for status, doi, detail in upload_results:
+                    if status == "success":
+                        st.write(f"**{doi}** → `{detail}`")
+        if error_count:
+            st.error(f"❌ {error_count} upload(s) failed.")
+            with st.expander("Upload errors"):
+                for status, doi, detail in upload_results:
+                    if status == "error":
+                        st.write(f"**{doi}**: {detail}")
 
 # Footer
 st.markdown("---")
