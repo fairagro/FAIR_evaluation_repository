@@ -3,6 +3,7 @@ import streamlit as st
 # Define pages
 pages = [
     st.Page("pages/fair_evaluation.py", title="FAIR Evaluation", icon="📊", default=True),
+    st.Page("pages/ai_chat.py", title="AI Analysis", icon="🤖"),
     st.Page("pages/sparql_explorer.py", title="SPARQL Explorer", icon="🔍"),
     st.Page("pages/rdi_evaluation.py", title="RDI Evaluation", icon="📈"),
     st.Page("pages/resource_uploader.py", title="Resource Uploader", icon="📁"),
