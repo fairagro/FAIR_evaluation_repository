@@ -1,0 +1,166 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "author": [
+    {
+      "@type": "Person",
+      "additionalType": "Contact Point",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Thünen-Institut für Lebensverhältnisse in ländlichen Räumen",
+        "email": "info@thuenen.de",
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "https://registry.identifiers.org/registry/ror",
+            "value": "00mr84n67"
+          }
+        ]
+      },
+      "familyName": "Zinnbauer",
+      "givenName": "Maximilian",
+      "name": "Zinnbauer, Maximilian",
+      "email": "email@example.org",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/gnd",
+          "value": "1154869520"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/viaf",
+          "value": "2232152200738614400009"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/orcid",
+          "value": "0000-0002-8278-2768"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Thünen-Institut für Lebensverhältnisse in ländlichen Räumen",
+        "email": "info@thuenen.de",
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "https://registry.identifiers.org/registry/ror",
+            "value": "00mr84n67"
+          }
+        ]
+      },
+      "familyName": "Eysholdt",
+      "givenName": "Max",
+      "name": "Eysholdt, Max",
+      "email": "email@example.org",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/gnd",
+          "value": "121306130X"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/viaf",
+          "value": "3016159400290419620008"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/orcid",
+          "value": "0000-0001-9761-2991"
+        }
+      ]
+    }
+  ],
+  "datePublished": "2025-11-20",
+  "description": [
+    "Der Datensatz umfasst durchschnittliche regionale Stickstoffflächenbilanzen für Deutschland auf Kreisebene der Jahre 2014-2016. Einheit: kg bzw. ha. Spaltennamen: ha_lf: landwirtschaftlich genutzte Fläche in Hektar n_bil: N-Saldo (Zufuhr - Abfuhr) n_abfuhr: N-Abfuhr mit Ernteprodukten n_zufuhr: N-Zufuhr insgesamt n_min: N-Zufuhr durch mineralische Düngemittel n_tier: N-Zufuhr durch tierische Wirtschaftsdünger n_gaer: N-Zufuhr durch Gärreste (pflanzlich und tierisch) n_klaer: N-Zufuhr durch Klärschlamm n_komp: N-Zufuhr durch Kompost n_symb: N-Zufuhr durch symbiotische N-Fixierung n_saat: N-Zufuhr durch Saatgut"
+  ],
+  "name": "Regionale Stickstoffbilanzen für Deutschland auf Kreisebene aus dem Projekt AGRUM Deutschland für den Durchschnitt der Jahre 2014 – 2016",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "https://registry.identifiers.org/registry/doi",
+      "value": "10.3220/253-2025-211"
+    }
+  ],
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "url": "https://www.openagrar.de/receive/openagrar_mods_00111826",
+  "publisher": {
+    "@type": "Person",
+    "name": "OpenAgrar"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Stickstoffbilanz"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Landwirtschaft",
+      "url": "http://d-nb.info/gnd/4034402-2",
+      "termCode": "4034402-2",
+      "inDefinedTermSet": "http://d-nb.info/gnd/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Wasserschutz"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "räumliche Analyse"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "nirogen balance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "agriculture"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "water protection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "spatial analysis"
+    }
+  ],
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "agricultural sciences",
+      "description": "Agricultural science is a broad multidisciplinary field of biology that encompasses the parts of exact, natural, economic and social sciences that are used in the practice and understanding of agriculture.",
+      "url": "http://aims.fao.org/aos/agrovoc/c_49876",
+      "termCode": "c_49876",
+      "inDefinedTermSet": "http://aims.fao.org/aos/agrovoc"
+    }
+  ],
+  "version": "1.0",
+  "encodingFormat": ".gpkg",
+  "spatialCoverage": [
+    {
+      "@type": "Country",
+      "name": "Germany"
+    }
+  ],
+  "http://purl.org/dc/terms/accessRights": "open access",
+  "isAccessibleForFree": "True",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "OpenAgrar",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "https://registry.identifiers.org/registry/doi/",
+      "value": "10.17616/R3XF45"
+    },
+    "url": "https://www.openagrar.de/"
+  }
+}

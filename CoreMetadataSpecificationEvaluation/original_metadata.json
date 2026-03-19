@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "alternativeHeadline": [],
+  "creator": [
+    {
+      "@type": "Person",
+      "affiliation": "Thünen-Institut für Lebensverhältnisse in ländlichen Räumen",
+      "familyName": "Zinnbauer",
+      "givenName": "Maximilian",
+      "identifier": [
+        "https://d-nb.info/gnd/1154869520",
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gnd",
+          "value": "1154869520"
+        },
+        "https://viaf.org/viaf/2232152200738614400009/",
+        {
+          "@type": "PropertyValue",
+          "propertyID": "viaf",
+          "value": "2232152200738614400009"
+        },
+        "https://orcid.org/0000-0002-8278-2768",
+        {
+          "@type": "PropertyValue",
+          "propertyID": "orcid",
+          "value": "0000-0002-8278-2768"
+        }
+      ],
+      "name": "Zinnbauer, Maximilian"
+    },
+    {
+      "@type": "Person",
+      "affiliation": "Thünen-Institut für Lebensverhältnisse in ländlichen Räumen",
+      "familyName": "Eysholdt",
+      "givenName": "Max",
+      "identifier": [
+        "https://d-nb.info/gnd/121306130X",
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gnd",
+          "value": "121306130X"
+        },
+        "https://viaf.org/viaf/3016159400290419620008/",
+        {
+          "@type": "PropertyValue",
+          "propertyID": "viaf",
+          "value": "3016159400290419620008"
+        },
+        "https://orcid.org/0000-0001-9761-2991",
+        {
+          "@type": "PropertyValue",
+          "propertyID": "orcid",
+          "value": "0000-0001-9761-2991"
+        }
+      ],
+      "name": "Eysholdt, Max"
+    }
+  ],
+  "datePublished": "2025-11-20",
+  "description": [
+    "",
+    "Der Datensatz umfasst durchschnittliche regionale Stickstoffflächenbilanzen für Deutschland auf Kreisebene der Jahre 2014-2016. Einheit: kg bzw. ha. Spaltennamen: ha_lf: landwirtschaftlich genutzte Fläche in Hektar n_bil: N-Saldo (Zufuhr - Abfuhr) n_abfuhr: N-Abfuhr mit Ernteprodukten n_zufuhr: N-Zufuhr insgesamt n_min: N-Zufuhr durch mineralische Düngemittel n_tier: N-Zufuhr durch tierische Wirtschaftsdünger n_gaer: N-Zufuhr durch Gärreste (pflanzlich und tierisch) n_klaer: N-Zufuhr durch Klärschlamm n_komp: N-Zufuhr durch Kompost n_symb: N-Zufuhr durch symbiotische N-Fixierung n_saat: N-Zufuhr durch Saatgut"
+  ],
+  "headline": "Regionale Stickstoffbilanzen für Deutschland auf Kreisebene aus dem Projekt AGRUM Deutschland für den Durchschnitt der Jahre 2014 – 2016",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "doi",
+      "value": "10.3220/253-2025-211"
+    }
+  ],
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "mainEntityOfPage": "https://www.openagrar.de/receive/openagrar_mods_00111826",
+  "name": "Regionale Stickstoffbilanzen für Deutschland auf Kreisebene aus dem Projekt AGRUM Deutschland für den Durchschnitt der Jahre 2014 – 2016",
+  "publisher": {
+    "@type": "Person",
+    "name": "OpenAgrar"
+  }
+}
