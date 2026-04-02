@@ -1,4 +1,4 @@
-# FAIR-ER - The FAIR Evaluation Repository
+# FAIR-ER — The FAIR Evaluation Repository
 
 This repository contains data and scripts designed for the automated scraping and evaluation of ontology metadata, with a focus on assessing compliance with FAIR principles.
 
