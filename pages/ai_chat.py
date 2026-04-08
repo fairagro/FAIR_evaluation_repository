@@ -384,6 +384,10 @@ def _call_ollama(messages: list, ip: str, port: int, model: str) -> tuple[str, l
     Call a local Ollama instance using its OpenAI-compatible /v1/chat/completions endpoint.
     Handles tool calling for supported models.
     """
+    if not ip:
+        return "⚠️ No Ollama host configured. Set OLLAMA_HOST in your .env file.", []
+    if not model:
+        return "⚠️ No Ollama model selected.", []
     base_url = get_ollama_base_url(ip, port)
     url = f"{base_url}/v1/chat/completions"
     tool_log = []
