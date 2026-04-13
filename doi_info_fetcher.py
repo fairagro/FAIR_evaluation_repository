@@ -2,6 +2,26 @@ import requests
 
 
 def get_datacite_doi_info(doi: str) -> dict:
+    # If it's a plain URL (not a DOI), fetch metadata from the JSON-LD directly
+    if doi.startswith("http://") or doi.startswith("https://"):
+        import urllib.request, json
+        with urllib.request.urlopen(doi) as response:
+            jsonld = json.loads(response.read().decode())
+        return {
+            "title": jsonld.get("name", "N/A"),
+            "authors": ", ".join([a.get("name", "N/A") for a in jsonld.get("author", [])]) or "N/A",
+            "published_date": jsonld.get("datePublished", "N/A"),
+            "publisher": jsonld.get("publisher", {}).get("name", "N/A"),
+            "doi": doi,
+            "resource_type": jsonld.get("encodingFormat", "N/A"),
+            "description": (jsonld.get("description", ["N/A"])[0] if isinstance(jsonld.get("description"), list)
+                            else jsonld.get("description", "N/A")),
+            "subjects": ", ".join([k.get("name", "N/A") for k in jsonld.get("keywords", [])]) or "N/A",
+            "language": jsonld.get("inLanguage", "N/A"),
+            "funding_references": "N/A"
+        }
+
+    # Otherwise treat it as a normal DOI via DataCite API
     url = f"https://api.datacite.org/dois/{doi}"
     response = requests.get(url)
 
@@ -18,7 +38,8 @@ def get_datacite_doi_info(doi: str) -> dict:
                             if data.get("descriptions") else "N/A"),
             "subjects": ", ".join([subject.get("subject", "N/A") for subject in data.get("subjects", [])]) or "N/A",
             "language": data.get("language", "N/A"),
-            "funding_references": ", ".join([funding.get("funderName", "N/A") for funding in data.get("fundingReferences", [])]) or "N/A"
+            "funding_references": ", ".join(
+                [funding.get("funderName", "N/A") for funding in data.get("fundingReferences", [])]) or "N/A"
         }
     else:
         print(f"No information found for DOI: {doi}. Returning default 'N/A' values.")
@@ -27,7 +48,7 @@ def get_datacite_doi_info(doi: str) -> dict:
             "authors": "N/A",
             "published_date": "N/A",
             "publisher": "N/A",
-            "doi": doi,  # Return the input DOI, so it is not completely lost
+            "doi": doi,
             "resource_type": "N/A",
             "description": "N/A",
             "subjects": "N/A",

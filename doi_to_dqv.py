@@ -47,11 +47,11 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
     # Normalize: strip full URL prefix if present, keep bare DOI
     bare_doi = doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
 
-    # URL-encode the bare DOI to make it safe for use in URLs and URIs
-    doi_encoded = quote(bare_doi, safe='')
+    # For use in the accessURL - preserve slashes
+    doi_url = quote(bare_doi, safe='/')
 
-    # Use the encoded DOI directly as a slug for constructing URIs
-    doi_slug = doi_encoded
+    # For use in URI slugs - encode everything
+    doi_slug = quote(bare_doi, safe='')
 
     # Use the encoded DOI slug for constructing URIs
     dataset_uri = FAIRAGRO[f"dataset-{doi_slug}"]
@@ -70,7 +70,7 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
     # Adding distribution information
     g.add((distribution_uri, RDF.type, DCAT.Distribution))
     g.add((distribution_uri, DCTERMS.title, Literal("DOI distribution of dataset")))
-    g.add((distribution_uri, DCAT.accessURL, URIRef(f"https://doi.org/{doi_encoded}")))
+    g.add((distribution_uri, DCAT.accessURL, URIRef(f"https://doi.org/{doi_url}")))
     g.add((distribution_uri, DCTERMS["format"], Literal(dataset_info["resource_type"])))
 
     if "byteSize" in dataset_info:
