@@ -44,8 +44,11 @@ def create_dqv_representation(doi: str, fes_evaluation_result: list, fuji_evalua
     g.bind("prov", PROV)
     g.bind("fairchecker", FAIRCHECKER)
 
-    # URL-encode the DOI to make it safe for use in URLs and URIs
-    doi_encoded = quote(doi, safe='')
+    # Normalize: strip full URL prefix if present, keep bare DOI
+    bare_doi = doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
+
+    # URL-encode the bare DOI to make it safe for use in URLs and URIs
+    doi_encoded = quote(bare_doi, safe='')
 
     # Use the encoded DOI directly as a slug for constructing URIs
     doi_slug = doi_encoded
