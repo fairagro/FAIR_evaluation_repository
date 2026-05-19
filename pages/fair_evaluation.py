@@ -27,7 +27,7 @@ fc_evaluation_result = fc_evaluation_result_example
 st.title("DOI to FAIR Evaluation")
 
 # Development toggle
-development_mode = st.checkbox("Use cached result (Development Mode)", value=True)
+development_mode = st.checkbox("Use cached result (Development Mode)", value=False)
 # Warn if development mode is on but cached examples are unavailable
 if development_mode and (not fes_evaluation_result or not fuji_evaluation_result or not fc_evaluation_result):
     st.info("Cached example results are not available; charts may be empty unless live evaluations are run.")
