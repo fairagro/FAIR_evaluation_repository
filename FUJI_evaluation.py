@@ -28,12 +28,13 @@ headers = {
 }
 
 data_example = {
-    "object_identifier": "DOI: 10.20387/bonares-zyd4-w9c2",
+    "object_identifier": "10.20387/bonares-zyd4-w9c2",
     "test_debug": True,
     "metadata_service_endpoint": "",
     "metadata_service_type": "oai_pmh",
     "use_datacite": True,
-    "metric_version": "metrics_v0.5"
+    "use_github": False,
+    "metric_version": "metrics_v0.8"
 }
 
 # Example FUJI evaluation results
